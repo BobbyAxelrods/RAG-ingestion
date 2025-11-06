@@ -1,0 +1,99 @@
+{
+  "doc_id": "doc_abc123def456_p0012",
+  "system_file_metadata": {
+    "sys_file_name": "Medical_Insurance_Brochure_2024.pdf",
+    "sys_file_path": "/insurance/products/medical/Medical_Insurance_Brochure_2024.pdf",
+    "sys_file_size_bytes": 2458624,
+    "sys_file_type": "pdf",
+    "sys_last_updated": "2024-10-15T10:30:00Z",
+    "sys_page_count": 45,
+    "sys_extracted_at": "2025-11-06T08:15:22Z",
+    "sys_processing_version": "v1.2.3"
+  },
+  "file_index_metadata": {
+    "file_name": "Medical Insurance Brochure 2024",
+    "library_name_en": "Product Brochures",
+    "library_name_tc": "產品手冊",
+    "category_name_en": "Medical Insurance",
+    "category_name_tc": "醫療保險",
+    "title_name_en": "Comprehensive Medical Insurance Plan",
+    "title_name_tc": "全面醫療保險計劃",
+    "file_url": "https://storage.blob.core.windows.net/insurance-docs/Medical_Insurance_Brochure_2024.pdf",
+    "branch_name": "HK",
+    "item_type": "product_brochure",
+    "item_url": "https://company.com/products/medical-insurance"
+  },
+  "chunk_data": {
+    "chunk_content": "Outpatient Services Coverage\n\nOur comprehensive medical insurance plan provides extensive coverage for outpatient services. The annual limit for outpatient consultations is HK$50,000 per insured person. This includes:\n\n- General practitioner visits: Up to HK$500 per visit\n- Specialist consultations: Up to HK$1,200 per visit\n- Diagnostic tests and laboratory services: Covered at 80% after deductible\n- Prescription medications: Up to HK$300 per prescription\n\nImportant Notes:\n- Pre-authorization required for specialist visits\n- Network providers offer cashless service\n- Out-of-network providers subject to reimbursement limits\n\nFor more information about hospitalization coverage, please refer to page 15. For emergency services coverage, see page 18.",
+    "chunk_content_vector": [
+      0.023, -0.015, 0.042, 0.018, -0.031, 0.056, -0.012, 0.029,
+      0.041, -0.008, 0.033, 0.019, -0.047, 0.025, 0.011, -0.038,
+      "... (1536 dimensions total - truncated for readability)"
+    ],
+    "chunk_metadata": {
+      "chunk_page_number": 12,
+      "chunk_function_summary": "This page details outpatient service coverage limits and conditions, including GP visits (up to HK$500), specialist consultations (up to HK$1,200), diagnostic tests (80% coverage), and prescription medications (up to HK$300). Key requirement: pre-authorization needed for specialist visits. Annual maximum is HK$50,000 per person.",
+      "chunk_char_count": 682,
+      "chunk_word_count": 98,
+      "chunk_sentence_count": 12,
+      "chunk_entities": [
+        "outpatient services",
+        "medical insurance",
+        "HK$50,000",
+        "HK$500",
+        "HK$1,200",
+        "HK$300",
+        "general practitioner",
+        "specialist consultation",
+        "diagnostic tests",
+        "laboratory services",
+        "prescription medications",
+        "pre-authorization",
+        "network providers",
+        "Hong Kong"
+      ],
+      "page_qna_pairs": [
+        {
+          "question": "What is the coverage limit for outpatient services?",
+          "answer": "The annual limit for outpatient services is HK$50,000 per insured person, which includes general practitioner visits, specialist consultations, diagnostic tests, and prescription medications.",
+          "qa_doc_id": "doc_abc123def456_p0012",
+          "qa_page_number": 12,
+          "qa_chunk_ids": ["doc_abc123def456_p0012"],
+          "qa_confidence": 0.92
+        },
+        {
+          "question": "How much does the insurance cover for specialist consultations?",
+          "answer": "Specialist consultations are covered up to HK$1,200 per visit under the outpatient services coverage.",
+          "qa_doc_id": "doc_abc123def456_p0012",
+          "qa_page_number": 12,
+          "qa_chunk_ids": ["doc_abc123def456_p0012"],
+          "qa_confidence": 0.89
+        },
+        {
+          "question": "Are prescription medications covered under this plan?",
+          "answer": "Yes, prescription medications are covered up to HK$300 per prescription as part of the outpatient services benefit.",
+          "qa_doc_id": "doc_abc123def456_p0012",
+          "qa_page_number": 12,
+          "qa_chunk_ids": ["doc_abc123def456_p0012"],
+          "qa_confidence": 0.87
+        },
+        {
+          "question": "Do I need pre-authorization for specialist visits?",
+          "answer": "Yes, pre-authorization is required for specialist visits. Network providers offer cashless service, while out-of-network providers are subject to reimbursement limits.",
+          "qa_doc_id": "doc_abc123def456_p0012",
+          "qa_page_number": 12,
+          "qa_chunk_ids": ["doc_abc123def456_p0012"],
+          "qa_confidence": 0.94
+        },
+        {
+          "question": "What percentage of diagnostic tests is covered?",
+          "answer": "Diagnostic tests and laboratory services are covered at 80% after the deductible is met.",
+          "qa_doc_id": "doc_abc123def456_p0012",
+          "qa_page_number": 12,
+          "qa_chunk_ids": ["doc_abc123def456_p0012"],
+          "qa_confidence": 0.91
+        }
+      ]
+    }
+  }
+}

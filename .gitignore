@@ -1,0 +1,47 @@
+# OS & Editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python cache/bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+.pytest_cache/
+.coverage
+coverage/
+
+# Environments
+.env
+.env.*
+venv/
+.venv/
+
+# Logs & runtime outputs
+logs/
+*.log
+
+# Artifacts and local datasets (avoid committing sensitive documents/outputs)
+artifact/
+
+# Local tooling/temp
+tmp/
+
+# Azure/Cloud credentials (keep secrets out of git)
+*.pem
+*.crt
+*.key
+*.pfx
+*.cer
+secrets.json
+service_account.json
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS metadata
+ehthumbs.db
+Icon?

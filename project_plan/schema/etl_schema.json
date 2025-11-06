@@ -1,0 +1,45 @@
+{
+  "doc_id": "string (UUID or hash)",
+  "system_file_metadata": {
+    "sys_file_name": "string",
+    "sys_file_path": "string (original path)",
+    "sys_file_size_bytes": "integer",
+    "sys_file_type": "string (pdf/jpg/docx/xlsx)",
+    "sys_last_updated": "datetime (ISO 8601)",
+    "sys_page_count": "integer",
+    "sys_extracted_at": "datetime (ISO 8601)",
+    "sys_processing_version": "string (e.g., v1.2.3)"},
+  "file_index_metadata" : {
+    "file_name" : "string",
+    "library_name_en": "string",
+    "library_name_tc": "string",
+    "category_name_en": "string",
+    "category_name_tc": "string",
+    "title_name_en": "string",
+    "title_name_tc": "string",
+    "file_url": "string (blob storage URL after upload)",
+    "branch_name": "string (HK/MACAU)",
+    "item_type": "string (HK/MACAU)",
+    "item_url": "string" },
+  "chunk_data": { 
+    "chunk_content": "string (chunk contents data)",
+    "chunk_content_vector": "array<float>[1536] (embedding of chunk_content)",
+    "chunk_metadata" : {
+      "chunk_page_number" : "integer",
+      "chunk_function_summary" : "string (LLM-generated page summary)",
+      "chunk_char_count" : "integer",
+      "chunk_word_count" : "integer",
+      "chunk_sentence_count" : "integer",
+      "chunk_entities" : "array<string> (named entities: insurance_products(en/tc), insurance_term, location, insurance products mentioned)",
+      "page_qna_pairs" :   {
+          "question": "string (llm generated question)",
+          "answer": "string (llm generated answer)",
+          "qa_doc_id": "string (reference to doc_id)",
+          "qa_page_number": "integer",
+          "qa_chunk_ids": "array<string> (source chunks)",
+          "qa_confidence": "float (0.0-1.0, generation confidence)"
+        }
+
+    }
+  }
+}

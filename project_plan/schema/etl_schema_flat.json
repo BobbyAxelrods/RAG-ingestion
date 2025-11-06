@@ -1,0 +1,318 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Document Extraction Output Schema",
+  "description": "JSON format after ETL extraction, before indexing into Azure AI Search",
+  "type": "object",
+  "required": [
+    "doc_id",
+    "system_file_metadata",
+    "file_index_metadata",
+    "chunk_data"
+  ],
+  "properties": {
+    "doc_id": {
+      "type": "string",
+      "description": "Unique identifier: file_hash + page_number (e.g., 'doc_a1b2c3d4_p0001')",
+      "pattern": "^doc_[a-f0-9]{8,16}_p[0-9]{4}$",
+      "example": "doc_abc123def456_p0012"
+    },
+    "system_file_metadata": {
+      "type": "object",
+      "description": "System-level metadata about the source file",
+      "required": [
+        "sys_file_name",
+        "sys_file_path",
+        "sys_file_size_bytes",
+        "sys_file_type",
+        "sys_last_updated",
+        "sys_page_count",
+        "sys_extracted_at",
+        "sys_processing_version"
+      ],
+      "properties": {
+        "sys_file_name": {
+          "type": "string",
+          "description": "Original filename with extension",
+          "example": "Medical_Insurance_Brochure_2024.pdf"
+        },
+        "sys_file_path": {
+          "type": "string",
+          "description": "Full path in source system",
+          "example": "/insurance/products/medical/Medical_Insurance_Brochure_2024.pdf"
+        },
+        "sys_file_size_bytes": {
+          "type": "integer",
+          "description": "File size in bytes",
+          "minimum": 0,
+          "example": 2458624
+        },
+        "sys_file_type": {
+          "type": "string",
+          "description": "File extension/type",
+          "enum": ["pdf", "jpg", "jpeg", "png", "docx", "xlsx", "doc", "xls"],
+          "example": "pdf"
+        },
+        "sys_last_updated": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Last modified timestamp in ISO 8601 format",
+          "example": "2024-10-15T10:30:00Z"
+        },
+        "sys_page_count": {
+          "type": "integer",
+          "description": "Total number of pages in the document",
+          "minimum": 1,
+          "example": 45
+        },
+        "sys_extracted_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Timestamp when extraction was performed",
+          "example": "2025-11-06T08:15:22Z"
+        },
+        "sys_processing_version": {
+          "type": "string",
+          "description": "Version of the extraction pipeline",
+          "pattern": "^v\\d+\\.\\d+\\.\\d+$",
+          "example": "v1.2.3"
+        }
+      }
+    },
+    "file_index_metadata": {
+      "type": "object",
+      "description": "Business/user-facing metadata for indexing",
+      "required": [
+        "file_name",
+        "library_name_en",
+        "library_name_tc",
+        "category_name_en",
+        "category_name_tc",
+        "title_name_en",
+        "title_name_tc",
+        "file_url",
+        "branch_name",
+        "item_type",
+        "item_url"
+      ],
+      "properties": {
+        "file_name": {
+          "type": "string",
+          "description": "Display name for the document (user-facing)",
+          "example": "Medical Insurance Brochure 2024"
+        },
+        "library_name_en": {
+          "type": "string",
+          "description": "Library/collection name in English",
+          "example": "Product Brochures"
+        },
+        "library_name_tc": {
+          "type": "string",
+          "description": "Library/collection name in Traditional Chinese",
+          "example": "產品手冊"
+        },
+        "category_name_en": {
+          "type": "string",
+          "description": "Document category in English",
+          "example": "Medical Insurance"
+        },
+        "category_name_tc": {
+          "type": "string",
+          "description": "Document category in Traditional Chinese",
+          "example": "醫療保險"
+        },
+        "title_name_en": {
+          "type": "string",
+          "description": "Document title in English",
+          "example": "Comprehensive Medical Insurance Plan"
+        },
+        "title_name_tc": {
+          "type": "string",
+          "description": "Document title in Traditional Chinese",
+          "example": "全面醫療保險計劃"
+        },
+        "file_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Blob storage URL where file is stored",
+          "example": "https://storage.blob.core.windows.net/insurance-docs/Medical_Insurance_Brochure_2024.pdf"
+        },
+        "branch_name": {
+          "type": "string",
+          "description": "Branch/region identifier",
+          "enum": ["HK", "MACAU"],
+          "example": "HK"
+        },
+        "item_type": {
+          "type": "string",
+          "description": "Document classification type",
+          "example": "product_brochure"
+        },
+        "item_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Web URL for the document or related page",
+          "example": "https://company.com/products/medical-insurance"
+        }
+      }
+    },
+    "chunk_data": {
+      "type": "object",
+      "description": "Page-level content and metadata",
+      "required": [
+        "chunk_content",
+        "chunk_content_vector",
+        "chunk_metadata"
+      ],
+      "properties": {
+        "chunk_content": {
+          "type": "string",
+          "description": "Full text content extracted from the page",
+          "minLength": 1,
+          "example": "Outpatient Services Coverage\n\nOur comprehensive medical insurance plan provides extensive coverage for outpatient services. The annual limit for outpatient consultations is HK$50,000 per insured person..."
+        },
+        "chunk_content_vector": {
+          "type": "array",
+          "description": "Embedding vector of chunk_content (OpenAI text-embedding-3-small or ada-002)",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 1536,
+          "maxItems": 1536,
+          "example": [0.023, -0.015, 0.042, "... (1536 dimensions total)"]
+        },
+        "chunk_metadata": {
+          "type": "object",
+          "description": "Metadata specific to this page chunk",
+          "required": [
+            "chunk_page_number",
+            "chunk_function_summary",
+            "chunk_char_count",
+            "chunk_word_count",
+            "chunk_sentence_count",
+            "chunk_entities",
+            "page_qna_pairs"
+          ],
+          "properties": {
+            "chunk_page_number": {
+              "type": "integer",
+              "description": "Page number in the source document",
+              "minimum": 1,
+              "example": 12
+            },
+            "chunk_function_summary": {
+              "type": "string",
+              "description": "LLM-generated summary of the page content",
+              "example": "This page details outpatient service coverage limits and conditions, including GP visits, specialist consultations, diagnostic tests, and prescription drug coverage. Key limits are $50,000 annual maximum with specific per-visit caps."
+            },
+            "chunk_char_count": {
+              "type": "integer",
+              "description": "Number of characters in chunk_content",
+              "minimum": 0,
+              "example": 682
+            },
+            "chunk_word_count": {
+              "type": "integer",
+              "description": "Number of words in chunk_content",
+              "minimum": 0,
+              "example": 98
+            },
+            "chunk_sentence_count": {
+              "type": "integer",
+              "description": "Number of sentences in chunk_content",
+              "minimum": 0,
+              "example": 12
+            },
+            "chunk_entities": {
+              "type": "array",
+              "description": "Named entities extracted from the page (insurance products, terms, locations, amounts)",
+              "items": {
+                "type": "string"
+              },
+              "example": [
+                "outpatient services",
+                "medical insurance",
+                "HK$50,000",
+                "general practitioner",
+                "specialist consultation",
+                "diagnostic tests",
+                "prescription medications",
+                "Hong Kong"
+              ]
+            },
+            "page_qna_pairs": {
+              "type": "array",
+              "description": "LLM-generated question-answer pairs for this page",
+              "items": {
+                "type": "object",
+                "required": [
+                  "question",
+                  "answer",
+                  "qa_doc_id",
+                  "qa_page_number",
+                  "qa_chunk_ids",
+                  "qa_confidence"
+                ],
+                "properties": {
+                  "question": {
+                    "type": "string",
+                    "description": "LLM-generated question based on page content",
+                    "example": "What is the coverage limit for outpatient services?"
+                  },
+                  "answer": {
+                    "type": "string",
+                    "description": "LLM-generated answer to the question",
+                    "example": "The annual limit for outpatient services is HK$50,000 per insured person, which includes general practitioner visits, specialist consultations, diagnostic tests, and prescription medications."
+                  },
+                  "qa_doc_id": {
+                    "type": "string",
+                    "description": "Reference back to the document ID",
+                    "example": "doc_abc123def456_p0012"
+                  },
+                  "qa_page_number": {
+                    "type": "integer",
+                    "description": "Page number where the answer can be found",
+                    "minimum": 1,
+                    "example": 12
+                  },
+                  "qa_chunk_ids": {
+                    "type": "array",
+                    "description": "Array of chunk IDs that contain the source information",
+                    "items": {
+                      "type": "string"
+                    },
+                    "example": ["doc_abc123def456_p0012"]
+                  },
+                  "qa_confidence": {
+                    "type": "number",
+                    "description": "LLM confidence score for the QA pair quality",
+                    "minimum": 0.0,
+                    "maximum": 1.0,
+                    "example": 0.92
+                  }
+                }
+              },
+              "example": [
+                {
+                  "question": "What is the coverage limit for outpatient services?",
+                  "answer": "The annual limit for outpatient services is HK$50,000 per insured person, which includes general practitioner visits, specialist consultations, diagnostic tests, and prescription medications.",
+                  "qa_doc_id": "doc_abc123def456_p0012",
+                  "qa_page_number": 12,
+                  "qa_chunk_ids": ["doc_abc123def456_p0012"],
+                  "qa_confidence": 0.92
+                },
+                {
+                  "question": "How much does the insurance cover for specialist consultations?",
+                  "answer": "Specialist consultations are covered up to HK$1,200 per visit under the outpatient services coverage.",
+                  "qa_doc_id": "doc_abc123def456_p0012",
+                  "qa_page_number": 12,
+                  "qa_chunk_ids": ["doc_abc123def456_p0012"],
+                  "qa_confidence": 0.89
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
