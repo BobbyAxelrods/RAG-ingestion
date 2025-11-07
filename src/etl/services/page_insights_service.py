@@ -5,6 +5,7 @@ Generates:
 - KeywordExtraction: entities, product_names, topics, file_type, key_phrases
 - QAPair list: generated per page based on chunks
 
+Aligned with src/adjust.py for entities/Q&A enrichment prompts and behavior.
 Falls back to offline heuristics when Azure OpenAI config is missing.
 """
 
@@ -65,65 +66,36 @@ class PageInsightsService(BaseModel):
         if self.offline:
             return self._analyze_offline(page_text, filename, doc_id, page_number, chunks)
 
-        prompt = self._build_prompt(page_text, filename)
         try:
             if not self._openai.chat_client:
                 raise RuntimeError("Chat client not configured for entity extraction")
-            response = self._openai.chat_client.chat.completions.create(
-                model=self._openai.chat_deployment,
-                messages=[
-                    {
-                        "role": "system",
-                        "content": (
-                            "You extract structured metadata from insurance documents. "
-                            "Return STRICT JSON only per the provided schema."
-                        ),
-                    },
-                    {"role": "user", "content": prompt},
-                ],
-                max_tokens=500,
-                temperature=0.1,
-            )
-            content = (response.choices[0].message.content or "{}").strip()
-            data = json.loads(content)
 
-            # Map new structured entities JSON
-            product = (data.get("product") or "")
-            policy_type = (data.get("policy_type") or "")
-            action = (data.get("action") or "")
-            required_form_or_doc = (data.get("required_form_or_doc") or "")
-            payment_channel = (data.get("payment_channel") or "")
-            market = (data.get("market") or "")
-            customer_role = (data.get("customer_role") or "")
+            # Entities via LLM (bilingual) following adjust.py behavior
+            ents = self._extract_bilingual_entities_llm(page_text)
+            entities_en = [e for e in ents.get("entities_en", []) if e]
+            entities_tc = [e for e in ents.get("entities_tc", []) if e]
 
-            # Build categorized entities (legacy categories for downstream compatibility)
-            insurance_product: List[str] = []
-            if product:
-                insurance_product.append(product)
-            insurance_term: List[str] = []
-            insurance_term.extend([t for t in [policy_type, action, required_form_or_doc, payment_channel] if t])
-            loc: List[str] = []
-            if market:
-                loc.append(market)
-            people_occupation_user: List[str] = []
-            if customer_role:
-                people_occupation_user.append(customer_role)
+            # Detect language to select primary list for chunk_entities (compat with adjust.py)
+            lang = self._detect_language(page_text)
+            selected = entities_tc if lang == "tc" else entities_en
+
+            # Build categories using selected entities for union (other categories left empty)
             categories = {
-                "insurance_product": list(dict.fromkeys([x.strip() for x in insurance_product if x and x.strip()])),
-                "insurance_term": list(dict.fromkeys([x.strip() for x in insurance_term if x and x.strip()])),
-                "location": list(dict.fromkeys(loc)),
-                "people_occupation_user": list(dict.fromkeys(people_occupation_user)),
+                "insurance_product": [],
+                "insurance_term": selected,
+                "location": [],
+                "people_occupation_user": [],
             }
 
-            # Map to KeywordExtraction (legacy fields)
+            # Map to KeywordExtraction (populate bilingual arrays)
             keywords = KeywordExtraction(
-                entities=(categories["insurance_term"] + categories["location"] + categories["people_occupation_user"]),
-                product_names=categories["insurance_product"],
+                entities=list(dict.fromkeys(selected)),
+                product_names=[],
                 topics=[],
                 file_type="",
                 key_phrases=None,
-                entities_en=[],
-                entities_tc=[],
+                entities_en=entities_en,
+                entities_tc=entities_tc,
                 product_names_en=[],
                 product_names_tc=[],
                 topics_en=[],
@@ -143,33 +115,45 @@ class PageInsightsService(BaseModel):
             logger.warning(f"LLM extraction failed, using offline heuristics: {str(e)}")
             return self._analyze_offline(page_text, filename, doc_id, page_number, chunks)
 
-    def _build_prompt(self, page_text: str, filename: str) -> str:
-        return (
-            "Extract structured entities from the text. Output JSON.\n\n"
-            "Entities to extract:\n"
-            "- Product name\n"
-            "- Policy type (Life / Travel / Medical / Car / SME / Investment / General)\n"
-            "- Action (payment, claim, reinstatement, policy change, quote request, etc.)\n"
-            "- Required documents / forms\n"
-            "- Channels (bank TT, credit card, online banking, 7-11, post office, etc.)\n"
-            "- Customer role (policyholder / advisor / company employee)\n"
-            "- Country/Market (HK / Macau / Mainland / etc.)\n\n"
+    def _extract_bilingual_entities_llm(self, page_text: str) -> Dict[str, List[str]]:
+        """Extract bilingual entities via LLM, mirroring adjust.py prompt and output."""
+        prompt = (
+            "Extract entities useful for retrieval from the text below.\n"
+            "Return STRICT JSON only with two arrays: entities_en, entities_tc.\n\n"
+            "Include: organizations, product names, policy types/actions, required forms/documents, payment channels, locations/markets, customer roles, medical terms.\n"
             "Rules:\n"
-            "- Only extract if explicitly mentioned.\n"
-            "- Do NOT infer anything outside of the text.\n\n"
-            "Output format:\n\n"
-            "{\n"
-            "  \"product\": \"\",\n"
-            "  \"policy_type\": \"\",\n"
-            "  \"action\": \"\",\n"
-            "  \"required_form_or_doc\": \"\",\n"
-            "  \"payment_channel\": \"\",\n"
-            "  \"market\": \"\",\n"
-            "  \"customer_role\": \"\"\n"
-            "}\n\n"
-            "Text:\n"
-            f"{page_text}"
+            "- Only include entities explicitly present in the text.\n"
+            "- Deduplicate.\n"
+            "- Use Traditional Chinese items in entities_tc and English items in entities_en.\n\n"
+            "Output format:\n"
+            "{\n  \"entities_en\": [],\n  \"entities_tc\": []\n}\n\n"
+            "TEXT START\n"
+            f"{page_text}\n"
+            "TEXT END"
         )
+        resp = self._openai.chat_client.chat.completions.create(
+            model=self._openai.chat_deployment,
+            messages=[
+                {"role": "system", "content": "You output valid JSON only."},
+                {"role": "user", "content": prompt},
+            ],
+            max_tokens=600,
+            temperature=0.0,
+        )
+        content = (resp.choices[0].message.content or "{}").strip()
+        data = json.loads(content)
+        entities_en = [str(e).strip() for e in (data.get("entities_en") or []) if str(e).strip()]
+        entities_tc = [str(e).strip() for e in (data.get("entities_tc") or []) if str(e).strip()]
+        return {"entities_en": entities_en[:50], "entities_tc": entities_tc[:50]}
+
+    @staticmethod
+    def _detect_language(text: str) -> str:
+        """Return 'tc' if Traditional Chinese characters found, else 'en'."""
+        if not text:
+            return "en"
+        if re.search(r"[\u4e00-\u9fff]", text):
+            return "tc"
+        return "en"
 
     # def _build_qna_prompt(self, chunk_text: str) -> str:
     #     return (
@@ -189,21 +173,18 @@ class PageInsightsService(BaseModel):
     #     )
     def _build_qna_prompt(self, chunk_text: str) -> str:
         return (
-            "Generate Q&A pairs from the text below.\n"
-            "Return 1–5 pairs when content allows; if none are answerable, return [].\n"
-            "Output STRICTLY as a JSON array. No prose. No explanation.\n\n"
+            "From the text below, generate 1–5 Q&A pairs optimized for retrieval.\n"
+            "Return STRICTLY a JSON array; no prose or explanation.\n\n"
             "Rules:\n"
-            "- Questions must be SPECIFIC to insurance content present in the chunk.\n"
-            "- NO generic questions (e.g., 'What is insurance?', 'How does HTTPS work?').\n"
-            "- Answers must come ONLY from the text; do not infer beyond it.\n"
-            "- Prioritize explicit facts: label:value pairs, enumerated requirements, amounts/percentages, named forms, policy actions.\n"
-            "- Focus on: coverage, eligibility, payment methods, renewal, reinstatement, required documents/forms, policy changes, obligations, data/privacy usage.\n"
-            "- Every Q&A must be unique, meaningful, and precisely answerable from the text.\n"
-            "- Output must be valid JSON.\n\n"
-            "OUTPUT FORMAT:\n"
-            "[\n"
-            "  {\"question\": \"...\", \"answer\": \"...\"}\n"
-            "]\n\n"
+            "- Make each question highly recognizable by explicitly including salient entities from the text in the question itself.\n"
+            "  Examples: organization names, product/policy names, form titles/codes, roles, locations, dates, identifiers/labels.\n"
+            "  Use exact wording from the text for entity strings; embed 1 relevant entity per question.\n"
+            "- Questions must be SPECIFIC to insurance/medical content explicitly present in the text. Avoid generic questions.\n"
+            "- Answers must be EXACT substrings or faithful paraphrases anchored in the text; do not invent.\n"
+            "- Prioritize enumerated facts: coverage items, eligibility, required documents/forms, payment channels, percentages/amounts, actions.\n"
+            "- Use the same language as the text (English or Traditional Chinese). Keep answers concise (≤ 300 chars).\n\n"
+            "Output format:\n"
+            "[ {\"question\": \"...\", \"answer\": \"...\" } ]\n\n"
             "TEXT START\n"
             f"{chunk_text}\n"
             "TEXT END"
@@ -325,8 +306,10 @@ class PageInsightsService(BaseModel):
             topics_tc=sorted(list(set(topics_tc))),
         )
 
-        # Per requirement: Q&A must be LLM-only; do not generate offline Q&A
+        # Generate offline Q&A per chunk to align with adjust-style enrichment when LLM unavailable
         qna_pairs: List[QAPair] = []
+        for ch in chunks:
+            qna_pairs.extend(self._generate_qna_offline_for_chunk(ch, doc_id, page_number))
 
         return _ExtractionResult(
             keywords=keywords,
@@ -419,7 +402,7 @@ class PageInsightsService(BaseModel):
 
         if len(qas) < 3:
             # 2) Numeric facts with context (premium, fee, percentage)
-            amt_re = re.compile(r"(?:HK\$|\$)\s?\d[\d,]*\.?\d*|\d+%|%\s?\d+")
+            amt_re = re.compile(r"(?:HK\$|HKD|\$)\s?\d[\d,]*\.?\d*|\d+%|%\s?\d+")
             for ln in lines:
                 if amt_re.search(ln):
                     ctx = ln.lower()
