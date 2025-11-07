@@ -1,0 +1,1 @@
+"""Indexing package for uploading ETL JSON to Azure AI Search."""

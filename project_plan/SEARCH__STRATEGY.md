@@ -430,7 +430,7 @@ def faceted_search(query: str = ""):
             "branch_name",                     # All branches (HK, MACAU)
             "item_type,count:10",             # Document types
             "chunk_entities,count:50",        # Top 50 mentioned entities
-            "sys_file_type"                   # File types (pdf, docx)
+            "file_type"                   # File types (forms, guide, manual)
         ],
         select="file_name,chunk_page_number,chunk_function_summary",
         top=20
