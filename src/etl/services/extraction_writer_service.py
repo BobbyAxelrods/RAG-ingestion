@@ -130,38 +130,71 @@ class ExtractionWriter(BaseModel):
         except Exception:
             pass
 
-        # Try to read page_count from metadata_file of first doc
+        # Read page_count and build file_index_metadata from metadata_file of first doc
         sys_page_count = 0
-        file_index = {
-            "file_name": Path(filename).stem,
-            "library_name_en": "",
-            "library_name_tc": "",
-            "category_name_en": "",
-            "category_name_tc": "",
-            "title_name_en": Path(filename).stem,
-            "title_name_tc": "",
-            "file_url": "",
-            "branch_name": "",
-            "item_type": "",
-            "item_url": "",
-        }
+        file_index: Dict[str, Any] = {}
         if search_documents:
             try:
                 mf = json.loads(search_documents[0].metadata_file)
+                # Use total pages for system metadata
                 sys_page_count = int(mf.get("total_pages", 0) or 0)
-                file_index["file_name"] = mf.get("file_name") or file_index["file_name"]
-                file_index["library_name_en"] = mf.get("library_name_en") or ""
-                file_index["library_name_tc"] = mf.get("library_name_tc") or ""
-                file_index["category_name_en"] = mf.get("category_name_en") or ""
-                file_index["category_name_tc"] = mf.get("category_name_tc") or ""
-                file_index["title_name_en"] = mf.get("title_name_en") or file_index["title_name_en"]
-                file_index["title_name_tc"] = mf.get("title_name_tc") or ""
-                file_index["file_url"] = mf.get("file_url") or ""
-                file_index["branch_name"] = mf.get("branch_name") or ""
-                file_index["item_type"] = mf.get("item_type") or ""
-                file_index["item_url"] = mf.get("item_url") or ""
+
+                # Start with all fields from metadata_file to include all CSV/Excel columns
+                # This ensures the output JSON contains the complete metadata row
+                file_index.update(mf)
+
+                # Normalize common keys expected by downstream consumers, without overwriting existing data
+                # file_name: prefer explicit file_name, fall back to filename or Path stem
+                file_index.setdefault("file_name", mf.get("file_name") or mf.get("filename") or Path(filename).stem)
+
+                # title_name: map possible aliases (title_en/title_tc) to title_name_en/title_name_tc
+                file_index.setdefault("title_name_en", mf.get("title_name_en") or mf.get("title_en") or Path(filename).stem)
+                file_index.setdefault("title_name_tc", mf.get("title_name_tc") or mf.get("title_tc") or "")
+
+                # Library/category bilingual names
+                file_index.setdefault("library_name_en", mf.get("library_name_en") or "")
+                file_index.setdefault("library_name_tc", mf.get("library_name_tc") or "")
+                file_index.setdefault("category_name_en", mf.get("category_name_en") or "")
+                file_index.setdefault("category_name_tc", mf.get("category_name_tc") or "")
+
+                # URL/type/branch when available; leave empty if not present
+                file_index.setdefault("file_url", mf.get("file_url") or "")
+                file_index.setdefault("branch_name", mf.get("branch_name") or "")
+                file_index.setdefault("item_type", mf.get("item_type") or "")
+                file_index.setdefault("item_url", mf.get("item_url") or "")
+
+                # Deduplicate alias keys: if canonical CSV-style keys exist, drop derived aliases
+                # Prefer: file_name over filename; title_name_en over title_en; title_name_tc over title_tc
+                if "file_name" in file_index and "filename" in file_index:
+                    try:
+                        del file_index["filename"]
+                    except Exception:
+                        pass
+                if "title_name_en" in file_index and "title_en" in file_index:
+                    try:
+                        del file_index["title_en"]
+                    except Exception:
+                        pass
+                if "title_name_tc" in file_index and "title_tc" in file_index:
+                    try:
+                        del file_index["title_tc"]
+                    except Exception:
+                        pass
             except Exception:
-                pass
+                # If metadata_file is not present or invalid, populate minimal defaults
+                file_index = {
+                    "file_name": Path(filename).stem,
+                    "library_name_en": "",
+                    "library_name_tc": "",
+                    "category_name_en": "",
+                    "category_name_tc": "",
+                    "title_name_en": Path(filename).stem,
+                    "title_name_tc": "",
+                    "file_url": "",
+                    "branch_name": "",
+                    "item_type": "",
+                    "item_url": "",
+                }
 
         sys_meta = SystemFileMetadata(
             sys_file_name=sys_file_name,
