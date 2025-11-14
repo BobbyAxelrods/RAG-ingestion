@@ -96,3 +96,32 @@ Indexing is separated from ETL. Typical flow:
 
 ## License
 Internal project. Do not distribute without authorization.
+
+## Regression Testing (Vector, Hybrid, Simple)
+
+Run the regression script to evaluate all three search methods (vector, hybrid, simple) against a set of questions from an Excel file. Each question generates two JSON outputs (English and Traditional Chinese) containing the combined results from the three search methods.
+
+Prerequisites:
+- Set search and embeddings environment variables (place in `.env` or export them in your shell):
+  - `SEARCH_SERVICE_ENDPOINT`, `SEARCH_SERVICE_KEY`
+  - `AZURE_OPENAI_ENDPOINT`, `AZURE_OPENAI_KEY`, `AZURE_OPENAI_API_VERSION`
+  - `SEARCH_INDEX_NAME` (or pass `--index` on the CLI)
+
+Full run (top 10 per method):
+- `python src/search_diagnostic_prod/run_benchmark_regression.py --excel "artifact\data_library\evaluation\benchmark_ii ( steven)\reviewed_pru.xlsx" --top 10 --out results_json --index index_full_rev_1`
+
+Single-sample run (quick check):
+- `python src/search_diagnostic_prod/run_benchmark_regression.py --excel "artifact\data_library\evaluation\benchmark_ii ( steven)\reviewed_pru.xlsx" --top 10 --out results_json_test --index index_full_rev_1 --limit 1`
+
+Options:
+- `--sheet` selects a specific Excel sheet
+- `--index` overrides the index name
+- `--top` sets top-k per search method
+- `--out` sets output root directory
+- `--limit` caps number of questions processed
+- `--probe` prints available fields for the active index
+
+Output structure:
+- Per question folder under the specified output root (e.g., `results_json\<QuestionID>\`)
+- Files: `<QuestionID>_en.json` and `<QuestionID>_tc.json`
+- Each file contains `runs` with three entries: `vector`, `hybrid`, `simple`, each including `query`, `search_method`, `total_result`, and a `results[]` array with normalized fields (`id`, `document_id`, `title_name_en`, `title_name_tc`, `content_en`, `content_tc`, `filename`, `page_number`, `score`, `content_chunk`).
