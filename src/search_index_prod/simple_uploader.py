@@ -67,7 +67,15 @@ def map_chunk_to_doc(file_meta: Dict[str, Any], chunk: Dict[str, Any], chunk_ind
 
     # Entities normalization (strings or dicts with text/label)
     entities: List[str] = []
-    raw_entities = chunk.get("entities") or []
+    # Prefer nested ETL path: chunk_metadata.chunk_entities; fall back to common aliases
+    meta = chunk.get("chunk_metadata") or {}
+    raw_entities = (
+        chunk.get("entities")
+        or chunk.get("chunk_entities")
+        or meta.get("chunk_entities")
+        or (file_meta.get("keyword_extraction") or {}).get("entities")
+        or []
+    )
     if isinstance(raw_entities, list):
         for e in raw_entities:
             if isinstance(e, str):

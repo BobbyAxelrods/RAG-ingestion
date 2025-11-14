@@ -10,14 +10,15 @@ def build_simple_index_schema(index_name: str) -> Dict[str, Any]:
     - Metadata: filename, branch_name, entities, page_number, word_count, char_count,
                 title_name_en, title_name_tc, document_id, lang_tags
 
-    This schema keeps one document per chunk, splitting text by language at ingestion.
+    This schema keeps one document per chunk, 
+    with bilingual content fields (content_en, content_tc) and vector for semantic search.
     """
 
     return {
         "name": index_name,
         "fields": [
             {
-                "name": "id",
+                "name": "id", # filename should be the key 
                 "type": "Edm.String",
                 "key": True,
                 "filterable": True,

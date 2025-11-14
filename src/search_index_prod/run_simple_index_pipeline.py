@@ -7,6 +7,13 @@ from typing import List, Dict, Any
 
 import requests
 
+# Optional progress bar
+try:
+    from tqdm import tqdm
+except Exception:
+    def tqdm(iterable=None, total=None, desc=None, unit=None, **kwargs):  # type: ignore
+        return iterable if iterable is not None else range(total or 0)
+
 # Load environment variables from a .env file if available (align with other scripts)
 try:
     from dotenv import load_dotenv
@@ -48,13 +55,23 @@ def upload_documents(endpoint: str, api_key: str, index_name: str, docs: List[Di
         "Content-Type": "application/json",
         "api-key": api_key,
     }
+    pbar = tqdm(total=len(docs), desc="Uploading documents", unit="docs")
     for i in range(0, len(docs), batch_size):
         batch = docs[i : i + batch_size]
         payload = {"value": [{"@search.action": "upload", **doc} for doc in batch]}
         resp = requests.post(url, headers=headers, data=json.dumps(payload))
         if resp.status_code not in (200, 201):
             raise RuntimeError(f"Upload batch failed: {resp.status_code} {resp.text}")
+        # Update progress bar by the number of docs uploaded in this batch
+        try:
+            pbar.update(len(batch))
+        except Exception:
+            pass
         time.sleep(0.05)
+    try:
+        pbar.close()
+    except Exception:
+        pass
 
 
 def main():
@@ -91,12 +108,13 @@ def main():
     files: List[str] = []
     for g in args.etl_glob:
         files.extend(glob.glob(g))
+    files = sorted(files)
     if not files:
         raise SystemExit("No ETL JSON files matched the provided glob(s)")
 
     # Build documents (BM25 fields always duplicated to preserve context)
     all_docs: List[Dict[str, Any]] = []
-    for path in files:
+    for path in tqdm(files, desc="Processing ETL JSON files", unit="file"):
         try:
             etl_json = load_etl_file(path)
             docs = build_docs_from_etl(etl_json)
@@ -107,6 +125,8 @@ def main():
 
     if not all_docs:
         raise SystemExit("No documents produced from ETL JSONs")
+
+    print(f"Prepared {len(all_docs)} documents from {len(files)} ETL files. Starting upload...")
 
     # Upload
     upload_documents(args.endpoint, args.api_key, args.index, all_docs, batch_size=args.batch_size)

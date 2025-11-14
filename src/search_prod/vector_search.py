@@ -1,7 +1,13 @@
 from openai import AzureOpenAI
 from azure.search.documents import SearchClient
 from azure.core.credentials import AzureKeyCredential
+from azure.core.exceptions import HttpResponseError
 import numpy as np
+import os
+try:
+    from azure.search.documents.models import VectorizedQuery
+except Exception:
+    VectorizedQuery = None  # type: ignore
 
 class AzureVectorSearch:
     """
@@ -29,7 +35,15 @@ class AzureVectorSearch:
             api_key=openai_key,
             api_version="2024-02-01"
         )
-        self.embedding_deployment = "text-embedding-ada-002"  # Or "text-embedding-3-small"
+        self.embedding_deployment = "text-embedding-3-small"  # Or "text-embedding-3-small"
+        vf_env = os.getenv("VECTOR_FIELD")
+        self.vector_field_candidates = [
+            vf_env,
+            "content_chunk_vector",
+            "chunk_content_vector",
+            "content_vector",
+        ]
+        self.vector_field_candidates = [v for v in self.vector_field_candidates if v]
     
     def get_embedding(self, text):
         """
@@ -185,60 +199,108 @@ class AzureVectorSearch:
         
         return all_embeddings
     
-    def vector_search(self, query, top_k=10, filter_expression=None):
+    def vector_search(self, query, top_k=10, filter_expression=None, query_lang: str | None = None):
         """
         Perform vector search with Azure AI Search.
         
-        How HNSW search works:
-        1. Query embedding generated via Azure OpenAI
-        2. HNSW algorithm navigates graph structure to find approximate nearest neighbors
-        3. efSearch parameter controls search quality vs speed:
-           - 100: Fast but lower recall (~0.80)
-           - 500: Default balance (recall ~0.95)
-           - 1000: Slower but better recall (~0.98)
-        4. Results ranked by cosine similarity (-1 to 1, higher = more similar)
-        
-        Performance tuning:
-        - top_k=10: Typical for user-facing search (30-50ms)
-        - top_k=100: For reranking pipelines (80-120ms)
-        - Filters add 10-30ms depending on selectivity
-        
-        Args:
-            query: Natural language search query
-            top_k: Number of results to return
-            filter_expression: OData filter (e.g., "category eq 'mortgage'")
-        
-        Returns:
-            List of results with scores (cosine similarity 0-1)
+        Returns standardized JSON payload:
+        - query
+        - search_method
+        - total_result
+        - results: list where each item includes unified fields
         """
         
         # Generate query embedding
         query_vector = self.embed_text(query)
         
         # Create vector query
-        vector_query = VectorizedQuery(
-            vector=query_vector,
-            k_nearest_neighbors=top_k,
-            fields="content_vector"
-        )
+        if VectorizedQuery is None:
+            raise RuntimeError("VectorizedQuery model not available in this environment")
+        # Try multiple vector fields to align with index schema
         
         # Search with vector
-        results = self.search_client.search(
-            search_text=None,  # Pure vector search (no text component)
-            vector_queries=[vector_query],
-            filter=filter_expression,
-            top=top_k
-        )
-        
-        return [
-            {
-                "id": result["id"],
-                "content": result["content"],
-                "score": result["@search.score"],  # Cosine similarity
-                "title": result.get("title", "")
-            }
-            for result in results
+        desired_select = [
+            "document_id",
+            "doc_id",
+            "file_name",
+            "page_number",
+            "chunk_page_number",
+            "chunk_content",
+            "content_en",
+            "content_tc",
+            "branch_name",
+            "entities",
         ]
+        select_fields = [
+            "document_id",
+            "filename",
+            "page_number",
+            "branch_name",
+            "title_name_en",
+            "title_name_tc",
+            "content_en",
+            "content_tc",
+            "lang_tags",
+            "entities",
+            "word_count",
+            "char_count",
+        ]
+        last_error = None
+        results = None
+        for vf in self.vector_field_candidates:
+            try:
+                vector_query = VectorizedQuery(
+                    vector=query_vector,
+                    k_nearest_neighbors=top_k,
+                    fields=vf
+                )
+                results = self.search_client.search(
+                    search_text=None,
+                    vector_queries=[vector_query],
+                    filter=filter_expression,
+                    top=top_k,
+                    select=select_fields,
+                )
+                _ = next(iter(results))
+                results = self.search_client.search(
+                    search_text=None,
+                    vector_queries=[vector_query],
+                    filter=filter_expression,
+                    top=top_k,
+                    select=select_fields,
+                )
+                break
+            except Exception as e:
+                last_error = e
+                continue
+        if results is None:
+            raise last_error or RuntimeError("No valid vector field matched for index")
+        
+        items = []
+        for r in results:
+            rid = r.get("id")
+            base_id = r.get("document_id") or (rid.split("_")[0] if isinstance(rid, str) and "_" in rid else rid)
+            chunk = r.get("content_en") if (query_lang == "en") else (r.get("content_tc") if (query_lang == "tc") else (r.get("content_en") or r.get("content_tc")))
+            items.append({
+                "id": base_id,
+                "document_id": base_id,
+                "title_name_en": r.get("title_name_en") or "",
+                "title_name_tc": r.get("title_name_tc") or "",
+                "content_en": r.get("content_en") or "",
+                "content_tc": r.get("content_tc") or "",
+                "filename": r.get("filename") or r.get("file_name"),
+                "page_number": r.get("page_number") or r.get("chunk_page_number") or r.get("page"),
+                "score": r.get("@search.score") or r.get("score"),
+                "content_chunk": chunk or "",
+            })
+        
+        payload = {
+            "query": query,
+            "search_method": "vector",
+            "total_result": len(items),
+            "results": items,
+        }
+        return payload
 
 """
 **Understanding Vector Search Performance**
