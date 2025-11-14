@@ -1,0 +1,390 @@
+{
+  "question_id": "36.0",
+  "language": "tc",
+  "reference_documents": "PA000066 > User Guide - ePA_Loan enquiry p. 3-11",
+  "reference_marker": null,
+  "query": "如何申請保單貸款，有咩程序？",
+  "runs": [
+    {
+      "query": "如何申請保單貸款，有咩程序？",
+      "search_method": "vector",
+      "total_result": 10,
+      "results": [
+        {
+          "id": "PA000066",
+          "document_id": "PA000066",
+          "title_name_en": "Policy Loan",
+          "title_name_tc": "保單貸款",
+          "content_en": "保單貸款資料查詢 -注意事項\nPRU\none\n《保單貸款資料查詢》會上傳至myPrudential。若客人未啟動\nmyPrudential帳戶,系統亦會以信件形式發送\n1\n2\n《保單貸款資料查詢》以遞交申請日的資料計算\nConfidential\n12用行動 實踐壽險行政電子化\n後勤前線 裡應外合\n讓保誠沒有難做的生意\n數碼方案及保單行政部",
+          "content_tc": "保單貸款資料查詢 -注意事項\nPRU\none\n《保單貸款資料查詢》會上傳至myPrudential。若客人未啟動\nmyPrudential帳戶,系統亦會以信件形式發送\n1\n2\n《保單貸款資料查詢》以遞交申請日的資料計算\nConfidential\n12用行動 實踐壽險行政電子化\n後勤前線 裡應外合\n讓保誠沒有難做的生意\n數碼方案及保單行政部",
+          "filename": "User Guide - ePA_Loan enquiry.pdf",
+          "page_number": null,
+          "score": 0.70200986,
+          "content_chunk": "保單貸款資料查詢 -注意事項\nPRU\none\n《保單貸款資料查詢》會上傳至myPrudential。若客人未啟動\nmyPrudential帳戶,系統亦會以信件形式發送\n1\n2\n《保單貸款資料查詢》以遞交申請日的資料計算\nConfidential\n12用行動 實踐壽險行政電子化\n後勤前線 裡應外合\n讓保誠沒有難做的生意\n數碼方案及保單行政部"
+        },
+        {
+          "id": "PA000066",
+          "document_id": "PA000066",
+          "title_name_en": "Policy Loan",
+          "title_name_tc": "保單貸款",
+          "content_en": "PRUDENTIAL\n保 誠\n英 國\nePA 申請通\n保單貸款資料查詢\n數碼方案及保單行政部",
+          "content_tc": "PRUDENTIAL\n保 誠\n英 國\nePA 申請通\n保單貸款資料查詢\n數碼方案及保單行政部",
+          "filename": "User Guide - ePA_Loan enquiry.pdf",
+          "page_number": null,
+          "score": 0.69227237,
+          "content_chunk": "PRUDENTIAL\n保 誠\n英 國\nePA 申請通\n保單貸款資料查詢\n數碼方案及保單行政部"
+        },
+        {
+          "id": "PA000066",
+          "document_id": "PA000066",
+          "title_name_en": "Policy Loan",
+          "title_name_tc": "保單貸款",
+          "content_en": "保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n1\nX\n申請通\nPRUDENTIAL\n英國保誠子!\n確認保單更改申請資料\n請確認下列資料,並繼續執行資料更改的指示。\n保單號碼\n保單貸款資料將會以郵寄方式發送。若客人日後啟動myPrudential 戶口,客人可查閱「電子結單,電子通知書及信件」\n保單貸款\n是\n否\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n% 90%\n20\n000009367727\n「更美好」保障計劃\n01/03/2002\nINFORCE\n00825441 chisurname 00825441 chifirstname\n01/03/2021\n系統會有顯示保單貸\n款資料的發送方式\n提交\n上一步保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n10:50 AM\n三 く\nePA\n$ 90%\n20\n1\n←\n×\n申請通\nPRUDENTIAL\n英國保誠子\n確認遞交\n參考編號 EPA200915012721- 000010250784\n返回主頁\n遞交新的申請\n完成保單貸款資料查詢\n保單貸款資料將於下一\n個工作天上傳至\nmyPrudential",
+          "content_tc": "保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n1\nX\n申請通\nPRUDENTIAL\n英國保誠子!\n確認保單更改申請資料\n請確認下列資料,並繼續執行資料更改的指示。\n保單號碼\n保單貸款資料將會以郵寄方式發送。若客人日後啟動myPrudential 戶口,客人可查閱「電子結單,電子通知書及信件」\n保單貸款\n是\n否\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n% 90%\n20\n000009367727\n「更美好」保障計劃\n01/03/2002\nINFORCE\n00825441 chisurname 00825441 chifirstname\n01/03/2021\n系統會有顯示保單貸\n款資料的發送方式\n提交\n上一步保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n10:50 AM\n三 く\nePA\n$ 90%\n20\n1\n←\n×\n申請通\nPRUDENTIAL\n英國保誠子\n確認遞交\n參考編號 EPA200915012721- 000010250784\n返回主頁\n遞交新的申請\n完成保單貸款資料查詢\n保單貸款資料將於下一\n個工作天上傳至\nmyPrudential",
+          "filename": "User Guide - ePA_Loan enquiry.pdf",
+          "page_number": null,
+          "score": 0.69033694,
+          "content_chunk": "保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n1\nX\n申請通\nPRUDENTIAL\n英國保誠子!\n確認保單更改申請資料\n請確認下列資料,並繼續執行資料更改的指示。\n保單號碼\n保單貸款資料將會以郵寄方式發送。若客人日後啟動myPrudential 戶口,客人可查閱「電子結單,電子通知書及信件」\n保單貸款\n是\n否\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n% 90%\n20\n000009367727\n「更美好」保障計劃\n01/03/2002\nINFORCE\n00825441 chisurname 00825441 chifirstname\n01/03/2021\n系統會有顯示保單貸\n款資料的發送方式\n提交\n上一步保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n10:50 AM\n三 く\nePA\n$ 90%\n20\n1\n←\n×\n申請通\nPRUDENTIAL\n英國保誠子\n確認遞交\n參考編號 EPA200915012721- 000010250784\n返回主頁\n遞交新的申請\n完成保單貸款資料查詢\n保單貸款資料將於下一\n個工作天上傳至\nmyPrudential"
+        },
+        {
+          "id": "PA000066",
+          "document_id": "PA000066",
+          "title_name_en": "Policy Loan",
+          "title_name_tc": "保單貸款",
+          "content_en": "「保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n* 90%\n20\n←\n区\n申請通\n保單號碼:000020008596\n保單貸款資料查詢\n「摯為您」危疾終身保計劃\n確認保單編號及客戶資\n料\n注意:\n1. 著腳下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020008596\n「擊為您」急疾終身保計劃\n01/03/2015\nINFORCE\nCHAN YUK MAN\n01/03/2024\n上一步\n取消\n下一步\n· 按「下一步」保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n1\n↑\n% 90%\n20\n区\n申請通\nPRUDENTIAL\n英國保誠子!\n假如這個並非您現正使用並可接收手機短訊的手提電話號碼,使用此服務前,請填妥「更改聯絡資料表格」,並交回保誠以更改您的手提電話號碼紀\n錄。假如您需要更改電郵地址,請透過 myPrudential 遞交申請。如有查詢,可致電客戶服務熱線(852)22811333(星期一至五09:00-20:00,星期六\n09:00-15:00,公眾假期除外)。\n保單號碼:000020002831 「源源收息」儲蓄保障計劃\n保單貸款資料查詢\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020002831\n「源源收息」儲蓄保障計劃\n01/01/2013\nINFORCE\nBONUS DEC 2015 YIP07861659 CHILD\n01/01/2016\n於確立保單更改申請\n資料後,按「提交」\n提交\n上一步",
+          "content_tc": "「保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n* 90%\n20\n←\n区\n申請通\n保單號碼:000020008596\n保單貸款資料查詢\n「摯為您」危疾終身保計劃\n確認保單編號及客戶資\n料\n注意:\n1. 著腳下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020008596\n「擊為您」急疾終身保計劃\n01/03/2015\nINFORCE\nCHAN YUK MAN\n01/03/2024\n上一步\n取消\n下一步\n· 按「下一步」保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n1\n↑\n% 90%\n20\n区\n申請通\nPRUDENTIAL\n英國保誠子!\n假如這個並非您現正使用並可接收手機短訊的手提電話號碼,使用此服務前,請填妥「更改聯絡資料表格」,並交回保誠以更改您的手提電話號碼紀\n錄。假如您需要更改電郵地址,請透過 myPrudential 遞交申請。如有查詢,可致電客戶服務熱線(852)22811333(星期一至五09:00-20:00,星期六\n09:00-15:00,公眾假期除外)。\n保單號碼:000020002831 「源源收息」儲蓄保障計劃\n保單貸款資料查詢\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020002831\n「源源收息」儲蓄保障計劃\n01/01/2013\nINFORCE\nBONUS DEC 2015 YIP07861659 CHILD\n01/01/2016\n於確立保單更改申請\n資料後,按「提交」\n提交\n上一步",
+          "filename": "User Guide - ePA_Loan enquiry.pdf",
+          "page_number": null,
+          "score": 0.68431884,
+          "content_chunk": "「保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n* 90%\n20\n←\n区\n申請通\n保單號碼:000020008596\n保單貸款資料查詢\n「摯為您」危疾終身保計劃\n確認保單編號及客戶資\n料\n注意:\n1. 著腳下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020008596\n「擊為您」急疾終身保計劃\n01/03/2015\nINFORCE\nCHAN YUK MAN\n01/03/2024\n上一步\n取消\n下一步\n· 按「下一步」保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n1\n↑\n% 90%\n20\n区\n申請通\nPRUDENTIAL\n英國保誠子!\n假如這個並非您現正使用並可接收手機短訊的手提電話號碼,使用此服務前,請填妥「更改聯絡資料表格」,並交回保誠以更改您的手提電話號碼紀\n錄。假如您需要更改電郵地址,請透過 myPrudential 遞交申請。如有查詢,可致電客戶服務熱線(852)22811333(星期一至五09:00-20:00,星期六\n09:00-15:00,公眾假期除外)。\n保單號碼:000020002831 「源源收息」儲蓄保障計劃\n保單貸款資料查詢\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020002831\n「源源收息」儲蓄保障計劃\n01/01/2013\nINFORCE\nBONUS DEC 2015 YIP07861659 CHILD\n01/01/2016\n於確立保單更改申請\n資料後,按「提交」\n提交\n上一步"
+        },
+        {
+          "id": "PA000066",
+          "document_id": "PA000066",
+          "title_name_en": "Policy Loan",
+          "title_name_tc": "保單貸款",
+          "content_en": "\n1\n↑\n% 90%\n20\n区\n申請通\nPRUDENTIAL\n英國保誠子!\n假如這個並非您現正使用並可接收手機短訊的手提電話號碼,使用此服務前,請填妥「更改聯絡資料表格」,並交回保誠以更改您的手提電話號碼紀\n錄。假如您需要更改電郵地址,請透過 myPrudential 遞交申請。如有查詢,可致電客戶服務熱線(852)22811333(星期一至五09:00-20:00,星期六\n09:00-15:00,公眾假期除外)。\n保單號碼:000020002831 「源源收息」儲蓄保障計劃\n保單貸款資料查詢\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020002831\n「源源收息」儲蓄保障計劃\n01/01/2013\nINFORCE\nBONUS DEC 2015 YIP07861659 CHILD\n01/01/2016\n於確立保單更改申請\n資料後,按「提交」\n提交\n上一步保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n1\nX\n申請通\nPRUDENTIAL\n英國保誠子!\n確認保單更改申請資料\n請確認下列資料,並繼續執行資料更改的指示。\n保單號碼\n保單貸款資料將會以郵寄方式發送。若客人日後啟動myPrudential 戶口,客人可查閱「電子結單,電子通知書及信件」\n保單貸款\n是\n否\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n% 90%\n20\n000009367727\n「更美好」保障計劃\n01/03/2002\nINFORCE\n00825441 chisurname 00825441 chifirstname\n01/03/2021\n系統會有顯示保單貸\n款資料的發送方式\n提交\n上一步",
+          "content_tc": "\n1\n↑\n% 90%\n20\n区\n申請通\nPRUDENTIAL\n英國保誠子!\n假如這個並非您現正使用並可接收手機短訊的手提電話號碼,使用此服務前,請填妥「更改聯絡資料表格」,並交回保誠以更改您的手提電話號碼紀\n錄。假如您需要更改電郵地址,請透過 myPrudential 遞交申請。如有查詢,可致電客戶服務熱線(852)22811333(星期一至五09:00-20:00,星期六\n09:00-15:00,公眾假期除外)。\n保單號碼:000020002831 「源源收息」儲蓄保障計劃\n保單貸款資料查詢\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020002831\n「源源收息」儲蓄保障計劃\n01/01/2013\nINFORCE\nBONUS DEC 2015 YIP07861659 CHILD\n01/01/2016\n於確立保單更改申請\n資料後,按「提交」\n提交\n上一步保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n1\nX\n申請通\nPRUDENTIAL\n英國保誠子!\n確認保單更改申請資料\n請確認下列資料,並繼續執行資料更改的指示。\n保單號碼\n保單貸款資料將會以郵寄方式發送。若客人日後啟動myPrudential 戶口,客人可查閱「電子結單,電子通知書及信件」\n保單貸款\n是\n否\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n% 90%\n20\n000009367727\n「更美好」保障計劃\n01/03/2002\nINFORCE\n00825441 chisurname 00825441 chifirstname\n01/03/2021\n系統會有顯示保單貸\n款資料的發送方式\n提交\n上一步",
+          "filename": "User Guide - ePA_Loan enquiry.pdf",
+          "page_number": null,
+          "score": 0.6802024,
+          "content_chunk": "\n1\n↑\n% 90%\n20\n区\n申請通\nPRUDENTIAL\n英國保誠子!\n假如這個並非您現正使用並可接收手機短訊的手提電話號碼,使用此服務前,請填妥「更改聯絡資料表格」,並交回保誠以更改您的手提電話號碼紀\n錄。假如您需要更改電郵地址,請透過 myPrudential 遞交申請。如有查詢,可致電客戶服務熱線(852)22811333(星期一至五09:00-20:00,星期六\n09:00-15:00,公眾假期除外)。\n保單號碼:000020002831 「源源收息」儲蓄保障計劃\n保單貸款資料查詢\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020002831\n「源源收息」儲蓄保障計劃\n01/01/2013\nINFORCE\nBONUS DEC 2015 YIP07861659 CHILD\n01/01/2016\n於確立保單更改申請\n資料後,按「提交」\n提交\n上一步保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n1\nX\n申請通\nPRUDENTIAL\n英國保誠子!\n確認保單更改申請資料\n請確認下列資料,並繼續執行資料更改的指示。\n保單號碼\n保單貸款資料將會以郵寄方式發送。若客人日後啟動myPrudential 戶口,客人可查閱「電子結單,電子通知書及信件」\n保單貸款\n是\n否\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n% 90%\n20\n000009367727\n「更美好」保障計劃\n01/03/2002\nINFORCE\n00825441 chisurname 00825441 chifirstname\n01/03/2021\n系統會有顯示保單貸\n款資料的發送方式\n提交\n上一步"
+        },
+        {
+          "id": "PA000066",
+          "document_id": "PA000066",
+          "title_name_en": "Policy Loan",
+          "title_name_tc": "保單貸款",
+          "content_en": "PRUDENTIAL\n保 誠\n英 國\nePA 申請通\n保單貸款資料查詢\n數碼方案及保單行政部新增服務簡介\nPRU\none\n● 此服務適用於有貸款結欠之保單\n保單貸款資料\n查詢\n● 銷售人員和客人均無需於頁面上簽署\n或輸入一次有效驗證碼\n● 保單貸款資料將於下一個工作天上傳\n£myPrudential",
+          "content_tc": "PRUDENTIAL\n保 誠\n英 國\nePA 申請通\n保單貸款資料查詢\n數碼方案及保單行政部新增服務簡介\nPRU\none\n● 此服務適用於有貸款結欠之保單\n保單貸款資料\n查詢\n● 銷售人員和客人均無需於頁面上簽署\n或輸入一次有效驗證碼\n● 保單貸款資料將於下一個工作天上傳\n£myPrudential",
+          "filename": "User Guide - ePA_Loan enquiry.pdf",
+          "page_number": null,
+          "score": 0.6787056,
+          "content_chunk": "PRUDENTIAL\n保 誠\n英 國\nePA 申請通\n保單貸款資料查詢\n數碼方案及保單行政部新增服務簡介\nPRU\none\n● 此服務適用於有貸款結欠之保單\n保單貸款資料\n查詢\n● 銷售人員和客人均無需於頁面上簽署\n或輸入一次有效驗證碼\n● 保單貸款資料將於下一個工作天上傳\n£myPrudential"
+        },
+        {
+          "id": "PA000066",
+          "document_id": "PA000066",
+          "title_name_en": "Policy Loan",
+          "title_name_tc": "保單貸款",
+          "content_en": "銷售人員透過 PRUone查詢保單貸款資料\n先選擇搜尋條件再輸入關鍵字後按「搜尋」\nPRU\none\niPad ~\n三く\n10:50 AM\nePA\n$ 90%\n20\n1\nX\n申請通\nPRUDENTIAL\n英國保 誠 !!\n我的申請\nEN\n歡迎回來\n選擇客戶\n請選擇\n保單持有人姓名\n身份證/護照號碼\n保單號碼\n客戶編號\n流動電話號碼\n出生日期(日/月/年)\n號碼\n√\n號碼\n搜尋出現搜尋結果後,再按「客戶編號\n旁邊的連結,選擇你需要遞交查詢的客戶\nPRU\none\niPad ~\n三\nく\n10:50 AM\nePA\n% 90%\n1\n(p)\n20\n申請通\nPRUDENTIAL\n英國保誠!\nEN\n我的申請\n1\n英\n搜尋\n2\n輸入資料\n3\n預覽及完成\n選擇客戶\n客戶編號\n▼\n00032968\n搜尋\n客戶編號:00032968\nFUNG TIK HEI FRANKIE\n出生日期(日/月/年):01/01/1945\n/護照號碼:A999 *******\nmyPrudential 戶口狀況:已啟用 最後登入時間:20/03/2020 12:00:22",
+          "content_tc": "銷售人員透過 PRUone查詢保單貸款資料\n先選擇搜尋條件再輸入關鍵字後按「搜尋」\nPRU\none\niPad ~\n三く\n10:50 AM\nePA\n$ 90%\n20\n1\nX\n申請通\nPRUDENTIAL\n英國保 誠 !!\n我的申請\nEN\n歡迎回來\n選擇客戶\n請選擇\n保單持有人姓名\n身份證/護照號碼\n保單號碼\n客戶編號\n流動電話號碼\n出生日期(日/月/年)\n號碼\n√\n號碼\n搜尋出現搜尋結果後,再按「客戶編號\n旁邊的連結,選擇你需要遞交查詢的客戶\nPRU\none\niPad ~\n三\nく\n10:50 AM\nePA\n% 90%\n1\n(p)\n20\n申請通\nPRUDENTIAL\n英國保誠!\nEN\n我的申請\n1\n英\n搜尋\n2\n輸入資料\n3\n預覽及完成\n選擇客戶\n客戶編號\n▼\n00032968\n搜尋\n客戶編號:00032968\nFUNG TIK HEI FRANKIE\n出生日期(日/月/年):01/01/1945\n/護照號碼:A999 *******\nmyPrudential 戶口狀況:已啟用 最後登入時間:20/03/2020 12:00:22",
+          "filename": "User Guide - ePA_Loan enquiry.pdf",
+          "page_number": null,
+          "score": 0.67658347,
+          "content_chunk": "銷售人員透過 PRUone查詢保單貸款資料\n先選擇搜尋條件再輸入關鍵字後按「搜尋」\nPRU\none\niPad ~\n三く\n10:50 AM\nePA\n$ 90%\n20\n1\nX\n申請通\nPRUDENTIAL\n英國保 誠 !!\n我的申請\nEN\n歡迎回來\n選擇客戶\n請選擇\n保單持有人姓名\n身份證/護照號碼\n保單號碼\n客戶編號\n流動電話號碼\n出生日期(日/月/年)\n號碼\n√\n號碼\n搜尋出現搜尋結果後,再按「客戶編號\n旁邊的連結,選擇你需要遞交查詢的客戶\nPRU\none\niPad ~\n三\nく\n10:50 AM\nePA\n% 90%\n1\n(p)\n20\n申請通\nPRUDENTIAL\n英國保誠!\nEN\n我的申請\n1\n英\n搜尋\n2\n輸入資料\n3\n預覽及完成\n選擇客戶\n客戶編號\n▼\n00032968\n搜尋\n客戶編號:00032968\nFUNG TIK HEI FRANKIE\n出生日期(日/月/年):01/01/1945\n/護照號碼:A999 *******\nmyPrudential 戶口狀況:已啟用 最後登入時間:20/03/2020 12:00:22"
+        },
+        {
+          "id": "PA000066",
+          "document_id": "PA000066",
+          "title_name_en": "Policy Loan",
+          "title_name_tc": "保單貸款",
+          "content_en": "保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n10:50 AM\n三 く\nePA\n$ 90%\n20\n1\n←\n×\n申請通\nPRUDENTIAL\n英國保誠子\n確認遞交\n參考編號 EPA200915012721- 000010250784\n返回主頁\n遞交新的申請\n完成保單貸款資料查詢\n保單貸款資料將於下一\n個工作天上傳至\nmyPrudential保單貸款資料查詢 -注意事項\nPRU\none\n《保單貸款資料查詢》會上傳至myPrudential。若客人未啟動\nmyPrudential帳戶,系統亦會以信件形式發送\n1\n2\n《保單貸款資料查詢》以遞交申請日的資料計算\nConfidential\n12",
+          "content_tc": "保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n10:50 AM\n三 く\nePA\n$ 90%\n20\n1\n←\n×\n申請通\nPRUDENTIAL\n英國保誠子\n確認遞交\n參考編號 EPA200915012721- 000010250784\n返回主頁\n遞交新的申請\n完成保單貸款資料查詢\n保單貸款資料將於下一\n個工作天上傳至\nmyPrudential保單貸款資料查詢 -注意事項\nPRU\none\n《保單貸款資料查詢》會上傳至myPrudential。若客人未啟動\nmyPrudential帳戶,系統亦會以信件形式發送\n1\n2\n《保單貸款資料查詢》以遞交申請日的資料計算\nConfidential\n12",
+          "filename": "User Guide - ePA_Loan enquiry.pdf",
+          "page_number": null,
+          "score": 0.6764472,
+          "content_chunk": "保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n10:50 AM\n三 く\nePA\n$ 90%\n20\n1\n←\n×\n申請通\nPRUDENTIAL\n英國保誠子\n確認遞交\n參考編號 EPA200915012721- 000010250784\n返回主頁\n遞交新的申請\n完成保單貸款資料查詢\n保單貸款資料將於下一\n個工作天上傳至\nmyPrudential保單貸款資料查詢 -注意事項\nPRU\none\n《保單貸款資料查詢》會上傳至myPrudential。若客人未啟動\nmyPrudential帳戶,系統亦會以信件形式發送\n1\n2\n《保單貸款資料查詢》以遞交申請日的資料計算\nConfidential\n12"
+        },
+        {
+          "id": "PA000084",
+          "document_id": "PA000084",
+          "title_name_en": "Change of Automatic Premium Loan Option",
+          "title_name_tc": "更改自動保費貸款選項",
+          "content_en": "PRUDENTIAL\n英 國\n保 誠本\n1\nConsultant's Name\n顧問姓名:\nDivision - Agent Code\n組別-營業員編號:\nProposal / Policy Number(s)\n申請書編號/保單號碼:\nLife Proposed / Life Assured's Name\n受保人姓名:\nApplication Form for Automatic Premium Loan Option\n自動保費貸款選項申請表\nAutomatic Premium Loan Option\n自動保費貸款選項\nDeclaration\n聲明\nI request to apply Automatic Premium Loan clause to the policy which the amount of premium or premium and levy shall be automatically\ndeemed to be paid by a premium loan and extend to the premium(s) or premium(s) and levy(ies) for any supplementary benefit(s) when the\nPlan is paid up.\n本人申請應用自動保費貸款條文於此保單,即保費或保費及徵費將自動以貸款的形式繳交,並延續條文於本計劃已繳清所有保費時的附加保障之保費\n或保費及徵費。\nI declare that I have read and confirm understanding of the important notes below.\n本人在此聲明本人已閱讀並確認明白下列注意事項之內容。\nImportant Notes\n注意事項\n1. We shall charge you interest on the Automatic Premium Loan(s) starting from the date when the respective Automatic Premium Loan(s)\nis incurred. We shall determine the interest rate charged on the Automatic Premium Loan(s).\n本公司將會由自動保費貸款日期開始收取自動保費貸款的利息,有關利率將由本公司釐訂。\n2. The policy will be automatically terminated once the total outstanding loan amount (including interest) owing to us under your policy\nexceeds stated percentage on Policy Contract of the guaranteed cash value of your policy minus all Advanced Claims being paid and / or\npayable of this Plan.\n本計劃將在 閣下的保單所欠本公司之未償還總金額(包括利息)超過合約訂明比率之保單保證現金價值扣除於本計劃須支付及/或已付訖的預\n支賠償總額時立即終止。\nI/We declare that I/we have read and confirm understanding of the above content.\n本人/吾等在此聲明本人/吾等已閱讀並確認明白上述之內容。\nDay\n日\nMonth\n月\nYear\n年\nSignature of Proposer / Policyowner\n(if other than the Life Proposed / Life\nAssured)\n投保人/保單持有人簽署(如投保人/保單持有\n人與受保人同為一人,可免簽署此欄)\nSignature of Life Proposed / Life Assured\n(who has attained age 18 or above)\n受保人簽署(適用於十八歲或以上的受保人)\nSignature of Consultant as Witness\n顧問 ( 即見證人 ) 簽署\nName 姓名:\nTwo witnesses are required if signature chop or fingerprint is used to sign. 若以圖章蓋印或指紋簽署,須有兩位見證人。\nPlease DO NOT sign on BLANK form. 請勿在空白表格上簽署。\nPrudential Hong Kong Limited (A member of Prudential plc group)\n保誠保險有限公司(英國保誠集團成員)\nPAIAPL0101\nVersion. 201804",
+          "content_tc": "PRUDENTIAL\n英 國\n保 誠本\n1\nConsultant's Name\n顧問姓名:\nDivision - Agent Code\n組別-營業員編號:\nProposal / Policy Number(s)\n申請書編號/保單號碼:\nLife Proposed / Life Assured's Name\n受保人姓名:\nApplication Form for Automatic Premium Loan Option\n自動保費貸款選項申請表\nAutomatic Premium Loan Option\n自動保費貸款選項\nDeclaration\n聲明\nI request to apply Automatic Premium Loan clause to the policy which the amount of premium or premium and levy shall be automatically\ndeemed to be paid by a premium loan and extend to the premium(s) or premium(s) and levy(ies) for any supplementary benefit(s) when the\nPlan is paid up.\n本人申請應用自動保費貸款條文於此保單,即保費或保費及徵費將自動以貸款的形式繳交,並延續條文於本計劃已繳清所有保費時的附加保障之保費\n或保費及徵費。\nI declare that I have read and confirm understanding of the important notes below.\n本人在此聲明本人已閱讀並確認明白下列注意事項之內容。\nImportant Notes\n注意事項\n1. We shall charge you interest on the Automatic Premium Loan(s) starting from the date when the respective Automatic Premium Loan(s)\nis incurred. We shall determine the interest rate charged on the Automatic Premium Loan(s).\n本公司將會由自動保費貸款日期開始收取自動保費貸款的利息,有關利率將由本公司釐訂。\n2. The policy will be automatically terminated once the total outstanding loan amount (including interest) owing to us under your policy\nexceeds stated percentage on Policy Contract of the guaranteed cash value of your policy minus all Advanced Claims being paid and / or\npayable of this Plan.\n本計劃將在 閣下的保單所欠本公司之未償還總金額(包括利息)超過合約訂明比率之保單保證現金價值扣除於本計劃須支付及/或已付訖的預\n支賠償總額時立即終止。\nI/We declare that I/we have read and confirm understanding of the above content.\n本人/吾等在此聲明本人/吾等已閱讀並確認明白上述之內容。\nDay\n日\nMonth\n月\nYear\n年\nSignature of Proposer / Policyowner\n(if other than the Life Proposed / Life\nAssured)\n投保人/保單持有人簽署(如投保人/保單持有\n人與受保人同為一人,可免簽署此欄)\nSignature of Life Proposed / Life Assured\n(who has attained age 18 or above)\n受保人簽署(適用於十八歲或以上的受保人)\nSignature of Consultant as Witness\n顧問 ( 即見證人 ) 簽署\nName 姓名:\nTwo witnesses are required if signature chop or fingerprint is used to sign. 若以圖章蓋印或指紋簽署,須有兩位見證人。\nPlease DO NOT sign on BLANK form. 請勿在空白表格上簽署。\nPrudential Hong Kong Limited (A member of Prudential plc group)\n保誠保險有限公司(英國保誠集團成員)\nPAIAPL0101\nVersion. 201804",
+          "filename": "Application Form for Automatic Premium Loan Option.pdf",
+          "page_number": null,
+          "score": 0.6685985,
+          "content_chunk": "PRUDENTIAL\n英 國\n保 誠本\n1\nConsultant's Name\n顧問姓名:\nDivision - Agent Code\n組別-營業員編號:\nProposal / Policy Number(s)\n申請書編號/保單號碼:\nLife Proposed / Life Assured's Name\n受保人姓名:\nApplication Form for Automatic Premium Loan Option\n自動保費貸款選項申請表\nAutomatic Premium Loan Option\n自動保費貸款選項\nDeclaration\n聲明\nI request to apply Automatic Premium Loan clause to the policy which the amount of premium or premium and levy shall be automatically\ndeemed to be paid by a premium loan and extend to the premium(s) or premium(s) and levy(ies) for any supplementary benefit(s) when the\nPlan is paid up.\n本人申請應用自動保費貸款條文於此保單,即保費或保費及徵費將自動以貸款的形式繳交,並延續條文於本計劃已繳清所有保費時的附加保障之保費\n或保費及徵費。\nI declare that I have read and confirm understanding of the important notes below.\n本人在此聲明本人已閱讀並確認明白下列注意事項之內容。\nImportant Notes\n注意事項\n1. We shall charge you interest on the Automatic Premium Loan(s) starting from the date when the respective Automatic Premium Loan(s)\nis incurred. We shall determine the interest rate charged on the Automatic Premium Loan(s).\n本公司將會由自動保費貸款日期開始收取自動保費貸款的利息,有關利率將由本公司釐訂。\n2. The policy will be automatically terminated once the total outstanding loan amount (including interest) owing to us under your policy\nexceeds stated percentage on Policy Contract of the guaranteed cash value of your policy minus all Advanced Claims being paid and / or\npayable of this Plan.\n本計劃將在 閣下的保單所欠本公司之未償還總金額(包括利息)超過合約訂明比率之保單保證現金價值扣除於本計劃須支付及/或已付訖的預\n支賠償總額時立即終止。\nI/We declare that I/we have read and confirm understanding of the above content.\n本人/吾等在此聲明本人/吾等已閱讀並確認明白上述之內容。\nDay\n日\nMonth\n月\nYear\n年\nSignature of Proposer / Policyowner\n(if other than the Life Proposed / Life\nAssured)\n投保人/保單持有人簽署(如投保人/保單持有\n人與受保人同為一人,可免簽署此欄)\nSignature of Life Proposed / Life Assured\n(who has attained age 18 or above)\n受保人簽署(適用於十八歲或以上的受保人)\nSignature of Consultant as Witness\n顧問 ( 即見證人 ) 簽署\nName 姓名:\nTwo witnesses are required if signature chop or fingerprint is used to sign. 若以圖章蓋印或指紋簽署,須有兩位見證人。\nPlease DO NOT sign on BLANK form. 請勿在空白表格上簽署。\nPrudential Hong Kong Limited (A member of Prudential plc group)\n保誠保險有限公司(英國保誠集團成員)\nPAIAPL0101\nVersion. 201804"
+        },
+        {
+          "id": "PA000066",
+          "document_id": "PA000066",
+          "title_name_en": "Policy Loan",
+          "title_name_tc": "保單貸款",
+          "content_en": "進入「ePA 申請通」服務頁面 –新增的服務\niPad ~\n10:50 AM\nePA\n% 90%\n20\n1\n←\n1\n財務\nOOL\n投資相連服務\n提取保單價值\n保費緩繳期\n退保\n附加/增加定期額外投資保費或附加一次過額外\n投資保費\n減額清繳保險\n提取投資選項\n冷靜期取消保單\n風險承擔能力問卷\n保單貸款資料查詢\n新增「保單貸款資料查詢\n」\nPRU\none「保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n* 90%\n20\n←\n区\n申請通\n保單號碼:000020008596\n保單貸款資料查詢\n「摯為您」危疾終身保計劃\n確認保單編號及客戶資\n料\n注意:\n1. 著腳下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020008596\n「擊為您」急疾終身保計劃\n01/03/2015\nINFORCE\nCHAN YUK MAN\n01/03/2024\n上一步\n取消\n下一步\n· 按「下一步」",
+          "content_tc": "進入「ePA 申請通」服務頁面 –新增的服務\niPad ~\n10:50 AM\nePA\n% 90%\n20\n1\n←\n1\n財務\nOOL\n投資相連服務\n提取保單價值\n保費緩繳期\n退保\n附加/增加定期額外投資保費或附加一次過額外\n投資保費\n減額清繳保險\n提取投資選項\n冷靜期取消保單\n風險承擔能力問卷\n保單貸款資料查詢\n新增「保單貸款資料查詢\n」\nPRU\none「保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n* 90%\n20\n←\n区\n申請通\n保單號碼:000020008596\n保單貸款資料查詢\n「摯為您」危疾終身保計劃\n確認保單編號及客戶資\n料\n注意:\n1. 著腳下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020008596\n「擊為您」急疾終身保計劃\n01/03/2015\nINFORCE\nCHAN YUK MAN\n01/03/2024\n上一步\n取消\n下一步\n· 按「下一步」",
+          "filename": "User Guide - ePA_Loan enquiry.pdf",
+          "page_number": null,
+          "score": 0.6681406,
+          "content_chunk": "進入「ePA 申請通」服務頁面 –新增的服務\niPad ~\n10:50 AM\nePA\n% 90%\n20\n1\n←\n1\n財務\nOOL\n投資相連服務\n提取保單價值\n保費緩繳期\n退保\n附加/增加定期額外投資保費或附加一次過額外\n投資保費\n減額清繳保險\n提取投資選項\n冷靜期取消保單\n風險承擔能力問卷\n保單貸款資料查詢\n新增「保單貸款資料查詢\n」\nPRU\none「保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n* 90%\n20\n←\n区\n申請通\n保單號碼:000020008596\n保單貸款資料查詢\n「摯為您」危疾終身保計劃\n確認保單編號及客戶資\n料\n注意:\n1. 著腳下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020008596\n「擊為您」急疾終身保計劃\n01/03/2015\nINFORCE\nCHAN YUK MAN\n01/03/2024\n上一步\n取消\n下一步\n· 按「下一步」"
+        }
+      ]
+    },
+    {
+      "query": "如何申請保單貸款，有咩程序？",
+      "search_method": "hybrid",
+      "total_result": 10,
+      "results": [
+        {
+          "id": "PA000066",
+          "document_id": "PA000066",
+          "title_name_en": "Policy Loan",
+          "title_name_tc": "保單貸款",
+          "content_en": "保單貸款資料查詢 -注意事項\nPRU\none\n《保單貸款資料查詢》會上傳至myPrudential。若客人未啟動\nmyPrudential帳戶,系統亦會以信件形式發送\n1\n2\n《保單貸款資料查詢》以遞交申請日的資料計算\nConfidential\n12用行動 實踐壽險行政電子化\n後勤前線 裡應外合\n讓保誠沒有難做的生意\n數碼方案及保單行政部",
+          "content_tc": "保單貸款資料查詢 -注意事項\nPRU\none\n《保單貸款資料查詢》會上傳至myPrudential。若客人未啟動\nmyPrudential帳戶,系統亦會以信件形式發送\n1\n2\n《保單貸款資料查詢》以遞交申請日的資料計算\nConfidential\n12用行動 實踐壽險行政電子化\n後勤前線 裡應外合\n讓保誠沒有難做的生意\n數碼方案及保單行政部",
+          "filename": "User Guide - ePA_Loan enquiry.pdf",
+          "page_number": null,
+          "score": 0.03253968432545662,
+          "content_chunk": "保單貸款資料查詢 -注意事項\nPRU\none\n《保單貸款資料查詢》會上傳至myPrudential。若客人未啟動\nmyPrudential帳戶,系統亦會以信件形式發送\n1\n2\n《保單貸款資料查詢》以遞交申請日的資料計算\nConfidential\n12用行動 實踐壽險行政電子化\n後勤前線 裡應外合\n讓保誠沒有難做的生意\n數碼方案及保單行政部"
+        },
+        {
+          "id": "PA000066",
+          "document_id": "PA000066",
+          "title_name_en": "Policy Loan",
+          "title_name_tc": "保單貸款",
+          "content_en": "「保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n* 90%\n20\n←\n区\n申請通\n保單號碼:000020008596\n保單貸款資料查詢\n「摯為您」危疾終身保計劃\n確認保單編號及客戶資\n料\n注意:\n1. 著腳下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020008596\n「擊為您」急疾終身保計劃\n01/03/2015\nINFORCE\nCHAN YUK MAN\n01/03/2024\n上一步\n取消\n下一步\n· 按「下一步」保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n1\n↑\n% 90%\n20\n区\n申請通\nPRUDENTIAL\n英國保誠子!\n假如這個並非您現正使用並可接收手機短訊的手提電話號碼,使用此服務前,請填妥「更改聯絡資料表格」,並交回保誠以更改您的手提電話號碼紀\n錄。假如您需要更改電郵地址,請透過 myPrudential 遞交申請。如有查詢,可致電客戶服務熱線(852)22811333(星期一至五09:00-20:00,星期六\n09:00-15:00,公眾假期除外)。\n保單號碼:000020002831 「源源收息」儲蓄保障計劃\n保單貸款資料查詢\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020002831\n「源源收息」儲蓄保障計劃\n01/01/2013\nINFORCE\nBONUS DEC 2015 YIP07861659 CHILD\n01/01/2016\n於確立保單更改申請\n資料後,按「提交」\n提交\n上一步",
+          "content_tc": "「保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n* 90%\n20\n←\n区\n申請通\n保單號碼:000020008596\n保單貸款資料查詢\n「摯為您」危疾終身保計劃\n確認保單編號及客戶資\n料\n注意:\n1. 著腳下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020008596\n「擊為您」急疾終身保計劃\n01/03/2015\nINFORCE\nCHAN YUK MAN\n01/03/2024\n上一步\n取消\n下一步\n· 按「下一步」保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n1\n↑\n% 90%\n20\n区\n申請通\nPRUDENTIAL\n英國保誠子!\n假如這個並非您現正使用並可接收手機短訊的手提電話號碼,使用此服務前,請填妥「更改聯絡資料表格」,並交回保誠以更改您的手提電話號碼紀\n錄。假如您需要更改電郵地址,請透過 myPrudential 遞交申請。如有查詢,可致電客戶服務熱線(852)22811333(星期一至五09:00-20:00,星期六\n09:00-15:00,公眾假期除外)。\n保單號碼:000020002831 「源源收息」儲蓄保障計劃\n保單貸款資料查詢\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020002831\n「源源收息」儲蓄保障計劃\n01/01/2013\nINFORCE\nBONUS DEC 2015 YIP07861659 CHILD\n01/01/2016\n於確立保單更改申請\n資料後,按「提交」\n提交\n上一步",
+          "filename": "User Guide - ePA_Loan enquiry.pdf",
+          "page_number": null,
+          "score": 0.03253968432545662,
+          "content_chunk": "「保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n* 90%\n20\n←\n区\n申請通\n保單號碼:000020008596\n保單貸款資料查詢\n「摯為您」危疾終身保計劃\n確認保單編號及客戶資\n料\n注意:\n1. 著腳下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020008596\n「擊為您」急疾終身保計劃\n01/03/2015\nINFORCE\nCHAN YUK MAN\n01/03/2024\n上一步\n取消\n下一步\n· 按「下一步」保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n1\n↑\n% 90%\n20\n区\n申請通\nPRUDENTIAL\n英國保誠子!\n假如這個並非您現正使用並可接收手機短訊的手提電話號碼,使用此服務前,請填妥「更改聯絡資料表格」,並交回保誠以更改您的手提電話號碼紀\n錄。假如您需要更改電郵地址,請透過 myPrudential 遞交申請。如有查詢,可致電客戶服務熱線(852)22811333(星期一至五09:00-20:00,星期六\n09:00-15:00,公眾假期除外)。\n保單號碼:000020002831 「源源收息」儲蓄保障計劃\n保單貸款資料查詢\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020002831\n「源源收息」儲蓄保障計劃\n01/01/2013\nINFORCE\nBONUS DEC 2015 YIP07861659 CHILD\n01/01/2016\n於確立保單更改申請\n資料後,按「提交」\n提交\n上一步"
+        },
+        {
+          "id": "PA000066",
+          "document_id": "PA000066",
+          "title_name_en": "Policy Loan",
+          "title_name_tc": "保單貸款",
+          "content_en": "保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n1\nX\n申請通\nPRUDENTIAL\n英國保誠子!\n確認保單更改申請資料\n請確認下列資料,並繼續執行資料更改的指示。\n保單號碼\n保單貸款資料將會以郵寄方式發送。若客人日後啟動myPrudential 戶口,客人可查閱「電子結單,電子通知書及信件」\n保單貸款\n是\n否\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n% 90%\n20\n000009367727\n「更美好」保障計劃\n01/03/2002\nINFORCE\n00825441 chisurname 00825441 chifirstname\n01/03/2021\n系統會有顯示保單貸\n款資料的發送方式\n提交\n上一步保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n10:50 AM\n三 く\nePA\n$ 90%\n20\n1\n←\n×\n申請通\nPRUDENTIAL\n英國保誠子\n確認遞交\n參考編號 EPA200915012721- 000010250784\n返回主頁\n遞交新的申請\n完成保單貸款資料查詢\n保單貸款資料將於下一\n個工作天上傳至\nmyPrudential",
+          "content_tc": "保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n1\nX\n申請通\nPRUDENTIAL\n英國保誠子!\n確認保單更改申請資料\n請確認下列資料,並繼續執行資料更改的指示。\n保單號碼\n保單貸款資料將會以郵寄方式發送。若客人日後啟動myPrudential 戶口,客人可查閱「電子結單,電子通知書及信件」\n保單貸款\n是\n否\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n% 90%\n20\n000009367727\n「更美好」保障計劃\n01/03/2002\nINFORCE\n00825441 chisurname 00825441 chifirstname\n01/03/2021\n系統會有顯示保單貸\n款資料的發送方式\n提交\n上一步保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n10:50 AM\n三 く\nePA\n$ 90%\n20\n1\n←\n×\n申請通\nPRUDENTIAL\n英國保誠子\n確認遞交\n參考編號 EPA200915012721- 000010250784\n返回主頁\n遞交新的申請\n完成保單貸款資料查詢\n保單貸款資料將於下一\n個工作天上傳至\nmyPrudential",
+          "filename": "User Guide - ePA_Loan enquiry.pdf",
+          "page_number": null,
+          "score": 0.0317540317773819,
+          "content_chunk": "保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n1\nX\n申請通\nPRUDENTIAL\n英國保誠子!\n確認保單更改申請資料\n請確認下列資料,並繼續執行資料更改的指示。\n保單號碼\n保單貸款資料將會以郵寄方式發送。若客人日後啟動myPrudential 戶口,客人可查閱「電子結單,電子通知書及信件」\n保單貸款\n是\n否\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n% 90%\n20\n000009367727\n「更美好」保障計劃\n01/03/2002\nINFORCE\n00825441 chisurname 00825441 chifirstname\n01/03/2021\n系統會有顯示保單貸\n款資料的發送方式\n提交\n上一步保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n10:50 AM\n三 く\nePA\n$ 90%\n20\n1\n←\n×\n申請通\nPRUDENTIAL\n英國保誠子\n確認遞交\n參考編號 EPA200915012721- 000010250784\n返回主頁\n遞交新的申請\n完成保單貸款資料查詢\n保單貸款資料將於下一\n個工作天上傳至\nmyPrudential"
+        },
+        {
+          "id": "PA000066",
+          "document_id": "PA000066",
+          "title_name_en": "Policy Loan",
+          "title_name_tc": "保單貸款",
+          "content_en": "保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n10:50 AM\n三 く\nePA\n$ 90%\n20\n1\n←\n×\n申請通\nPRUDENTIAL\n英國保誠子\n確認遞交\n參考編號 EPA200915012721- 000010250784\n返回主頁\n遞交新的申請\n完成保單貸款資料查詢\n保單貸款資料將於下一\n個工作天上傳至\nmyPrudential保單貸款資料查詢 -注意事項\nPRU\none\n《保單貸款資料查詢》會上傳至myPrudential。若客人未啟動\nmyPrudential帳戶,系統亦會以信件形式發送\n1\n2\n《保單貸款資料查詢》以遞交申請日的資料計算\nConfidential\n12",
+          "content_tc": "保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n10:50 AM\n三 く\nePA\n$ 90%\n20\n1\n←\n×\n申請通\nPRUDENTIAL\n英國保誠子\n確認遞交\n參考編號 EPA200915012721- 000010250784\n返回主頁\n遞交新的申請\n完成保單貸款資料查詢\n保單貸款資料將於下一\n個工作天上傳至\nmyPrudential保單貸款資料查詢 -注意事項\nPRU\none\n《保單貸款資料查詢》會上傳至myPrudential。若客人未啟動\nmyPrudential帳戶,系統亦會以信件形式發送\n1\n2\n《保單貸款資料查詢》以遞交申請日的資料計算\nConfidential\n12",
+          "filename": "User Guide - ePA_Loan enquiry.pdf",
+          "page_number": null,
+          "score": 0.03131881356239319,
+          "content_chunk": "保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n10:50 AM\n三 く\nePA\n$ 90%\n20\n1\n←\n×\n申請通\nPRUDENTIAL\n英國保誠子\n確認遞交\n參考編號 EPA200915012721- 000010250784\n返回主頁\n遞交新的申請\n完成保單貸款資料查詢\n保單貸款資料將於下一\n個工作天上傳至\nmyPrudential保單貸款資料查詢 -注意事項\nPRU\none\n《保單貸款資料查詢》會上傳至myPrudential。若客人未啟動\nmyPrudential帳戶,系統亦會以信件形式發送\n1\n2\n《保單貸款資料查詢》以遞交申請日的資料計算\nConfidential\n12"
+        },
+        {
+          "id": "PA000066",
+          "document_id": "PA000066",
+          "title_name_en": "Policy Loan",
+          "title_name_tc": "保單貸款",
+          "content_en": "進入「ePA 申請通」服務頁面 –新增的服務\niPad ~\n10:50 AM\nePA\n% 90%\n20\n1\n←\n1\n財務\nOOL\n投資相連服務\n提取保單價值\n保費緩繳期\n退保\n附加/增加定期額外投資保費或附加一次過額外\n投資保費\n減額清繳保險\n提取投資選項\n冷靜期取消保單\n風險承擔能力問卷\n保單貸款資料查詢\n新增「保單貸款資料查詢\n」\nPRU\none「保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n* 90%\n20\n←\n区\n申請通\n保單號碼:000020008596\n保單貸款資料查詢\n「摯為您」危疾終身保計劃\n確認保單編號及客戶資\n料\n注意:\n1. 著腳下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020008596\n「擊為您」急疾終身保計劃\n01/03/2015\nINFORCE\nCHAN YUK MAN\n01/03/2024\n上一步\n取消\n下一步\n· 按「下一步」",
+          "content_tc": "進入「ePA 申請通」服務頁面 –新增的服務\niPad ~\n10:50 AM\nePA\n% 90%\n20\n1\n←\n1\n財務\nOOL\n投資相連服務\n提取保單價值\n保費緩繳期\n退保\n附加/增加定期額外投資保費或附加一次過額外\n投資保費\n減額清繳保險\n提取投資選項\n冷靜期取消保單\n風險承擔能力問卷\n保單貸款資料查詢\n新增「保單貸款資料查詢\n」\nPRU\none「保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n* 90%\n20\n←\n区\n申請通\n保單號碼:000020008596\n保單貸款資料查詢\n「摯為您」危疾終身保計劃\n確認保單編號及客戶資\n料\n注意:\n1. 著腳下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020008596\n「擊為您」急疾終身保計劃\n01/03/2015\nINFORCE\nCHAN YUK MAN\n01/03/2024\n上一步\n取消\n下一步\n· 按「下一步」",
+          "filename": "User Guide - ePA_Loan enquiry.pdf",
+          "page_number": null,
+          "score": 0.030621785670518875,
+          "content_chunk": "進入「ePA 申請通」服務頁面 –新增的服務\niPad ~\n10:50 AM\nePA\n% 90%\n20\n1\n←\n1\n財務\nOOL\n投資相連服務\n提取保單價值\n保費緩繳期\n退保\n附加/增加定期額外投資保費或附加一次過額外\n投資保費\n減額清繳保險\n提取投資選項\n冷靜期取消保單\n風險承擔能力問卷\n保單貸款資料查詢\n新增「保單貸款資料查詢\n」\nPRU\none「保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n* 90%\n20\n←\n区\n申請通\n保單號碼:000020008596\n保單貸款資料查詢\n「摯為您」危疾終身保計劃\n確認保單編號及客戶資\n料\n注意:\n1. 著腳下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020008596\n「擊為您」急疾終身保計劃\n01/03/2015\nINFORCE\nCHAN YUK MAN\n01/03/2024\n上一步\n取消\n下一步\n· 按「下一步」"
+        },
+        {
+          "id": "PA000066",
+          "document_id": "PA000066",
+          "title_name_en": "Policy Loan",
+          "title_name_tc": "保單貸款",
+          "content_en": "\n1\n↑\n% 90%\n20\n区\n申請通\nPRUDENTIAL\n英國保誠子!\n假如這個並非您現正使用並可接收手機短訊的手提電話號碼,使用此服務前,請填妥「更改聯絡資料表格」,並交回保誠以更改您的手提電話號碼紀\n錄。假如您需要更改電郵地址,請透過 myPrudential 遞交申請。如有查詢,可致電客戶服務熱線(852)22811333(星期一至五09:00-20:00,星期六\n09:00-15:00,公眾假期除外)。\n保單號碼:000020002831 「源源收息」儲蓄保障計劃\n保單貸款資料查詢\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020002831\n「源源收息」儲蓄保障計劃\n01/01/2013\nINFORCE\nBONUS DEC 2015 YIP07861659 CHILD\n01/01/2016\n於確立保單更改申請\n資料後,按「提交」\n提交\n上一步保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n1\nX\n申請通\nPRUDENTIAL\n英國保誠子!\n確認保單更改申請資料\n請確認下列資料,並繼續執行資料更改的指示。\n保單號碼\n保單貸款資料將會以郵寄方式發送。若客人日後啟動myPrudential 戶口,客人可查閱「電子結單,電子通知書及信件」\n保單貸款\n是\n否\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n% 90%\n20\n000009367727\n「更美好」保障計劃\n01/03/2002\nINFORCE\n00825441 chisurname 00825441 chifirstname\n01/03/2021\n系統會有顯示保單貸\n款資料的發送方式\n提交\n上一步",
+          "content_tc": "\n1\n↑\n% 90%\n20\n区\n申請通\nPRUDENTIAL\n英國保誠子!\n假如這個並非您現正使用並可接收手機短訊的手提電話號碼,使用此服務前,請填妥「更改聯絡資料表格」,並交回保誠以更改您的手提電話號碼紀\n錄。假如您需要更改電郵地址,請透過 myPrudential 遞交申請。如有查詢,可致電客戶服務熱線(852)22811333(星期一至五09:00-20:00,星期六\n09:00-15:00,公眾假期除外)。\n保單號碼:000020002831 「源源收息」儲蓄保障計劃\n保單貸款資料查詢\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020002831\n「源源收息」儲蓄保障計劃\n01/01/2013\nINFORCE\nBONUS DEC 2015 YIP07861659 CHILD\n01/01/2016\n於確立保單更改申請\n資料後,按「提交」\n提交\n上一步保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n1\nX\n申請通\nPRUDENTIAL\n英國保誠子!\n確認保單更改申請資料\n請確認下列資料,並繼續執行資料更改的指示。\n保單號碼\n保單貸款資料將會以郵寄方式發送。若客人日後啟動myPrudential 戶口,客人可查閱「電子結單,電子通知書及信件」\n保單貸款\n是\n否\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n% 90%\n20\n000009367727\n「更美好」保障計劃\n01/03/2002\nINFORCE\n00825441 chisurname 00825441 chifirstname\n01/03/2021\n系統會有顯示保單貸\n款資料的發送方式\n提交\n上一步",
+          "filename": "User Guide - ePA_Loan enquiry.pdf",
+          "page_number": null,
+          "score": 0.03055037185549736,
+          "content_chunk": "\n1\n↑\n% 90%\n20\n区\n申請通\nPRUDENTIAL\n英國保誠子!\n假如這個並非您現正使用並可接收手機短訊的手提電話號碼,使用此服務前,請填妥「更改聯絡資料表格」,並交回保誠以更改您的手提電話號碼紀\n錄。假如您需要更改電郵地址,請透過 myPrudential 遞交申請。如有查詢,可致電客戶服務熱線(852)22811333(星期一至五09:00-20:00,星期六\n09:00-15:00,公眾假期除外)。\n保單號碼:000020002831 「源源收息」儲蓄保障計劃\n保單貸款資料查詢\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020002831\n「源源收息」儲蓄保障計劃\n01/01/2013\nINFORCE\nBONUS DEC 2015 YIP07861659 CHILD\n01/01/2016\n於確立保單更改申請\n資料後,按「提交」\n提交\n上一步保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n1\nX\n申請通\nPRUDENTIAL\n英國保誠子!\n確認保單更改申請資料\n請確認下列資料,並繼續執行資料更改的指示。\n保單號碼\n保單貸款資料將會以郵寄方式發送。若客人日後啟動myPrudential 戶口,客人可查閱「電子結單,電子通知書及信件」\n保單貸款\n是\n否\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n% 90%\n20\n000009367727\n「更美好」保障計劃\n01/03/2002\nINFORCE\n00825441 chisurname 00825441 chifirstname\n01/03/2021\n系統會有顯示保單貸\n款資料的發送方式\n提交\n上一步"
+        },
+        {
+          "id": "PA000066",
+          "document_id": "PA000066",
+          "title_name_en": "Policy Loan",
+          "title_name_tc": "保單貸款",
+          "content_en": "銷售人員透過 PRUone查詢保單貸款資料\n先選擇搜尋條件再輸入關鍵字後按「搜尋」\nPRU\none\niPad ~\n三く\n10:50 AM\nePA\n$ 90%\n20\n1\nX\n申請通\nPRUDENTIAL\n英國保 誠 !!\n我的申請\nEN\n歡迎回來\n選擇客戶\n請選擇\n保單持有人姓名\n身份證/護照號碼\n保單號碼\n客戶編號\n流動電話號碼\n出生日期(日/月/年)\n號碼\n√\n號碼\n搜尋出現搜尋結果後,再按「客戶編號\n旁邊的連結,選擇你需要遞交查詢的客戶\nPRU\none\niPad ~\n三\nく\n10:50 AM\nePA\n% 90%\n1\n(p)\n20\n申請通\nPRUDENTIAL\n英國保誠!\nEN\n我的申請\n1\n英\n搜尋\n2\n輸入資料\n3\n預覽及完成\n選擇客戶\n客戶編號\n▼\n00032968\n搜尋\n客戶編號:00032968\nFUNG TIK HEI FRANKIE\n出生日期(日/月/年):01/01/1945\n/護照號碼:A999 *******\nmyPrudential 戶口狀況:已啟用 最後登入時間:20/03/2020 12:00:22",
+          "content_tc": "銷售人員透過 PRUone查詢保單貸款資料\n先選擇搜尋條件再輸入關鍵字後按「搜尋」\nPRU\none\niPad ~\n三く\n10:50 AM\nePA\n$ 90%\n20\n1\nX\n申請通\nPRUDENTIAL\n英國保 誠 !!\n我的申請\nEN\n歡迎回來\n選擇客戶\n請選擇\n保單持有人姓名\n身份證/護照號碼\n保單號碼\n客戶編號\n流動電話號碼\n出生日期(日/月/年)\n號碼\n√\n號碼\n搜尋出現搜尋結果後,再按「客戶編號\n旁邊的連結,選擇你需要遞交查詢的客戶\nPRU\none\niPad ~\n三\nく\n10:50 AM\nePA\n% 90%\n1\n(p)\n20\n申請通\nPRUDENTIAL\n英國保誠!\nEN\n我的申請\n1\n英\n搜尋\n2\n輸入資料\n3\n預覽及完成\n選擇客戶\n客戶編號\n▼\n00032968\n搜尋\n客戶編號:00032968\nFUNG TIK HEI FRANKIE\n出生日期(日/月/年):01/01/1945\n/護照號碼:A999 *******\nmyPrudential 戶口狀況:已啟用 最後登入時間:20/03/2020 12:00:22",
+          "filename": "User Guide - ePA_Loan enquiry.pdf",
+          "page_number": null,
+          "score": 0.03053613007068634,
+          "content_chunk": "銷售人員透過 PRUone查詢保單貸款資料\n先選擇搜尋條件再輸入關鍵字後按「搜尋」\nPRU\none\niPad ~\n三く\n10:50 AM\nePA\n$ 90%\n20\n1\nX\n申請通\nPRUDENTIAL\n英國保 誠 !!\n我的申請\nEN\n歡迎回來\n選擇客戶\n請選擇\n保單持有人姓名\n身份證/護照號碼\n保單號碼\n客戶編號\n流動電話號碼\n出生日期(日/月/年)\n號碼\n√\n號碼\n搜尋出現搜尋結果後,再按「客戶編號\n旁邊的連結,選擇你需要遞交查詢的客戶\nPRU\none\niPad ~\n三\nく\n10:50 AM\nePA\n% 90%\n1\n(p)\n20\n申請通\nPRUDENTIAL\n英國保誠!\nEN\n我的申請\n1\n英\n搜尋\n2\n輸入資料\n3\n預覽及完成\n選擇客戶\n客戶編號\n▼\n00032968\n搜尋\n客戶編號:00032968\nFUNG TIK HEI FRANKIE\n出生日期(日/月/年):01/01/1945\n/護照號碼:A999 *******\nmyPrudential 戶口狀況:已啟用 最後登入時間:20/03/2020 12:00:22"
+        },
+        {
+          "id": "PA000066",
+          "document_id": "PA000066",
+          "title_name_en": "Policy Loan",
+          "title_name_tc": "保單貸款",
+          "content_en": "PRUDENTIAL\n保 誠\n英 國\nePA 申請通\n保單貸款資料查詢\n數碼方案及保單行政部",
+          "content_tc": "PRUDENTIAL\n保 誠\n英 國\nePA 申請通\n保單貸款資料查詢\n數碼方案及保單行政部",
+          "filename": "User Guide - ePA_Loan enquiry.pdf",
+          "page_number": null,
+          "score": 0.030477948486804962,
+          "content_chunk": "PRUDENTIAL\n保 誠\n英 國\nePA 申請通\n保單貸款資料查詢\n數碼方案及保單行政部"
+        },
+        {
+          "id": "PA000066",
+          "document_id": "PA000066",
+          "title_name_en": "Policy Loan",
+          "title_name_tc": "保單貸款",
+          "content_en": "PRUDENTIAL\n保 誠\n英 國\nePA 申請通\n保單貸款資料查詢\n數碼方案及保單行政部新增服務簡介\nPRU\none\n● 此服務適用於有貸款結欠之保單\n保單貸款資料\n查詢\n● 銷售人員和客人均無需於頁面上簽署\n或輸入一次有效驗證碼\n● 保單貸款資料將於下一個工作天上傳\n£myPrudential",
+          "content_tc": "PRUDENTIAL\n保 誠\n英 國\nePA 申請通\n保單貸款資料查詢\n數碼方案及保單行政部新增服務簡介\nPRU\none\n● 此服務適用於有貸款結欠之保單\n保單貸款資料\n查詢\n● 銷售人員和客人均無需於頁面上簽署\n或輸入一次有效驗證碼\n● 保單貸款資料將於下一個工作天上傳\n£myPrudential",
+          "filename": "User Guide - ePA_Loan enquiry.pdf",
+          "page_number": null,
+          "score": 0.03009049780666828,
+          "content_chunk": "PRUDENTIAL\n保 誠\n英 國\nePA 申請通\n保單貸款資料查詢\n數碼方案及保單行政部新增服務簡介\nPRU\none\n● 此服務適用於有貸款結欠之保單\n保單貸款資料\n查詢\n● 銷售人員和客人均無需於頁面上簽署\n或輸入一次有效驗證碼\n● 保單貸款資料將於下一個工作天上傳\n£myPrudential"
+        },
+        {
+          "id": "PA000066",
+          "document_id": "PA000066",
+          "title_name_en": "Policy Loan",
+          "title_name_tc": "保單貸款",
+          "content_en": "新增服務簡介\nPRU\none\n● 此服務適用於有貸款結欠之保單\n保單貸款資料\n查詢\n● 銷售人員和客人均無需於頁面上簽署\n或輸入一次有效驗證碼\n● 保單貸款資料將於下一個工作天上傳\n£myPrudentialePA申請通 保單貸款資料查詢\nPRU\none\n以下途徑都可以搵到「ePA 申請通」功能\n財務策劃\n客戶及保單\n網上服務\n業績及獎賞\n我的客戶推廣\n易跟進\n最新\nFonz\nward\nFO\nNG\nAV\n16\nNG\nRDS\n馬推獎\n7.\nINSURANCE\nAWARDS 2017\nJop 3\n申請通\n最新\nO\n11\n登記 - 轉換理財顧\nWSA\nWORLD SUMMIT AWARDS\nMOBILE\nPRUone->「客戶及保單」->「申請通\n個人及通訊\nLA電子報告\n$\n個人及通訊\n更改保單申請\n個人資料、佣金\n電郵工具、PRUChat\n→\n登出",
+          "content_tc": "新增服務簡介\nPRU\none\n● 此服務適用於有貸款結欠之保單\n保單貸款資料\n查詢\n● 銷售人員和客人均無需於頁面上簽署\n或輸入一次有效驗證碼\n● 保單貸款資料將於下一個工作天上傳\n£myPrudentialePA申請通 保單貸款資料查詢\nPRU\none\n以下途徑都可以搵到「ePA 申請通」功能\n財務策劃\n客戶及保單\n網上服務\n業績及獎賞\n我的客戶推廣\n易跟進\n最新\nFonz\nward\nFO\nNG\nAV\n16\nNG\nRDS\n馬推獎\n7.\nINSURANCE\nAWARDS 2017\nJop 3\n申請通\n最新\nO\n11\n登記 - 轉換理財顧\nWSA\nWORLD SUMMIT AWARDS\nMOBILE\nPRUone->「客戶及保單」->「申請通\n個人及通訊\nLA電子報告\n$\n個人及通訊\n更改保單申請\n個人資料、佣金\n電郵工具、PRUChat\n→\n登出",
+          "filename": "User Guide - ePA_Loan enquiry.pdf",
+          "page_number": null,
+          "score": 0.028577260673046112,
+          "content_chunk": "新增服務簡介\nPRU\none\n● 此服務適用於有貸款結欠之保單\n保單貸款資料\n查詢\n● 銷售人員和客人均無需於頁面上簽署\n或輸入一次有效驗證碼\n● 保單貸款資料將於下一個工作天上傳\n£myPrudentialePA申請通 保單貸款資料查詢\nPRU\none\n以下途徑都可以搵到「ePA 申請通」功能\n財務策劃\n客戶及保單\n網上服務\n業績及獎賞\n我的客戶推廣\n易跟進\n最新\nFonz\nward\nFO\nNG\nAV\n16\nNG\nRDS\n馬推獎\n7.\nINSURANCE\nAWARDS 2017\nJop 3\n申請通\n最新\nO\n11\n登記 - 轉換理財顧\nWSA\nWORLD SUMMIT AWARDS\nMOBILE\nPRUone->「客戶及保單」->「申請通\n個人及通訊\nLA電子報告\n$\n個人及通訊\n更改保單申請\n個人資料、佣金\n電郵工具、PRUChat\n→\n登出"
+        }
+      ]
+    },
+    {
+      "query": "如何申請保單貸款，有咩程序？",
+      "search_method": "simple",
+      "total_result": 10,
+      "results": [
+        {
+          "id": "PA000066",
+          "document_id": "PA000066",
+          "title_name_en": "Policy Loan",
+          "title_name_tc": "保單貸款",
+          "content_en": "「保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n* 90%\n20\n←\n区\n申請通\n保單號碼:000020008596\n保單貸款資料查詢\n「摯為您」危疾終身保計劃\n確認保單編號及客戶資\n料\n注意:\n1. 著腳下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020008596\n「擊為您」急疾終身保計劃\n01/03/2015\nINFORCE\nCHAN YUK MAN\n01/03/2024\n上一步\n取消\n下一步\n· 按「下一步」保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n1\n↑\n% 90%\n20\n区\n申請通\nPRUDENTIAL\n英國保誠子!\n假如這個並非您現正使用並可接收手機短訊的手提電話號碼,使用此服務前,請填妥「更改聯絡資料表格」,並交回保誠以更改您的手提電話號碼紀\n錄。假如您需要更改電郵地址,請透過 myPrudential 遞交申請。如有查詢,可致電客戶服務熱線(852)22811333(星期一至五09:00-20:00,星期六\n09:00-15:00,公眾假期除外)。\n保單號碼:000020002831 「源源收息」儲蓄保障計劃\n保單貸款資料查詢\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020002831\n「源源收息」儲蓄保障計劃\n01/01/2013\nINFORCE\nBONUS DEC 2015 YIP07861659 CHILD\n01/01/2016\n於確立保單更改申請\n資料後,按「提交」\n提交\n上一步",
+          "content_tc": "「保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n* 90%\n20\n←\n区\n申請通\n保單號碼:000020008596\n保單貸款資料查詢\n「摯為您」危疾終身保計劃\n確認保單編號及客戶資\n料\n注意:\n1. 著腳下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020008596\n「擊為您」急疾終身保計劃\n01/03/2015\nINFORCE\nCHAN YUK MAN\n01/03/2024\n上一步\n取消\n下一步\n· 按「下一步」保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n1\n↑\n% 90%\n20\n区\n申請通\nPRUDENTIAL\n英國保誠子!\n假如這個並非您現正使用並可接收手機短訊的手提電話號碼,使用此服務前,請填妥「更改聯絡資料表格」,並交回保誠以更改您的手提電話號碼紀\n錄。假如您需要更改電郵地址,請透過 myPrudential 遞交申請。如有查詢,可致電客戶服務熱線(852)22811333(星期一至五09:00-20:00,星期六\n09:00-15:00,公眾假期除外)。\n保單號碼:000020002831 「源源收息」儲蓄保障計劃\n保單貸款資料查詢\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020002831\n「源源收息」儲蓄保障計劃\n01/01/2013\nINFORCE\nBONUS DEC 2015 YIP07861659 CHILD\n01/01/2016\n於確立保單更改申請\n資料後,按「提交」\n提交\n上一步",
+          "filename": "User Guide - ePA_Loan enquiry.pdf",
+          "page_number": null,
+          "score": 33.41799,
+          "content_chunk": ""
+        },
+        {
+          "id": "PA000066",
+          "document_id": "PA000066",
+          "title_name_en": "Policy Loan",
+          "title_name_tc": "保單貸款",
+          "content_en": "保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n10:50 AM\n三 く\nePA\n$ 90%\n20\n1\n←\n×\n申請通\nPRUDENTIAL\n英國保誠子\n確認遞交\n參考編號 EPA200915012721- 000010250784\n返回主頁\n遞交新的申請\n完成保單貸款資料查詢\n保單貸款資料將於下一\n個工作天上傳至\nmyPrudential保單貸款資料查詢 -注意事項\nPRU\none\n《保單貸款資料查詢》會上傳至myPrudential。若客人未啟動\nmyPrudential帳戶,系統亦會以信件形式發送\n1\n2\n《保單貸款資料查詢》以遞交申請日的資料計算\nConfidential\n12",
+          "content_tc": "保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n10:50 AM\n三 く\nePA\n$ 90%\n20\n1\n←\n×\n申請通\nPRUDENTIAL\n英國保誠子\n確認遞交\n參考編號 EPA200915012721- 000010250784\n返回主頁\n遞交新的申請\n完成保單貸款資料查詢\n保單貸款資料將於下一\n個工作天上傳至\nmyPrudential保單貸款資料查詢 -注意事項\nPRU\none\n《保單貸款資料查詢》會上傳至myPrudential。若客人未啟動\nmyPrudential帳戶,系統亦會以信件形式發送\n1\n2\n《保單貸款資料查詢》以遞交申請日的資料計算\nConfidential\n12",
+          "filename": "User Guide - ePA_Loan enquiry.pdf",
+          "page_number": null,
+          "score": 32.64684,
+          "content_chunk": ""
+        },
+        {
+          "id": "PA000066",
+          "document_id": "PA000066",
+          "title_name_en": "Policy Loan",
+          "title_name_tc": "保單貸款",
+          "content_en": "進入「ePA 申請通」服務頁面 –新增的服務\niPad ~\n10:50 AM\nePA\n% 90%\n20\n1\n←\n1\n財務\nOOL\n投資相連服務\n提取保單價值\n保費緩繳期\n退保\n附加/增加定期額外投資保費或附加一次過額外\n投資保費\n減額清繳保險\n提取投資選項\n冷靜期取消保單\n風險承擔能力問卷\n保單貸款資料查詢\n新增「保單貸款資料查詢\n」\nPRU\none「保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n* 90%\n20\n←\n区\n申請通\n保單號碼:000020008596\n保單貸款資料查詢\n「摯為您」危疾終身保計劃\n確認保單編號及客戶資\n料\n注意:\n1. 著腳下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020008596\n「擊為您」急疾終身保計劃\n01/03/2015\nINFORCE\nCHAN YUK MAN\n01/03/2024\n上一步\n取消\n下一步\n· 按「下一步」",
+          "content_tc": "進入「ePA 申請通」服務頁面 –新增的服務\niPad ~\n10:50 AM\nePA\n% 90%\n20\n1\n←\n1\n財務\nOOL\n投資相連服務\n提取保單價值\n保費緩繳期\n退保\n附加/增加定期額外投資保費或附加一次過額外\n投資保費\n減額清繳保險\n提取投資選項\n冷靜期取消保單\n風險承擔能力問卷\n保單貸款資料查詢\n新增「保單貸款資料查詢\n」\nPRU\none「保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n* 90%\n20\n←\n区\n申請通\n保單號碼:000020008596\n保單貸款資料查詢\n「摯為您」危疾終身保計劃\n確認保單編號及客戶資\n料\n注意:\n1. 著腳下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020008596\n「擊為您」急疾終身保計劃\n01/03/2015\nINFORCE\nCHAN YUK MAN\n01/03/2024\n上一步\n取消\n下一步\n· 按「下一步」",
+          "filename": "User Guide - ePA_Loan enquiry.pdf",
+          "page_number": null,
+          "score": 31.979136,
+          "content_chunk": ""
+        },
+        {
+          "id": "PA000066",
+          "document_id": "PA000066",
+          "title_name_en": "Policy Loan",
+          "title_name_tc": "保單貸款",
+          "content_en": "保單貸款資料查詢 -注意事項\nPRU\none\n《保單貸款資料查詢》會上傳至myPrudential。若客人未啟動\nmyPrudential帳戶,系統亦會以信件形式發送\n1\n2\n《保單貸款資料查詢》以遞交申請日的資料計算\nConfidential\n12用行動 實踐壽險行政電子化\n後勤前線 裡應外合\n讓保誠沒有難做的生意\n數碼方案及保單行政部",
+          "content_tc": "保單貸款資料查詢 -注意事項\nPRU\none\n《保單貸款資料查詢》會上傳至myPrudential。若客人未啟動\nmyPrudential帳戶,系統亦會以信件形式發送\n1\n2\n《保單貸款資料查詢》以遞交申請日的資料計算\nConfidential\n12用行動 實踐壽險行政電子化\n後勤前線 裡應外合\n讓保誠沒有難做的生意\n數碼方案及保單行政部",
+          "filename": "User Guide - ePA_Loan enquiry.pdf",
+          "page_number": null,
+          "score": 31.861092,
+          "content_chunk": ""
+        },
+        {
+          "id": "PA000066",
+          "document_id": "PA000066",
+          "title_name_en": "Policy Loan",
+          "title_name_tc": "保單貸款",
+          "content_en": "保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n1\nX\n申請通\nPRUDENTIAL\n英國保誠子!\n確認保單更改申請資料\n請確認下列資料,並繼續執行資料更改的指示。\n保單號碼\n保單貸款資料將會以郵寄方式發送。若客人日後啟動myPrudential 戶口,客人可查閱「電子結單,電子通知書及信件」\n保單貸款\n是\n否\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n% 90%\n20\n000009367727\n「更美好」保障計劃\n01/03/2002\nINFORCE\n00825441 chisurname 00825441 chifirstname\n01/03/2021\n系統會有顯示保單貸\n款資料的發送方式\n提交\n上一步保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n10:50 AM\n三 く\nePA\n$ 90%\n20\n1\n←\n×\n申請通\nPRUDENTIAL\n英國保誠子\n確認遞交\n參考編號 EPA200915012721- 000010250784\n返回主頁\n遞交新的申請\n完成保單貸款資料查詢\n保單貸款資料將於下一\n個工作天上傳至\nmyPrudential",
+          "content_tc": "保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n1\nX\n申請通\nPRUDENTIAL\n英國保誠子!\n確認保單更改申請資料\n請確認下列資料,並繼續執行資料更改的指示。\n保單號碼\n保單貸款資料將會以郵寄方式發送。若客人日後啟動myPrudential 戶口,客人可查閱「電子結單,電子通知書及信件」\n保單貸款\n是\n否\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n% 90%\n20\n000009367727\n「更美好」保障計劃\n01/03/2002\nINFORCE\n00825441 chisurname 00825441 chifirstname\n01/03/2021\n系統會有顯示保單貸\n款資料的發送方式\n提交\n上一步保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n10:50 AM\n三 く\nePA\n$ 90%\n20\n1\n←\n×\n申請通\nPRUDENTIAL\n英國保誠子\n確認遞交\n參考編號 EPA200915012721- 000010250784\n返回主頁\n遞交新的申請\n完成保單貸款資料查詢\n保單貸款資料將於下一\n個工作天上傳至\nmyPrudential",
+          "filename": "User Guide - ePA_Loan enquiry.pdf",
+          "page_number": null,
+          "score": 31.652706,
+          "content_chunk": ""
+        },
+        {
+          "id": "PA000066",
+          "document_id": "PA000066",
+          "title_name_en": "Policy Loan",
+          "title_name_tc": "保單貸款",
+          "content_en": "銷售人員透過 PRUone查詢保單貸款資料\n先選擇搜尋條件再輸入關鍵字後按「搜尋」\nPRU\none\niPad ~\n三く\n10:50 AM\nePA\n$ 90%\n20\n1\nX\n申請通\nPRUDENTIAL\n英國保 誠 !!\n我的申請\nEN\n歡迎回來\n選擇客戶\n請選擇\n保單持有人姓名\n身份證/護照號碼\n保單號碼\n客戶編號\n流動電話號碼\n出生日期(日/月/年)\n號碼\n√\n號碼\n搜尋出現搜尋結果後,再按「客戶編號\n旁邊的連結,選擇你需要遞交查詢的客戶\nPRU\none\niPad ~\n三\nく\n10:50 AM\nePA\n% 90%\n1\n(p)\n20\n申請通\nPRUDENTIAL\n英國保誠!\nEN\n我的申請\n1\n英\n搜尋\n2\n輸入資料\n3\n預覽及完成\n選擇客戶\n客戶編號\n▼\n00032968\n搜尋\n客戶編號:00032968\nFUNG TIK HEI FRANKIE\n出生日期(日/月/年):01/01/1945\n/護照號碼:A999 *******\nmyPrudential 戶口狀況:已啟用 最後登入時間:20/03/2020 12:00:22",
+          "content_tc": "銷售人員透過 PRUone查詢保單貸款資料\n先選擇搜尋條件再輸入關鍵字後按「搜尋」\nPRU\none\niPad ~\n三く\n10:50 AM\nePA\n$ 90%\n20\n1\nX\n申請通\nPRUDENTIAL\n英國保 誠 !!\n我的申請\nEN\n歡迎回來\n選擇客戶\n請選擇\n保單持有人姓名\n身份證/護照號碼\n保單號碼\n客戶編號\n流動電話號碼\n出生日期(日/月/年)\n號碼\n√\n號碼\n搜尋出現搜尋結果後,再按「客戶編號\n旁邊的連結,選擇你需要遞交查詢的客戶\nPRU\none\niPad ~\n三\nく\n10:50 AM\nePA\n% 90%\n1\n(p)\n20\n申請通\nPRUDENTIAL\n英國保誠!\nEN\n我的申請\n1\n英\n搜尋\n2\n輸入資料\n3\n預覽及完成\n選擇客戶\n客戶編號\n▼\n00032968\n搜尋\n客戶編號:00032968\nFUNG TIK HEI FRANKIE\n出生日期(日/月/年):01/01/1945\n/護照號碼:A999 *******\nmyPrudential 戶口狀況:已啟用 最後登入時間:20/03/2020 12:00:22",
+          "filename": "User Guide - ePA_Loan enquiry.pdf",
+          "page_number": null,
+          "score": 30.524805,
+          "content_chunk": ""
+        },
+        {
+          "id": "PA000066",
+          "document_id": "PA000066",
+          "title_name_en": "Policy Loan",
+          "title_name_tc": "保單貸款",
+          "content_en": "0:50 AM\n% 90%\n-\n=\n<\n20\nePA\n1\n®\n申請通\nPRUDENTIAL\n英國保誠子!\nEN\n我的申請\n1\n英\n搜尋\n2\n輸入資料\n3\n預覽及完成\n選擇客戶\n客戶編號\n.\n00032968\n搜尋\n客戶編號:00032968\nFUNG TIK HEI FRANKIE\n出生日期(日/月/年):01/01/1945\n身份證/護照號碼:A999 *******\n0\nmyPrudential 戶口狀況:已啟用√最後登入時間:20/03/2020 12:00:22\n保單號碼\n保單狀況 →\n受保人\n000002005307\nWhole Life\nAssurance\nFULLY PAID\nUP\n馮 狄希\n08963317\nole Life\nsurance\nFULLY PAID\nUP\n馮 狄希\n000008968944\nWhole Life\nAssurance\nFULLY PAID\nUP\n馮 狄希\n000009004507\nWhole Life\nAssurance\nFULLY PAID\nUP\n馮 狄希\n000009027843\nWhole Life\nFULLY PAID\nUP\n馮 狄希進入「ePA 申請通」服務頁面 –新增的服務\niPad ~\n10:50 AM\nePA\n% 90%\n20\n1\n←\n1\n財務\nOOL\n投資相連服務\n提取保單價值\n保費緩繳期\n退保\n附加/增加定期額外投資保費或附加一次過額外\n投資保費\n減額清繳保險\n提取投資選項\n冷靜期取消保單\n風險承擔能力問卷\n保單貸款資料查詢\n新增「保單貸款資料查詢\n」\nPRU\none",
+          "content_tc": "0:50 AM\n% 90%\n-\n=\n<\n20\nePA\n1\n®\n申請通\nPRUDENTIAL\n英國保誠子!\nEN\n我的申請\n1\n英\n搜尋\n2\n輸入資料\n3\n預覽及完成\n選擇客戶\n客戶編號\n.\n00032968\n搜尋\n客戶編號:00032968\nFUNG TIK HEI FRANKIE\n出生日期(日/月/年):01/01/1945\n身份證/護照號碼:A999 *******\n0\nmyPrudential 戶口狀況:已啟用√最後登入時間:20/03/2020 12:00:22\n保單號碼\n保單狀況 →\n受保人\n000002005307\nWhole Life\nAssurance\nFULLY PAID\nUP\n馮 狄希\n08963317\nole Life\nsurance\nFULLY PAID\nUP\n馮 狄希\n000008968944\nWhole Life\nAssurance\nFULLY PAID\nUP\n馮 狄希\n000009004507\nWhole Life\nAssurance\nFULLY PAID\nUP\n馮 狄希\n000009027843\nWhole Life\nFULLY PAID\nUP\n馮 狄希進入「ePA 申請通」服務頁面 –新增的服務\niPad ~\n10:50 AM\nePA\n% 90%\n20\n1\n←\n1\n財務\nOOL\n投資相連服務\n提取保單價值\n保費緩繳期\n退保\n附加/增加定期額外投資保費或附加一次過額外\n投資保費\n減額清繳保險\n提取投資選項\n冷靜期取消保單\n風險承擔能力問卷\n保單貸款資料查詢\n新增「保單貸款資料查詢\n」\nPRU\none",
+          "filename": "User Guide - ePA_Loan enquiry.pdf",
+          "page_number": null,
+          "score": 30.378128,
+          "content_chunk": ""
+        },
+        {
+          "id": "PA000066",
+          "document_id": "PA000066",
+          "title_name_en": "Policy Loan",
+          "title_name_tc": "保單貸款",
+          "content_en": "\n1\n↑\n% 90%\n20\n区\n申請通\nPRUDENTIAL\n英國保誠子!\n假如這個並非您現正使用並可接收手機短訊的手提電話號碼,使用此服務前,請填妥「更改聯絡資料表格」,並交回保誠以更改您的手提電話號碼紀\n錄。假如您需要更改電郵地址,請透過 myPrudential 遞交申請。如有查詢,可致電客戶服務熱線(852)22811333(星期一至五09:00-20:00,星期六\n09:00-15:00,公眾假期除外)。\n保單號碼:000020002831 「源源收息」儲蓄保障計劃\n保單貸款資料查詢\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020002831\n「源源收息」儲蓄保障計劃\n01/01/2013\nINFORCE\nBONUS DEC 2015 YIP07861659 CHILD\n01/01/2016\n於確立保單更改申請\n資料後,按「提交」\n提交\n上一步保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n1\nX\n申請通\nPRUDENTIAL\n英國保誠子!\n確認保單更改申請資料\n請確認下列資料,並繼續執行資料更改的指示。\n保單號碼\n保單貸款資料將會以郵寄方式發送。若客人日後啟動myPrudential 戶口,客人可查閱「電子結單,電子通知書及信件」\n保單貸款\n是\n否\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n% 90%\n20\n000009367727\n「更美好」保障計劃\n01/03/2002\nINFORCE\n00825441 chisurname 00825441 chifirstname\n01/03/2021\n系統會有顯示保單貸\n款資料的發送方式\n提交\n上一步",
+          "content_tc": "\n1\n↑\n% 90%\n20\n区\n申請通\nPRUDENTIAL\n英國保誠子!\n假如這個並非您現正使用並可接收手機短訊的手提電話號碼,使用此服務前,請填妥「更改聯絡資料表格」,並交回保誠以更改您的手提電話號碼紀\n錄。假如您需要更改電郵地址,請透過 myPrudential 遞交申請。如有查詢,可致電客戶服務熱線(852)22811333(星期一至五09:00-20:00,星期六\n09:00-15:00,公眾假期除外)。\n保單號碼:000020002831 「源源收息」儲蓄保障計劃\n保單貸款資料查詢\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n000020002831\n「源源收息」儲蓄保障計劃\n01/01/2013\nINFORCE\nBONUS DEC 2015 YIP07861659 CHILD\n01/01/2016\n於確立保單更改申請\n資料後,按「提交」\n提交\n上一步保單貸款資料查詢」服務頁面\nPRU\none\niPad ~\n三 く\n10:50 AM\nePA\n1\nX\n申請通\nPRUDENTIAL\n英國保誠子!\n確認保單更改申請資料\n請確認下列資料,並繼續執行資料更改的指示。\n保單號碼\n保單貸款資料將會以郵寄方式發送。若客人日後啟動myPrudential 戶口,客人可查閱「電子結單,電子通知書及信件」\n保單貸款\n是\n否\n注意:\n1. 若閣下未能符合保誠的有關規定,保誠有權拒絕此申請。\n2. 任何不是上述保單某一方的人士或實體(包括但不限於受保人或受益人),在任何情況下均不能強制執行上述保單的任何條款。\n保單號碼\n保單生效日\n(日/月/年)\n保單狀況\n受保人\n保費到期日\n(日/月/年)\n% 90%\n20\n000009367727\n「更美好」保障計劃\n01/03/2002\nINFORCE\n00825441 chisurname 00825441 chifirstname\n01/03/2021\n系統會有顯示保單貸\n款資料的發送方式\n提交\n上一步",
+          "filename": "User Guide - ePA_Loan enquiry.pdf",
+          "page_number": null,
+          "score": 29.917131,
+          "content_chunk": ""
+        },
+        {
+          "id": "PA000066",
+          "document_id": "PA000066",
+          "title_name_en": "Policy Loan",
+          "title_name_tc": "保單貸款",
+          "content_en": "PRUDENTIAL\n保 誠\n英 國\nePA 申請通\n保單貸款資料查詢\n數碼方案及保單行政部新增服務簡介\nPRU\none\n● 此服務適用於有貸款結欠之保單\n保單貸款資料\n查詢\n● 銷售人員和客人均無需於頁面上簽署\n或輸入一次有效驗證碼\n● 保單貸款資料將於下一個工作天上傳\n£myPrudential",
+          "content_tc": "PRUDENTIAL\n保 誠\n英 國\nePA 申請通\n保單貸款資料查詢\n數碼方案及保單行政部新增服務簡介\nPRU\none\n● 此服務適用於有貸款結欠之保單\n保單貸款資料\n查詢\n● 銷售人員和客人均無需於頁面上簽署\n或輸入一次有效驗證碼\n● 保單貸款資料將於下一個工作天上傳\n£myPrudential",
+          "filename": "User Guide - ePA_Loan enquiry.pdf",
+          "page_number": null,
+          "score": 29.81251,
+          "content_chunk": ""
+        },
+        {
+          "id": "PA000066",
+          "document_id": "PA000066",
+          "title_name_en": "Policy Loan",
+          "title_name_tc": "保單貸款",
+          "content_en": "新增服務簡介\nPRU\none\n● 此服務適用於有貸款結欠之保單\n保單貸款資料\n查詢\n● 銷售人員和客人均無需於頁面上簽署\n或輸入一次有效驗證碼\n● 保單貸款資料將於下一個工作天上傳\n£myPrudentialePA申請通 保單貸款資料查詢\nPRU\none\n以下途徑都可以搵到「ePA 申請通」功能\n財務策劃\n客戶及保單\n網上服務\n業績及獎賞\n我的客戶推廣\n易跟進\n最新\nFonz\nward\nFO\nNG\nAV\n16\nNG\nRDS\n馬推獎\n7.\nINSURANCE\nAWARDS 2017\nJop 3\n申請通\n最新\nO\n11\n登記 - 轉換理財顧\nWSA\nWORLD SUMMIT AWARDS\nMOBILE\nPRUone->「客戶及保單」->「申請通\n個人及通訊\nLA電子報告\n$\n個人及通訊\n更改保單申請\n個人資料、佣金\n電郵工具、PRUChat\n→\n登出",
+          "content_tc": "新增服務簡介\nPRU\none\n● 此服務適用於有貸款結欠之保單\n保單貸款資料\n查詢\n● 銷售人員和客人均無需於頁面上簽署\n或輸入一次有效驗證碼\n● 保單貸款資料將於下一個工作天上傳\n£myPrudentialePA申請通 保單貸款資料查詢\nPRU\none\n以下途徑都可以搵到「ePA 申請通」功能\n財務策劃\n客戶及保單\n網上服務\n業績及獎賞\n我的客戶推廣\n易跟進\n最新\nFonz\nward\nFO\nNG\nAV\n16\nNG\nRDS\n馬推獎\n7.\nINSURANCE\nAWARDS 2017\nJop 3\n申請通\n最新\nO\n11\n登記 - 轉換理財顧\nWSA\nWORLD SUMMIT AWARDS\nMOBILE\nPRUone->「客戶及保單」->「申請通\n個人及通訊\nLA電子報告\n$\n個人及通訊\n更改保單申請\n個人資料、佣金\n電郵工具、PRUChat\n→\n登出",
+          "filename": "User Guide - ePA_Loan enquiry.pdf",
+          "page_number": null,
+          "score": 29.674362,
+          "content_chunk": ""
+        }
+      ]
+    }
+  ]
+}

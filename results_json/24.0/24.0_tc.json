@@ -1,0 +1,390 @@
+{
+  "question_id": "24.0",
+  "language": "tc",
+  "reference_documents": "GI000028 > 團體醫療攻略課程 Win the business p. 31\nGI000142 > PRUChoice Group Medical-BestCare Flyer_0523 p. 1\nGI000028 > gp med life regular training 20230113 p. 40-47",
+  "reference_marker": null,
+  "query": "我個客人是中小企，想買團體醫療保險。公司有什麽選擇？",
+  "runs": [
+    {
+      "query": "我個客人是中小企，想買團體醫療保險。公司有什麽選擇？",
+      "search_method": "vector",
+      "total_result": 10,
+      "results": [
+        {
+          "id": "GI000028",
+          "document_id": "GI000028",
+          "title_name_en": "GIEB Training Courses Material",
+          "title_name_tc": "GIEB 培訓課程資料",
+          "content_en": "一般計劃(General Scheme)簡介\npruworks\n一般計劃(General Scheme)旨在為人數較少的中小企,提供更多的保障選擇\n從而滿足客戶需求,幫助理財顧問促成生意\n特點\n· 提供更多的保障選擇,以供靈活組合\n· 住院及手術保障及門診保障分別多達11個及16個選項\n· 如需要保障現有員工的已存在疾病,請提供整體賠償報告以作核\n保\n投保資格\n•\n必須有5名僱員或以上\n•\n會員年齡必須在65歲以下\n· 必須參與「住院及手術保障」\n•\n其餘的投保資格與晉領計劃大致相同\neSub\n•\n要了解選項內容,必須登入PRUOne 進入 eSubmission\n•\n報價需時2個工作日\nConfidential\n47一般計劃(General Scheme) eSubmission\n$1\npruworks\n三\n輸入報價資料\npruworks\n要了解一般計劃(General Scheme)的選項內容,\n必須登入PRUOne,從而進入 eSubmission\n下載計劃報價書\n輸入申請資料\n提交申請\n報價編號、版本:將於報價保存/提交後顯示\n公司資料(必須填寫)\n公司名稱*\n客戶在其他保險公司已成立團體醫療計劃嗎?\n是 ●否\n(EN)\n1\n必須填寫英文公司名稱。當此報價被保存後,公司名稱便不可更改。\n生效日期*\n(中)\n1\n業務性質*\n其他公司資料\n>\n● 一般計劃(非保誠精選)\n保障選擇\n保誠精選「團體醫療賣」晉領計劃\n48",
+          "content_tc": "一般計劃(General Scheme)簡介\npruworks\n一般計劃(General Scheme)旨在為人數較少的中小企,提供更多的保障選擇\n從而滿足客戶需求,幫助理財顧問促成生意\n特點\n· 提供更多的保障選擇,以供靈活組合\n· 住院及手術保障及門診保障分別多達11個及16個選項\n· 如需要保障現有員工的已存在疾病,請提供整體賠償報告以作核\n保\n投保資格\n•\n必須有5名僱員或以上\n•\n會員年齡必須在65歲以下\n· 必須參與「住院及手術保障」\n•\n其餘的投保資格與晉領計劃大致相同\neSub\n•\n要了解選項內容,必須登入PRUOne 進入 eSubmission\n•\n報價需時2個工作日\nConfidential\n47一般計劃(General Scheme) eSubmission\n$1\npruworks\n三\n輸入報價資料\npruworks\n要了解一般計劃(General Scheme)的選項內容,\n必須登入PRUOne,從而進入 eSubmission\n下載計劃報價書\n輸入申請資料\n提交申請\n報價編號、版本:將於報價保存/提交後顯示\n公司資料(必須填寫)\n公司名稱*\n客戶在其他保險公司已成立團體醫療計劃嗎?\n是 ●否\n(EN)\n1\n必須填寫英文公司名稱。當此報價被保存後,公司名稱便不可更改。\n生效日期*\n(中)\n1\n業務性質*\n其他公司資料\n>\n● 一般計劃(非保誠精選)\n保障選擇\n保誠精選「團體醫療賣」晉領計劃\n48",
+          "filename": "團體醫療攻略課程 Win the business.pdf",
+          "page_number": null,
+          "score": 0.72210956,
+          "content_chunk": "一般計劃(General Scheme)簡介\npruworks\n一般計劃(General Scheme)旨在為人數較少的中小企,提供更多的保障選擇\n從而滿足客戶需求,幫助理財顧問促成生意\n特點\n· 提供更多的保障選擇,以供靈活組合\n· 住院及手術保障及門診保障分別多達11個及16個選項\n· 如需要保障現有員工的已存在疾病,請提供整體賠償報告以作核\n保\n投保資格\n•\n必須有5名僱員或以上\n•\n會員年齡必須在65歲以下\n· 必須參與「住院及手術保障」\n•\n其餘的投保資格與晉領計劃大致相同\neSub\n•\n要了解選項內容,必須登入PRUOne 進入 eSubmission\n•\n報價需時2個工作日\nConfidential\n47一般計劃(General Scheme) eSubmission\n$1\npruworks\n三\n輸入報價資料\npruworks\n要了解一般計劃(General Scheme)的選項內容,\n必須登入PRUOne,從而進入 eSubmission\n下載計劃報價書\n輸入申請資料\n提交申請\n報價編號、版本:將於報價保存/提交後顯示\n公司資料(必須填寫)\n公司名稱*\n客戶在其他保險公司已成立團體醫療計劃嗎?\n是 ●否\n(EN)\n1\n必須填寫英文公司名稱。當此報價被保存後,公司名稱便不可更改。\n生效日期*\n(中)\n1\n業務性質*\n其他公司資料\n>\n● 一般計劃(非保誠精選)\n保障選擇\n保誠精選「團體醫療賣」晉領計劃\n48"
+        },
+        {
+          "id": "GI000028",
+          "document_id": "GI000028",
+          "title_name_en": "GIEB Training Courses Material",
+          "title_name_tc": "GIEB 培訓課程資料",
+          "content_en": "團體醫療產品\npruworks\n團體醫療3種產品\n套餐計劃\n(Packaged Plan)\n= 晉領 BestCare\n一般計劃\n(General Plan)\n度身訂做計劃\n(Tailor-made Plan)\n最少僱員\n人數要求\n(不計家屬)\n2位\n5位\n20 位\n已存在疾病\n不受保\n• 有現有計劃 →核保後,有機會\n受保\n· 沒有現有計劃 →不受保\n• 有現有計劃 →核保後,有機會\n受保\n· 沒有現有計劃 →不受保\n成員年齡\n65歳以下\n65歲以下\n年齡64歲以上核保後有機會受保\n主要賣點\n•\n未設立過團體醫療的\n公司也可以買\n•\n未設立過團體醫療的\n公司也可以買\n•\n因應客戶需求和預算,\n度身定做\n•\n醫療網絡覆蓋全港,\n超過2000位網絡醫生\n•\n每項保障多個選項可供選擇\neSub流程\n•\n可即時電子報價和投保\n•\neSub索取報價 (2個工作日)\n•\n電郵索取報價\nConfidential\n31BestCare晉領計劃 -產品概述\npruworks\n晉領計劃專為中小企而設,是個保障全面,可靈活配搭組合的團體醫療保障\nBestCare晉領計劃\npruworks\nPRUChoice Group Medical Insurance\nBestCare Scheme\n保誠精選「團體醫療寶」晉領計劃\nENTERPRISE SOLUTIONS 企業方案\nPRUDENTIAL\n英 國 保 誠\nDiesining Uscommanding Diliving\n佣金\n15%\n保障項目\n內容重點\n網絡/非網絡\n全球住院\n(in-patient)\n大房/半私家/私家房\n非網絡\n24小時緊急\n支援服務保障\n[免費]\n•\n醫療救援\n•\n護送回港\n•\n安排運送所需藥物/\n醫療器材\n非網絡\n(by IPA)\n額外住院\n(top up/SMM)\n80% 賠償\n非網絡\n門診\n(clinical/\noutpatient)\n項目總次數為\n全年30次\n兩者皆有\n牙科\n•\n一般牙科項目全年無限次\n•\n檢查及洗牙一次\n網絡\n身體檢查\n•\n基本全面體檢\n網絡\nConfidential\n32",
+          "content_tc": "團體醫療產品\npruworks\n團體醫療3種產品\n套餐計劃\n(Packaged Plan)\n= 晉領 BestCare\n一般計劃\n(General Plan)\n度身訂做計劃\n(Tailor-made Plan)\n最少僱員\n人數要求\n(不計家屬)\n2位\n5位\n20 位\n已存在疾病\n不受保\n• 有現有計劃 →核保後,有機會\n受保\n· 沒有現有計劃 →不受保\n• 有現有計劃 →核保後,有機會\n受保\n· 沒有現有計劃 →不受保\n成員年齡\n65歳以下\n65歲以下\n年齡64歲以上核保後有機會受保\n主要賣點\n•\n未設立過團體醫療的\n公司也可以買\n•\n未設立過團體醫療的\n公司也可以買\n•\n因應客戶需求和預算,\n度身定做\n•\n醫療網絡覆蓋全港,\n超過2000位網絡醫生\n•\n每項保障多個選項可供選擇\neSub流程\n•\n可即時電子報價和投保\n•\neSub索取報價 (2個工作日)\n•\n電郵索取報價\nConfidential\n31BestCare晉領計劃 -產品概述\npruworks\n晉領計劃專為中小企而設,是個保障全面,可靈活配搭組合的團體醫療保障\nBestCare晉領計劃\npruworks\nPRUChoice Group Medical Insurance\nBestCare Scheme\n保誠精選「團體醫療寶」晉領計劃\nENTERPRISE SOLUTIONS 企業方案\nPRUDENTIAL\n英 國 保 誠\nDiesining Uscommanding Diliving\n佣金\n15%\n保障項目\n內容重點\n網絡/非網絡\n全球住院\n(in-patient)\n大房/半私家/私家房\n非網絡\n24小時緊急\n支援服務保障\n[免費]\n•\n醫療救援\n•\n護送回港\n•\n安排運送所需藥物/\n醫療器材\n非網絡\n(by IPA)\n額外住院\n(top up/SMM)\n80% 賠償\n非網絡\n門診\n(clinical/\noutpatient)\n項目總次數為\n全年30次\n兩者皆有\n牙科\n•\n一般牙科項目全年無限次\n•\n檢查及洗牙一次\n網絡\n身體檢查\n•\n基本全面體檢\n網絡\nConfidential\n32",
+          "filename": "團體醫療攻略課程 Win the business.pdf",
+          "page_number": null,
+          "score": 0.71730435,
+          "content_chunk": "團體醫療產品\npruworks\n團體醫療3種產品\n套餐計劃\n(Packaged Plan)\n= 晉領 BestCare\n一般計劃\n(General Plan)\n度身訂做計劃\n(Tailor-made Plan)\n最少僱員\n人數要求\n(不計家屬)\n2位\n5位\n20 位\n已存在疾病\n不受保\n• 有現有計劃 →核保後,有機會\n受保\n· 沒有現有計劃 →不受保\n• 有現有計劃 →核保後,有機會\n受保\n· 沒有現有計劃 →不受保\n成員年齡\n65歳以下\n65歲以下\n年齡64歲以上核保後有機會受保\n主要賣點\n•\n未設立過團體醫療的\n公司也可以買\n•\n未設立過團體醫療的\n公司也可以買\n•\n因應客戶需求和預算,\n度身定做\n•\n醫療網絡覆蓋全港,\n超過2000位網絡醫生\n•\n每項保障多個選項可供選擇\neSub流程\n•\n可即時電子報價和投保\n•\neSub索取報價 (2個工作日)\n•\n電郵索取報價\nConfidential\n31BestCare晉領計劃 -產品概述\npruworks\n晉領計劃專為中小企而設,是個保障全面,可靈活配搭組合的團體醫療保障\nBestCare晉領計劃\npruworks\nPRUChoice Group Medical Insurance\nBestCare Scheme\n保誠精選「團體醫療寶」晉領計劃\nENTERPRISE SOLUTIONS 企業方案\nPRUDENTIAL\n英 國 保 誠\nDiesining Uscommanding Diliving\n佣金\n15%\n保障項目\n內容重點\n網絡/非網絡\n全球住院\n(in-patient)\n大房/半私家/私家房\n非網絡\n24小時緊急\n支援服務保障\n[免費]\n•\n醫療救援\n•\n護送回港\n•\n安排運送所需藥物/\n醫療器材\n非網絡\n(by IPA)\n額外住院\n(top up/SMM)\n80% 賠償\n非網絡\n門診\n(clinical/\noutpatient)\n項目總次數為\n全年30次\n兩者皆有\n牙科\n•\n一般牙科項目全年無限次\n•\n檢查及洗牙一次\n網絡\n身體檢查\n•\n基本全面體檢\n網絡\nConfidential\n32"
+        },
+        {
+          "id": "GI000028",
+          "document_id": "GI000028",
+          "title_name_en": "GIEB Training Courses Material",
+          "title_name_tc": "GIEB 培訓課程資料",
+          "content_en": "產品資料團體醫療產品\npruworks\n團體醫療3種產品\n套餐計劃\n(Packaged Plan)\n= 晉領 BestCare\n一般計劃\n(General Plan)\n度身訂做計劃\n(Tailor-made Plan)\n最少僱員\n人數要求\n(不計家屬)\n2位\n5位\n20 位\n已存在疾病\n不受保\n• 有現有計劃 →核保後,有機會\n受保\n· 沒有現有計劃 →不受保\n• 有現有計劃 →核保後,有機會\n受保\n· 沒有現有計劃 →不受保\n成員年齡\n65歳以下\n65歲以下\n年齡64歲以上核保後有機會受保\n主要賣點\n•\n未設立過團體醫療的\n公司也可以買\n•\n未設立過團體醫療的\n公司也可以買\n•\n因應客戶需求和預算,\n度身定做\n•\n醫療網絡覆蓋全港,\n超過2000位網絡醫生\n•\n每項保障多個選項可供選擇\neSub流程\n•\n可即時電子報價和投保\n•\neSub索取報價 (2個工作日)\n•\n電郵索取報價\nConfidential\n31",
+          "content_tc": "產品資料團體醫療產品\npruworks\n團體醫療3種產品\n套餐計劃\n(Packaged Plan)\n= 晉領 BestCare\n一般計劃\n(General Plan)\n度身訂做計劃\n(Tailor-made Plan)\n最少僱員\n人數要求\n(不計家屬)\n2位\n5位\n20 位\n已存在疾病\n不受保\n• 有現有計劃 →核保後,有機會\n受保\n· 沒有現有計劃 →不受保\n• 有現有計劃 →核保後,有機會\n受保\n· 沒有現有計劃 →不受保\n成員年齡\n65歳以下\n65歲以下\n年齡64歲以上核保後有機會受保\n主要賣點\n•\n未設立過團體醫療的\n公司也可以買\n•\n未設立過團體醫療的\n公司也可以買\n•\n因應客戶需求和預算,\n度身定做\n•\n醫療網絡覆蓋全港,\n超過2000位網絡醫生\n•\n每項保障多個選項可供選擇\neSub流程\n•\n可即時電子報價和投保\n•\neSub索取報價 (2個工作日)\n•\n電郵索取報價\nConfidential\n31",
+          "filename": "團體醫療攻略課程 Win the business.pdf",
+          "page_number": null,
+          "score": 0.71666765,
+          "content_chunk": "產品資料團體醫療產品\npruworks\n團體醫療3種產品\n套餐計劃\n(Packaged Plan)\n= 晉領 BestCare\n一般計劃\n(General Plan)\n度身訂做計劃\n(Tailor-made Plan)\n最少僱員\n人數要求\n(不計家屬)\n2位\n5位\n20 位\n已存在疾病\n不受保\n• 有現有計劃 →核保後,有機會\n受保\n· 沒有現有計劃 →不受保\n• 有現有計劃 →核保後,有機會\n受保\n· 沒有現有計劃 →不受保\n成員年齡\n65歳以下\n65歲以下\n年齡64歲以上核保後有機會受保\n主要賣點\n•\n未設立過團體醫療的\n公司也可以買\n•\n未設立過團體醫療的\n公司也可以買\n•\n因應客戶需求和預算,\n度身定做\n•\n醫療網絡覆蓋全港,\n超過2000位網絡醫生\n•\n每項保障多個選項可供選擇\neSub流程\n•\n可即時電子報價和投保\n•\neSub索取報價 (2個工作日)\n•\n電郵索取報價\nConfidential\n31"
+        },
+        {
+          "id": "GI000028",
+          "document_id": "GI000028",
+          "title_name_en": "GIEB Training Courses Material",
+          "title_name_tc": "GIEB 培訓課程資料",
+          "content_en": "一般計劃(General Scheme) eSubmission\n$1\npruworks\n三\n輸入報價資料\npruworks\n要了解一般計劃(General Scheme)的選項內容,\n必須登入PRUOne,從而進入 eSubmission\n下載計劃報價書\n輸入申請資料\n提交申請\n報價編號、版本:將於報價保存/提交後顯示\n公司資料(必須填寫)\n公司名稱*\n客戶在其他保險公司已成立團體醫療計劃嗎?\n是 ●否\n(EN)\n1\n必須填寫英文公司名稱。當此報價被保存後,公司名稱便不可更改。\n生效日期*\n(中)\n1\n業務性質*\n其他公司資料\n>\n● 一般計劃(非保誠精選)\n保障選擇\n保誠精選「團體醫療賣」晉領計劃\n48一般計劃(General Scheme) eSubmission\npruworks\n在福利選擇中,只需要點擊「選取」,即時查看選項內容,\n計劃- 6\n計劃名稱(僱員資格)*\n家屬會員保障\n以英文填寫,如:Director、General Staff 等\n○是 否\n名配偶\n名僱員*\n名子女\n必須先選擇住院及手術保障福利\n福利選擇\n住院及手術保障\n附加醫療保障\n門診保障\n牙齒保健保障\n健康檢查保障\n選取\n×\n選取\n×\n選取\n×\n選取\n選取\nConfidential\n49",
+          "content_tc": "一般計劃(General Scheme) eSubmission\n$1\npruworks\n三\n輸入報價資料\npruworks\n要了解一般計劃(General Scheme)的選項內容,\n必須登入PRUOne,從而進入 eSubmission\n下載計劃報價書\n輸入申請資料\n提交申請\n報價編號、版本:將於報價保存/提交後顯示\n公司資料(必須填寫)\n公司名稱*\n客戶在其他保險公司已成立團體醫療計劃嗎?\n是 ●否\n(EN)\n1\n必須填寫英文公司名稱。當此報價被保存後,公司名稱便不可更改。\n生效日期*\n(中)\n1\n業務性質*\n其他公司資料\n>\n● 一般計劃(非保誠精選)\n保障選擇\n保誠精選「團體醫療賣」晉領計劃\n48一般計劃(General Scheme) eSubmission\npruworks\n在福利選擇中,只需要點擊「選取」,即時查看選項內容,\n計劃- 6\n計劃名稱(僱員資格)*\n家屬會員保障\n以英文填寫,如:Director、General Staff 等\n○是 否\n名配偶\n名僱員*\n名子女\n必須先選擇住院及手術保障福利\n福利選擇\n住院及手術保障\n附加醫療保障\n門診保障\n牙齒保健保障\n健康檢查保障\n選取\n×\n選取\n×\n選取\n×\n選取\n選取\nConfidential\n49",
+          "filename": "團體醫療攻略課程 Win the business.pdf",
+          "page_number": null,
+          "score": 0.711199,
+          "content_chunk": "一般計劃(General Scheme) eSubmission\n$1\npruworks\n三\n輸入報價資料\npruworks\n要了解一般計劃(General Scheme)的選項內容,\n必須登入PRUOne,從而進入 eSubmission\n下載計劃報價書\n輸入申請資料\n提交申請\n報價編號、版本:將於報價保存/提交後顯示\n公司資料(必須填寫)\n公司名稱*\n客戶在其他保險公司已成立團體醫療計劃嗎?\n是 ●否\n(EN)\n1\n必須填寫英文公司名稱。當此報價被保存後,公司名稱便不可更改。\n生效日期*\n(中)\n1\n業務性質*\n其他公司資料\n>\n● 一般計劃(非保誠精選)\n保障選擇\n保誠精選「團體醫療賣」晉領計劃\n48一般計劃(General Scheme) eSubmission\npruworks\n在福利選擇中,只需要點擊「選取」,即時查看選項內容,\n計劃- 6\n計劃名稱(僱員資格)*\n家屬會員保障\n以英文填寫,如:Director、General Staff 等\n○是 否\n名配偶\n名僱員*\n名子女\n必須先選擇住院及手術保障福利\n福利選擇\n住院及手術保障\n附加醫療保障\n門診保障\n牙齒保健保障\n健康檢查保障\n選取\n×\n選取\n×\n選取\n×\n選取\n選取\nConfidential\n49"
+        },
+        {
+          "id": "GI000028",
+          "document_id": "GI000028",
+          "title_name_en": "GIEB Training Courses Material",
+          "title_name_tc": "GIEB 培訓課程資料",
+          "content_en": "BestCare晉領計劃- 計劃特點\nApproved\n投保方便簡單\n無須個人健康狀況證明\npruworks\n一次\n醫療網絡覆蓋全港,\n超過2000位網絡醫生\n+\n卓\n健\nuality HealthCare\nDr Vio & Partners\n韋予 力醫 生醫 務 所\n聯合醫務\nump\nMediNet\nServices Ltd\n醫匯服務有限公司\nR\nBETTE\nBEST\nGOOD\n計劃具彈性\n多個保障級別可選擇\n自選額外牙科及身體檢查計劃\n重要提示:不應以網絡醫生名冊作銷售用途\n保費不分年齡性別\n-\n相宜合理\n◆\n只供內部使用,並非銷售材料,不得外傳。\nConfidential\n46一般計劃(General Scheme)簡介\npruworks\n一般計劃(General Scheme)旨在為人數較少的中小企,提供更多的保障選擇\n從而滿足客戶需求,幫助理財顧問促成生意\n特點\n· 提供更多的保障選擇,以供靈活組合\n· 住院及手術保障及門診保障分別多達11個及16個選項\n· 如需要保障現有員工的已存在疾病,請提供整體賠償報告以作核\n保\n投保資格\n•\n必須有5名僱員或以上\n•\n會員年齡必須在65歲以下\n· 必須參與「住院及手術保障」\n•\n其餘的投保資格與晉領計劃大致相同\neSub\n•\n要了解選項內容,必須登入PRUOne 進入 eSubmission\n•\n報價需時2個工作日\nConfidential\n47",
+          "content_tc": "BestCare晉領計劃- 計劃特點\nApproved\n投保方便簡單\n無須個人健康狀況證明\npruworks\n一次\n醫療網絡覆蓋全港,\n超過2000位網絡醫生\n+\n卓\n健\nuality HealthCare\nDr Vio & Partners\n韋予 力醫 生醫 務 所\n聯合醫務\nump\nMediNet\nServices Ltd\n醫匯服務有限公司\nR\nBETTE\nBEST\nGOOD\n計劃具彈性\n多個保障級別可選擇\n自選額外牙科及身體檢查計劃\n重要提示:不應以網絡醫生名冊作銷售用途\n保費不分年齡性別\n-\n相宜合理\n◆\n只供內部使用,並非銷售材料,不得外傳。\nConfidential\n46一般計劃(General Scheme)簡介\npruworks\n一般計劃(General Scheme)旨在為人數較少的中小企,提供更多的保障選擇\n從而滿足客戶需求,幫助理財顧問促成生意\n特點\n· 提供更多的保障選擇,以供靈活組合\n· 住院及手術保障及門診保障分別多達11個及16個選項\n· 如需要保障現有員工的已存在疾病,請提供整體賠償報告以作核\n保\n投保資格\n•\n必須有5名僱員或以上\n•\n會員年齡必須在65歲以下\n· 必須參與「住院及手術保障」\n•\n其餘的投保資格與晉領計劃大致相同\neSub\n•\n要了解選項內容,必須登入PRUOne 進入 eSubmission\n•\n報價需時2個工作日\nConfidential\n47",
+          "filename": "團體醫療攻略課程 Win the business.pdf",
+          "page_number": null,
+          "score": 0.70956963,
+          "content_chunk": "BestCare晉領計劃- 計劃特點\nApproved\n投保方便簡單\n無須個人健康狀況證明\npruworks\n一次\n醫療網絡覆蓋全港,\n超過2000位網絡醫生\n+\n卓\n健\nuality HealthCare\nDr Vio & Partners\n韋予 力醫 生醫 務 所\n聯合醫務\nump\nMediNet\nServices Ltd\n醫匯服務有限公司\nR\nBETTE\nBEST\nGOOD\n計劃具彈性\n多個保障級別可選擇\n自選額外牙科及身體檢查計劃\n重要提示:不應以網絡醫生名冊作銷售用途\n保費不分年齡性別\n-\n相宜合理\n◆\n只供內部使用,並非銷售材料,不得外傳。\nConfidential\n46一般計劃(General Scheme)簡介\npruworks\n一般計劃(General Scheme)旨在為人數較少的中小企,提供更多的保障選擇\n從而滿足客戶需求,幫助理財顧問促成生意\n特點\n· 提供更多的保障選擇,以供靈活組合\n· 住院及手術保障及門診保障分別多達11個及16個選項\n· 如需要保障現有員工的已存在疾病,請提供整體賠償報告以作核\n保\n投保資格\n•\n必須有5名僱員或以上\n•\n會員年齡必須在65歲以下\n· 必須參與「住院及手術保障」\n•\n其餘的投保資格與晉領計劃大致相同\neSub\n•\n要了解選項內容,必須登入PRUOne 進入 eSubmission\n•\n報價需時2個工作日\nConfidential\n47"
+        },
+        {
+          "id": "GI000028",
+          "document_id": "GI000028",
+          "title_name_en": "GIEB Training Courses Material",
+          "title_name_tc": "GIEB 培訓課程資料",
+          "content_en": "pruworks\n一\nBestCare晉領計劃 -產品概述\nBestCare晉領計劃\npruworks\nPRUChoice Group Medical Insurance\nBestCare Scheme\n保誠精選「團體醫療寶」晉領計劃\nENTERPRISE SOLUTIONS 企業方案\nPRUDENTIAL\n英 國 保 誠\nListening. Unceutasdieg. Delverie.\n劃一保費率\n不分年齡、性別、僱員或家屬\n保費相宜合理:2-4僱員 $3455起\n5僱員 $1107起\n無須個人健康狀況證明\n需受限制於已存在疾病條款\nV\nWAIVED\nConfidential\n42BestCare晉領計劃 - 主要不受保障項目\npruworks\n已存在疾病\n懷孕 / 節育或絕育 / 人工受孕\n在成員的首5年內,因後天免疫力\n缺乏症(愛滋病)引致的治療。\n性病\n精神病\n戰爭 / 恐怖主義活動\n濫用藥物或酒精/自殘\n特別支架、器材及植入體內儀\n器之費用(例如:心臟起膊器、\n植入眼內晶體等等)\n↑\n↑\n整容、例行驗血或一般檢驗、預防注射或接種疫苗\n*\n詳情請參閱團體醫療保單。個別保單或會因應其需要而有不同安排。\nConfidential\n43",
+          "content_tc": "pruworks\n一\nBestCare晉領計劃 -產品概述\nBestCare晉領計劃\npruworks\nPRUChoice Group Medical Insurance\nBestCare Scheme\n保誠精選「團體醫療寶」晉領計劃\nENTERPRISE SOLUTIONS 企業方案\nPRUDENTIAL\n英 國 保 誠\nListening. Unceutasdieg. Delverie.\n劃一保費率\n不分年齡、性別、僱員或家屬\n保費相宜合理:2-4僱員 $3455起\n5僱員 $1107起\n無須個人健康狀況證明\n需受限制於已存在疾病條款\nV\nWAIVED\nConfidential\n42BestCare晉領計劃 - 主要不受保障項目\npruworks\n已存在疾病\n懷孕 / 節育或絕育 / 人工受孕\n在成員的首5年內,因後天免疫力\n缺乏症(愛滋病)引致的治療。\n性病\n精神病\n戰爭 / 恐怖主義活動\n濫用藥物或酒精/自殘\n特別支架、器材及植入體內儀\n器之費用(例如:心臟起膊器、\n植入眼內晶體等等)\n↑\n↑\n整容、例行驗血或一般檢驗、預防注射或接種疫苗\n*\n詳情請參閱團體醫療保單。個別保單或會因應其需要而有不同安排。\nConfidential\n43",
+          "filename": "團體醫療攻略課程 Win the business.pdf",
+          "page_number": null,
+          "score": 0.7066657,
+          "content_chunk": "pruworks\n一\nBestCare晉領計劃 -產品概述\nBestCare晉領計劃\npruworks\nPRUChoice Group Medical Insurance\nBestCare Scheme\n保誠精選「團體醫療寶」晉領計劃\nENTERPRISE SOLUTIONS 企業方案\nPRUDENTIAL\n英 國 保 誠\nListening. Unceutasdieg. Delverie.\n劃一保費率\n不分年齡、性別、僱員或家屬\n保費相宜合理:2-4僱員 $3455起\n5僱員 $1107起\n無須個人健康狀況證明\n需受限制於已存在疾病條款\nV\nWAIVED\nConfidential\n42BestCare晉領計劃 - 主要不受保障項目\npruworks\n已存在疾病\n懷孕 / 節育或絕育 / 人工受孕\n在成員的首5年內,因後天免疫力\n缺乏症(愛滋病)引致的治療。\n性病\n精神病\n戰爭 / 恐怖主義活動\n濫用藥物或酒精/自殘\n特別支架、器材及植入體內儀\n器之費用(例如:心臟起膊器、\n植入眼內晶體等等)\n↑\n↑\n整容、例行驗血或一般檢驗、預防注射或接種疫苗\n*\n詳情請參閱團體醫療保單。個別保單或會因應其需要而有不同安排。\nConfidential\n43"
+        },
+        {
+          "id": "GI000028",
+          "document_id": "GI000028",
+          "title_name_en": "GIEB Training Courses Material",
+          "title_name_tc": "GIEB 培訓課程資料",
+          "content_en": "團體醫療 商機處處\npruworks\n團體醫療開闢了兩個收入來源:企業和個人\n兩個收入來源\n企業\n僱主、人力資源團隊\n透過專業服務和建議\n轉介\n其他企業方案\n+ 團體人壽\n+ 勞工保險\n+ 強積金\n+ 商鋪寶/興業寶\n+ 公眾責任保\n團體醫療\n個人\n僱主、人力資源團隊\n及僱員\n透過員工大會,理賠處理等\n個人保險\n例如醫療保障、人壽保障\n僱員的家屬\n轉介\nConfidential\n11團體醫療 商機處處\npruworks\n在企業和個人保險市場中發展成為醫療保險專家的事業\n+\n醫療保險專家\n團體醫療\n個人醫療\n知識上\n•\n產品知識\n•\n醫療核保\n情感上\n•\n個人的經歷\n· 傾聽與同理心\n•\n理賠支援\n•\n治療程序\n•\n關懷與支持\n僱主、人力資源團隊\n僱主、人力資源團隊、\n僱員及其家屬\nM\n透過轉介\n$\n年度續保\nConfidential\n12",
+          "content_tc": "團體醫療 商機處處\npruworks\n團體醫療開闢了兩個收入來源:企業和個人\n兩個收入來源\n企業\n僱主、人力資源團隊\n透過專業服務和建議\n轉介\n其他企業方案\n+ 團體人壽\n+ 勞工保險\n+ 強積金\n+ 商鋪寶/興業寶\n+ 公眾責任保\n團體醫療\n個人\n僱主、人力資源團隊\n及僱員\n透過員工大會,理賠處理等\n個人保險\n例如醫療保障、人壽保障\n僱員的家屬\n轉介\nConfidential\n11團體醫療 商機處處\npruworks\n在企業和個人保險市場中發展成為醫療保險專家的事業\n+\n醫療保險專家\n團體醫療\n個人醫療\n知識上\n•\n產品知識\n•\n醫療核保\n情感上\n•\n個人的經歷\n· 傾聽與同理心\n•\n理賠支援\n•\n治療程序\n•\n關懷與支持\n僱主、人力資源團隊\n僱主、人力資源團隊、\n僱員及其家屬\nM\n透過轉介\n$\n年度續保\nConfidential\n12",
+          "filename": "團體醫療攻略課程 Win the business.pdf",
+          "page_number": null,
+          "score": 0.70594984,
+          "content_chunk": "團體醫療 商機處處\npruworks\n團體醫療開闢了兩個收入來源:企業和個人\n兩個收入來源\n企業\n僱主、人力資源團隊\n透過專業服務和建議\n轉介\n其他企業方案\n+ 團體人壽\n+ 勞工保險\n+ 強積金\n+ 商鋪寶/興業寶\n+ 公眾責任保\n團體醫療\n個人\n僱主、人力資源團隊\n及僱員\n透過員工大會,理賠處理等\n個人保險\n例如醫療保障、人壽保障\n僱員的家屬\n轉介\nConfidential\n11團體醫療 商機處處\npruworks\n在企業和個人保險市場中發展成為醫療保險專家的事業\n+\n醫療保險專家\n團體醫療\n個人醫療\n知識上\n•\n產品知識\n•\n醫療核保\n情感上\n•\n個人的經歷\n· 傾聽與同理心\n•\n理賠支援\n•\n治療程序\n•\n關懷與支持\n僱主、人力資源團隊\n僱主、人力資源團隊、\n僱員及其家屬\nM\n透過轉介\n$\n年度續保\nConfidential\n12"
+        },
+        {
+          "id": "GI000034",
+          "document_id": "GI000034",
+          "title_name_en": "Client Promotions",
+          "title_name_tc": "客戶推廣計劃",
+          "content_en": "PRUChoice Personal Accident Plus+\nInsurance - Junior Plan\nPRUDENTIAL\n保 誠 保 險\n用心轮理 實現型心\n保誠精選「倍安寶」人身意外保障–「青苗計劃」\"GI2Life\" 銷售切入概念–由「醫食住行、吃喝玩樂」到「生老病死\n1\n請選擇產品 ...\nCLICK!\n疾病\n$\nHealth Protection\n· CIM3 / CIE3\n返回首頁\nConfidential",
+          "content_tc": "PRUChoice Personal Accident Plus+\nInsurance - Junior Plan\nPRUDENTIAL\n保 誠 保 險\n用心轮理 實現型心\n保誠精選「倍安寶」人身意外保障–「青苗計劃」\"GI2Life\" 銷售切入概念–由「醫食住行、吃喝玩樂」到「生老病死\n1\n請選擇產品 ...\nCLICK!\n疾病\n$\nHealth Protection\n· CIM3 / CIE3\n返回首頁\nConfidential",
+          "filename": "Love Forward愛有未來_完整版懶人包.pdf",
+          "page_number": null,
+          "score": 0.70330745,
+          "content_chunk": "PRUChoice Personal Accident Plus+\nInsurance - Junior Plan\nPRUDENTIAL\n保 誠 保 險\n用心轮理 實現型心\n保誠精選「倍安寶」人身意外保障–「青苗計劃」\"GI2Life\" 銷售切入概念–由「醫食住行、吃喝玩樂」到「生老病死\n1\n請選擇產品 ...\nCLICK!\n疾病\n$\nHealth Protection\n· CIM3 / CIE3\n返回首頁\nConfidential"
+        },
+        {
+          "id": "GI000034",
+          "document_id": "GI000034",
+          "title_name_en": "Client Promotions",
+          "title_name_tc": "客戶推廣計劃",
+          "content_en": "案\n傷病類別\n預計醫療開支(港幣)\n普通房\n半私家房\n私家房\n乳癌,需手術治療、重建性手術、\n化療及放射治療\n癌症\n799,978\n949,037\n1,240,755\n肺癌,肺葉切除術\n275,158\n417,737\n691,695\n腸癌,需接受腹腔鏡結腸切除術及化療\n348,984\n470,076\n697,860\n肝癌,需接受手術及標靶治療\n482,700\n600,650\n830,150\n前十字韌帶手術\n106,900\n158,650\n259,750\n全膝置換術\n196,200\n294,700\n486,900\n通波仔,置入支架\n血管疾病\n217,813\n326,120\n541,133\n中風\n95,600\n123,100\n174,100\n日間血液透析(洗血)\n316,000\n316,000\n316,000\n發燒,需住院\n非嚴重疾病\n21,600\n33,100\n53,700\n割痔瘡手術\n45,600\n68,600\n113,000\n腸鏡檢查(日間治療)\n18,100\n26,350\n42,850\n返回首頁\n一次\n?\n客戶疑問\n18\n我已為自己和家人準備好「選擇權」?\nConfidentialPRUChoice Personal Accident Plus+\nInsurance - Junior Plan\nPRUDENTIAL\n保 誠 保 險\n用心轮理 實現型心\n保誠精選「倍安寶」人身意外保障–「青苗計劃」",
+          "content_tc": "案\n傷病類別\n預計醫療開支(港幣)\n普通房\n半私家房\n私家房\n乳癌,需手術治療、重建性手術、\n化療及放射治療\n癌症\n799,978\n949,037\n1,240,755\n肺癌,肺葉切除術\n275,158\n417,737\n691,695\n腸癌,需接受腹腔鏡結腸切除術及化療\n348,984\n470,076\n697,860\n肝癌,需接受手術及標靶治療\n482,700\n600,650\n830,150\n前十字韌帶手術\n106,900\n158,650\n259,750\n全膝置換術\n196,200\n294,700\n486,900\n通波仔,置入支架\n血管疾病\n217,813\n326,120\n541,133\n中風\n95,600\n123,100\n174,100\n日間血液透析(洗血)\n316,000\n316,000\n316,000\n發燒,需住院\n非嚴重疾病\n21,600\n33,100\n53,700\n割痔瘡手術\n45,600\n68,600\n113,000\n腸鏡檢查(日間治療)\n18,100\n26,350\n42,850\n返回首頁\n一次\n?\n客戶疑問\n18\n我已為自己和家人準備好「選擇權」?\nConfidentialPRUChoice Personal Accident Plus+\nInsurance - Junior Plan\nPRUDENTIAL\n保 誠 保 險\n用心轮理 實現型心\n保誠精選「倍安寶」人身意外保障–「青苗計劃」",
+          "filename": "Love Forward愛有未來_完整版懶人包.pdf",
+          "page_number": null,
+          "score": 0.70320404,
+          "content_chunk": "案\n傷病類別\n預計醫療開支(港幣)\n普通房\n半私家房\n私家房\n乳癌,需手術治療、重建性手術、\n化療及放射治療\n癌症\n799,978\n949,037\n1,240,755\n肺癌,肺葉切除術\n275,158\n417,737\n691,695\n腸癌,需接受腹腔鏡結腸切除術及化療\n348,984\n470,076\n697,860\n肝癌,需接受手術及標靶治療\n482,700\n600,650\n830,150\n前十字韌帶手術\n106,900\n158,650\n259,750\n全膝置換術\n196,200\n294,700\n486,900\n通波仔,置入支架\n血管疾病\n217,813\n326,120\n541,133\n中風\n95,600\n123,100\n174,100\n日間血液透析(洗血)\n316,000\n316,000\n316,000\n發燒,需住院\n非嚴重疾病\n21,600\n33,100\n53,700\n割痔瘡手術\n45,600\n68,600\n113,000\n腸鏡檢查(日間治療)\n18,100\n26,350\n42,850\n返回首頁\n一次\n?\n客戶疑問\n18\n我已為自己和家人準備好「選擇權」?\nConfidentialPRUChoice Personal Accident Plus+\nInsurance - Junior Plan\nPRUDENTIAL\n保 誠 保 險\n用心轮理 實現型心\n保誠精選「倍安寶」人身意外保障–「青苗計劃」"
+        },
+        {
+          "id": "GI000034",
+          "document_id": "GI000034",
+          "title_name_en": "Client Promotions",
+          "title_name_tc": "客戶推廣計劃",
+          "content_en": "PRUChoice Personal Accident\n$\nPRUDENTIAL\n保 誠 保 險\n用心聆聽 實現您心\n保誠精選「安健寶」\n意外\"GI2Life\" 銷售切入概念–由「醫食住行、吃喝玩樂」到「生老病死\n1\n請選擇產品 ...\nCLICK!\n疾病\n$\nHealth Protection\n· VHIS VIP /\nPPM / PMP\n返回首頁\nConfidential",
+          "content_tc": "PRUChoice Personal Accident\n$\nPRUDENTIAL\n保 誠 保 險\n用心聆聽 實現您心\n保誠精選「安健寶」\n意外\"GI2Life\" 銷售切入概念–由「醫食住行、吃喝玩樂」到「生老病死\n1\n請選擇產品 ...\nCLICK!\n疾病\n$\nHealth Protection\n· VHIS VIP /\nPPM / PMP\n返回首頁\nConfidential",
+          "filename": "Love Forward愛有未來_完整版懶人包.pdf",
+          "page_number": null,
+          "score": 0.7031452,
+          "content_chunk": "PRUChoice Personal Accident\n$\nPRUDENTIAL\n保 誠 保 險\n用心聆聽 實現您心\n保誠精選「安健寶」\n意外\"GI2Life\" 銷售切入概念–由「醫食住行、吃喝玩樂」到「生老病死\n1\n請選擇產品 ...\nCLICK!\n疾病\n$\nHealth Protection\n· VHIS VIP /\nPPM / PMP\n返回首頁\nConfidential"
+        }
+      ]
+    },
+    {
+      "query": "我個客人是中小企，想買團體醫療保險。公司有什麽選擇？",
+      "search_method": "hybrid",
+      "total_result": 10,
+      "results": [
+        {
+          "id": "GI000028",
+          "document_id": "GI000028",
+          "title_name_en": "GIEB Training Courses Material",
+          "title_name_tc": "GIEB 培訓課程資料",
+          "content_en": "團體醫療產品\npruworks\n團體醫療3種產品\n套餐計劃\n(Packaged Plan)\n= 晉領 BestCare\n一般計劃\n(General Plan)\n度身訂做計劃\n(Tailor-made Plan)\n最少僱員\n人數要求\n(不計家屬)\n2位\n5位\n20 位\n已存在疾病\n不受保\n• 有現有計劃 →核保後,有機會\n受保\n· 沒有現有計劃 →不受保\n• 有現有計劃 →核保後,有機會\n受保\n· 沒有現有計劃 →不受保\n成員年齡\n65歳以下\n65歲以下\n年齡64歲以上核保後有機會受保\n主要賣點\n•\n未設立過團體醫療的\n公司也可以買\n•\n未設立過團體醫療的\n公司也可以買\n•\n因應客戶需求和預算,\n度身定做\n•\n醫療網絡覆蓋全港,\n超過2000位網絡醫生\n•\n每項保障多個選項可供選擇\neSub流程\n•\n可即時電子報價和投保\n•\neSub索取報價 (2個工作日)\n•\n電郵索取報價\nConfidential\n31BestCare晉領計劃 -產品概述\npruworks\n晉領計劃專為中小企而設,是個保障全面,可靈活配搭組合的團體醫療保障\nBestCare晉領計劃\npruworks\nPRUChoice Group Medical Insurance\nBestCare Scheme\n保誠精選「團體醫療寶」晉領計劃\nENTERPRISE SOLUTIONS 企業方案\nPRUDENTIAL\n英 國 保 誠\nDiesining Uscommanding Diliving\n佣金\n15%\n保障項目\n內容重點\n網絡/非網絡\n全球住院\n(in-patient)\n大房/半私家/私家房\n非網絡\n24小時緊急\n支援服務保障\n[免費]\n•\n醫療救援\n•\n護送回港\n•\n安排運送所需藥物/\n醫療器材\n非網絡\n(by IPA)\n額外住院\n(top up/SMM)\n80% 賠償\n非網絡\n門診\n(clinical/\noutpatient)\n項目總次數為\n全年30次\n兩者皆有\n牙科\n•\n一般牙科項目全年無限次\n•\n檢查及洗牙一次\n網絡\n身體檢查\n•\n基本全面體檢\n網絡\nConfidential\n32",
+          "content_tc": "團體醫療產品\npruworks\n團體醫療3種產品\n套餐計劃\n(Packaged Plan)\n= 晉領 BestCare\n一般計劃\n(General Plan)\n度身訂做計劃\n(Tailor-made Plan)\n最少僱員\n人數要求\n(不計家屬)\n2位\n5位\n20 位\n已存在疾病\n不受保\n• 有現有計劃 →核保後,有機會\n受保\n· 沒有現有計劃 →不受保\n• 有現有計劃 →核保後,有機會\n受保\n· 沒有現有計劃 →不受保\n成員年齡\n65歳以下\n65歲以下\n年齡64歲以上核保後有機會受保\n主要賣點\n•\n未設立過團體醫療的\n公司也可以買\n•\n未設立過團體醫療的\n公司也可以買\n•\n因應客戶需求和預算,\n度身定做\n•\n醫療網絡覆蓋全港,\n超過2000位網絡醫生\n•\n每項保障多個選項可供選擇\neSub流程\n•\n可即時電子報價和投保\n•\neSub索取報價 (2個工作日)\n•\n電郵索取報價\nConfidential\n31BestCare晉領計劃 -產品概述\npruworks\n晉領計劃專為中小企而設,是個保障全面,可靈活配搭組合的團體醫療保障\nBestCare晉領計劃\npruworks\nPRUChoice Group Medical Insurance\nBestCare Scheme\n保誠精選「團體醫療寶」晉領計劃\nENTERPRISE SOLUTIONS 企業方案\nPRUDENTIAL\n英 國 保 誠\nDiesining Uscommanding Diliving\n佣金\n15%\n保障項目\n內容重點\n網絡/非網絡\n全球住院\n(in-patient)\n大房/半私家/私家房\n非網絡\n24小時緊急\n支援服務保障\n[免費]\n•\n醫療救援\n•\n護送回港\n•\n安排運送所需藥物/\n醫療器材\n非網絡\n(by IPA)\n額外住院\n(top up/SMM)\n80% 賠償\n非網絡\n門診\n(clinical/\noutpatient)\n項目總次數為\n全年30次\n兩者皆有\n牙科\n•\n一般牙科項目全年無限次\n•\n檢查及洗牙一次\n網絡\n身體檢查\n•\n基本全面體檢\n網絡\nConfidential\n32",
+          "filename": "團體醫療攻略課程 Win the business.pdf",
+          "page_number": null,
+          "score": 0.032786883413791656,
+          "content_chunk": "團體醫療產品\npruworks\n團體醫療3種產品\n套餐計劃\n(Packaged Plan)\n= 晉領 BestCare\n一般計劃\n(General Plan)\n度身訂做計劃\n(Tailor-made Plan)\n最少僱員\n人數要求\n(不計家屬)\n2位\n5位\n20 位\n已存在疾病\n不受保\n• 有現有計劃 →核保後,有機會\n受保\n· 沒有現有計劃 →不受保\n• 有現有計劃 →核保後,有機會\n受保\n· 沒有現有計劃 →不受保\n成員年齡\n65歳以下\n65歲以下\n年齡64歲以上核保後有機會受保\n主要賣點\n•\n未設立過團體醫療的\n公司也可以買\n•\n未設立過團體醫療的\n公司也可以買\n•\n因應客戶需求和預算,\n度身定做\n•\n醫療網絡覆蓋全港,\n超過2000位網絡醫生\n•\n每項保障多個選項可供選擇\neSub流程\n•\n可即時電子報價和投保\n•\neSub索取報價 (2個工作日)\n•\n電郵索取報價\nConfidential\n31BestCare晉領計劃 -產品概述\npruworks\n晉領計劃專為中小企而設,是個保障全面,可靈活配搭組合的團體醫療保障\nBestCare晉領計劃\npruworks\nPRUChoice Group Medical Insurance\nBestCare Scheme\n保誠精選「團體醫療寶」晉領計劃\nENTERPRISE SOLUTIONS 企業方案\nPRUDENTIAL\n英 國 保 誠\nDiesining Uscommanding Diliving\n佣金\n15%\n保障項目\n內容重點\n網絡/非網絡\n全球住院\n(in-patient)\n大房/半私家/私家房\n非網絡\n24小時緊急\n支援服務保障\n[免費]\n•\n醫療救援\n•\n護送回港\n•\n安排運送所需藥物/\n醫療器材\n非網絡\n(by IPA)\n額外住院\n(top up/SMM)\n80% 賠償\n非網絡\n門診\n(clinical/\noutpatient)\n項目總次數為\n全年30次\n兩者皆有\n牙科\n•\n一般牙科項目全年無限次\n•\n檢查及洗牙一次\n網絡\n身體檢查\n•\n基本全面體檢\n網絡\nConfidential\n32"
+        },
+        {
+          "id": "GI000028",
+          "document_id": "GI000028",
+          "title_name_en": "GIEB Training Courses Material",
+          "title_name_tc": "GIEB 培訓課程資料",
+          "content_en": "一般計劃(General Scheme)簡介\npruworks\n一般計劃(General Scheme)旨在為人數較少的中小企,提供更多的保障選擇\n從而滿足客戶需求,幫助理財顧問促成生意\n特點\n· 提供更多的保障選擇,以供靈活組合\n· 住院及手術保障及門診保障分別多達11個及16個選項\n· 如需要保障現有員工的已存在疾病,請提供整體賠償報告以作核\n保\n投保資格\n•\n必須有5名僱員或以上\n•\n會員年齡必須在65歲以下\n· 必須參與「住院及手術保障」\n•\n其餘的投保資格與晉領計劃大致相同\neSub\n•\n要了解選項內容,必須登入PRUOne 進入 eSubmission\n•\n報價需時2個工作日\nConfidential\n47一般計劃(General Scheme) eSubmission\n$1\npruworks\n三\n輸入報價資料\npruworks\n要了解一般計劃(General Scheme)的選項內容,\n必須登入PRUOne,從而進入 eSubmission\n下載計劃報價書\n輸入申請資料\n提交申請\n報價編號、版本:將於報價保存/提交後顯示\n公司資料(必須填寫)\n公司名稱*\n客戶在其他保險公司已成立團體醫療計劃嗎?\n是 ●否\n(EN)\n1\n必須填寫英文公司名稱。當此報價被保存後,公司名稱便不可更改。\n生效日期*\n(中)\n1\n業務性質*\n其他公司資料\n>\n● 一般計劃(非保誠精選)\n保障選擇\n保誠精選「團體醫療賣」晉領計劃\n48",
+          "content_tc": "一般計劃(General Scheme)簡介\npruworks\n一般計劃(General Scheme)旨在為人數較少的中小企,提供更多的保障選擇\n從而滿足客戶需求,幫助理財顧問促成生意\n特點\n· 提供更多的保障選擇,以供靈活組合\n· 住院及手術保障及門診保障分別多達11個及16個選項\n· 如需要保障現有員工的已存在疾病,請提供整體賠償報告以作核\n保\n投保資格\n•\n必須有5名僱員或以上\n•\n會員年齡必須在65歲以下\n· 必須參與「住院及手術保障」\n•\n其餘的投保資格與晉領計劃大致相同\neSub\n•\n要了解選項內容,必須登入PRUOne 進入 eSubmission\n•\n報價需時2個工作日\nConfidential\n47一般計劃(General Scheme) eSubmission\n$1\npruworks\n三\n輸入報價資料\npruworks\n要了解一般計劃(General Scheme)的選項內容,\n必須登入PRUOne,從而進入 eSubmission\n下載計劃報價書\n輸入申請資料\n提交申請\n報價編號、版本:將於報價保存/提交後顯示\n公司資料(必須填寫)\n公司名稱*\n客戶在其他保險公司已成立團體醫療計劃嗎?\n是 ●否\n(EN)\n1\n必須填寫英文公司名稱。當此報價被保存後,公司名稱便不可更改。\n生效日期*\n(中)\n1\n業務性質*\n其他公司資料\n>\n● 一般計劃(非保誠精選)\n保障選擇\n保誠精選「團體醫療賣」晉領計劃\n48",
+          "filename": "團體醫療攻略課程 Win the business.pdf",
+          "page_number": null,
+          "score": 0.03229166567325592,
+          "content_chunk": "一般計劃(General Scheme)簡介\npruworks\n一般計劃(General Scheme)旨在為人數較少的中小企,提供更多的保障選擇\n從而滿足客戶需求,幫助理財顧問促成生意\n特點\n· 提供更多的保障選擇,以供靈活組合\n· 住院及手術保障及門診保障分別多達11個及16個選項\n· 如需要保障現有員工的已存在疾病,請提供整體賠償報告以作核\n保\n投保資格\n•\n必須有5名僱員或以上\n•\n會員年齡必須在65歲以下\n· 必須參與「住院及手術保障」\n•\n其餘的投保資格與晉領計劃大致相同\neSub\n•\n要了解選項內容,必須登入PRUOne 進入 eSubmission\n•\n報價需時2個工作日\nConfidential\n47一般計劃(General Scheme) eSubmission\n$1\npruworks\n三\n輸入報價資料\npruworks\n要了解一般計劃(General Scheme)的選項內容,\n必須登入PRUOne,從而進入 eSubmission\n下載計劃報價書\n輸入申請資料\n提交申請\n報價編號、版本:將於報價保存/提交後顯示\n公司資料(必須填寫)\n公司名稱*\n客戶在其他保險公司已成立團體醫療計劃嗎?\n是 ●否\n(EN)\n1\n必須填寫英文公司名稱。當此報價被保存後,公司名稱便不可更改。\n生效日期*\n(中)\n1\n業務性質*\n其他公司資料\n>\n● 一般計劃(非保誠精選)\n保障選擇\n保誠精選「團體醫療賣」晉領計劃\n48"
+        },
+        {
+          "id": "GI000028",
+          "document_id": "GI000028",
+          "title_name_en": "GIEB Training Courses Material",
+          "title_name_tc": "GIEB 培訓課程資料",
+          "content_en": "一般計劃(General Scheme) eSubmission\n$1\npruworks\n三\n輸入報價資料\npruworks\n要了解一般計劃(General Scheme)的選項內容,\n必須登入PRUOne,從而進入 eSubmission\n下載計劃報價書\n輸入申請資料\n提交申請\n報價編號、版本:將於報價保存/提交後顯示\n公司資料(必須填寫)\n公司名稱*\n客戶在其他保險公司已成立團體醫療計劃嗎?\n是 ●否\n(EN)\n1\n必須填寫英文公司名稱。當此報價被保存後,公司名稱便不可更改。\n生效日期*\n(中)\n1\n業務性質*\n其他公司資料\n>\n● 一般計劃(非保誠精選)\n保障選擇\n保誠精選「團體醫療賣」晉領計劃\n48一般計劃(General Scheme) eSubmission\npruworks\n在福利選擇中,只需要點擊「選取」,即時查看選項內容,\n計劃- 6\n計劃名稱(僱員資格)*\n家屬會員保障\n以英文填寫,如:Director、General Staff 等\n○是 否\n名配偶\n名僱員*\n名子女\n必須先選擇住院及手術保障福利\n福利選擇\n住院及手術保障\n附加醫療保障\n門診保障\n牙齒保健保障\n健康檢查保障\n選取\n×\n選取\n×\n選取\n×\n選取\n選取\nConfidential\n49",
+          "content_tc": "一般計劃(General Scheme) eSubmission\n$1\npruworks\n三\n輸入報價資料\npruworks\n要了解一般計劃(General Scheme)的選項內容,\n必須登入PRUOne,從而進入 eSubmission\n下載計劃報價書\n輸入申請資料\n提交申請\n報價編號、版本:將於報價保存/提交後顯示\n公司資料(必須填寫)\n公司名稱*\n客戶在其他保險公司已成立團體醫療計劃嗎?\n是 ●否\n(EN)\n1\n必須填寫英文公司名稱。當此報價被保存後,公司名稱便不可更改。\n生效日期*\n(中)\n1\n業務性質*\n其他公司資料\n>\n● 一般計劃(非保誠精選)\n保障選擇\n保誠精選「團體醫療賣」晉領計劃\n48一般計劃(General Scheme) eSubmission\npruworks\n在福利選擇中,只需要點擊「選取」,即時查看選項內容,\n計劃- 6\n計劃名稱(僱員資格)*\n家屬會員保障\n以英文填寫,如:Director、General Staff 等\n○是 否\n名配偶\n名僱員*\n名子女\n必須先選擇住院及手術保障福利\n福利選擇\n住院及手術保障\n附加醫療保障\n門診保障\n牙齒保健保障\n健康檢查保障\n選取\n×\n選取\n×\n選取\n×\n選取\n選取\nConfidential\n49",
+          "filename": "團體醫療攻略課程 Win the business.pdf",
+          "page_number": null,
+          "score": 0.03015873208642006,
+          "content_chunk": "一般計劃(General Scheme) eSubmission\n$1\npruworks\n三\n輸入報價資料\npruworks\n要了解一般計劃(General Scheme)的選項內容,\n必須登入PRUOne,從而進入 eSubmission\n下載計劃報價書\n輸入申請資料\n提交申請\n報價編號、版本:將於報價保存/提交後顯示\n公司資料(必須填寫)\n公司名稱*\n客戶在其他保險公司已成立團體醫療計劃嗎?\n是 ●否\n(EN)\n1\n必須填寫英文公司名稱。當此報價被保存後,公司名稱便不可更改。\n生效日期*\n(中)\n1\n業務性質*\n其他公司資料\n>\n● 一般計劃(非保誠精選)\n保障選擇\n保誠精選「團體醫療賣」晉領計劃\n48一般計劃(General Scheme) eSubmission\npruworks\n在福利選擇中,只需要點擊「選取」,即時查看選項內容,\n計劃- 6\n計劃名稱(僱員資格)*\n家屬會員保障\n以英文填寫,如:Director、General Staff 等\n○是 否\n名配偶\n名僱員*\n名子女\n必須先選擇住院及手術保障福利\n福利選擇\n住院及手術保障\n附加醫療保障\n門診保障\n牙齒保健保障\n健康檢查保障\n選取\n×\n選取\n×\n選取\n×\n選取\n選取\nConfidential\n49"
+        },
+        {
+          "id": "GI000028",
+          "document_id": "GI000028",
+          "title_name_en": "GIEB Training Courses Material",
+          "title_name_tc": "GIEB 培訓課程資料",
+          "content_en": "1\n2\n使用eSub的好處\n收集資料\n規劃\n3\n銷售\npruworks\nPRUWorks eSub由報價至投保,簡單四個步\n旺取\n輸入報價資料\n下載計劃報價書\npruworks\n?☆\n輸入報價資料\n下載計劃報價書\n輸入申請資料\n提交申請\n報價編號、版本:將於報價保存/提交後顯示\n客戶在其他保險公司已成立團體醫療計劃嗎?1\n是 ●\n公司資料 (必須填寫)\n公司名稱*\n必须填寫英文公司名稱。當此報價被保存後,公司名稱便不可更改。\n[EN)\ni\n(中)\n1\n生效日期*\n業務性質*\n輸入申請資料\n提交申請\nGIEB 團體醫療\n電子投保簡介\nPIL>GI00153\n一次\nConfidential\n661\n2\n使用eSub的好處\n3\n收集資料\n規劃\n銷售\npruworks\n一次\nPRUWorks eSub BestCare 即時報價以滿足中小企的需要\n第一步–輸入報價資料\n計劃- 6\n計劃名稱(僱員資格)*\n家屬會員保障\n是\n否\nDirector\n福利選擇\n住院及手術保障\nHS2\n附加醫療保障\nTU2\n門診保障\nOP2\n名配偶\n必須 選擇住院\n住院及手術保障\n×\n福利/計劃類型\nHS1\nHS2\nHS3\nHS3 (2-4)\n病房等級\n私家病房\n半私家房\n大房病房\n大房病房\n住院及膳食費\n毎日最高金額\n每症最多日數\nHK$2,000\n120\nHK$950\n120\nHK$550\n120\nHK$550\n120\n住院雜費\n每症最高金額\nHK$24,000\nHK$13,000\nHK$8,000\nHK$8,000\n深切治療\n保費\nHK$3,531\nHK$1,755\nHK$1,107\nHK$1,359\n選取\n選取\n選取\n選取\n>\n×\n備註\n×\n×\n牙齒保健保障\n是\n健康檢查保障\n是\nConfidential\n67",
+          "content_tc": "1\n2\n使用eSub的好處\n收集資料\n規劃\n3\n銷售\npruworks\nPRUWorks eSub由報價至投保,簡單四個步\n旺取\n輸入報價資料\n下載計劃報價書\npruworks\n?☆\n輸入報價資料\n下載計劃報價書\n輸入申請資料\n提交申請\n報價編號、版本:將於報價保存/提交後顯示\n客戶在其他保險公司已成立團體醫療計劃嗎?1\n是 ●\n公司資料 (必須填寫)\n公司名稱*\n必须填寫英文公司名稱。當此報價被保存後,公司名稱便不可更改。\n[EN)\ni\n(中)\n1\n生效日期*\n業務性質*\n輸入申請資料\n提交申請\nGIEB 團體醫療\n電子投保簡介\nPIL>GI00153\n一次\nConfidential\n661\n2\n使用eSub的好處\n3\n收集資料\n規劃\n銷售\npruworks\n一次\nPRUWorks eSub BestCare 即時報價以滿足中小企的需要\n第一步–輸入報價資料\n計劃- 6\n計劃名稱(僱員資格)*\n家屬會員保障\n是\n否\nDirector\n福利選擇\n住院及手術保障\nHS2\n附加醫療保障\nTU2\n門診保障\nOP2\n名配偶\n必須 選擇住院\n住院及手術保障\n×\n福利/計劃類型\nHS1\nHS2\nHS3\nHS3 (2-4)\n病房等級\n私家病房\n半私家房\n大房病房\n大房病房\n住院及膳食費\n毎日最高金額\n每症最多日數\nHK$2,000\n120\nHK$950\n120\nHK$550\n120\nHK$550\n120\n住院雜費\n每症最高金額\nHK$24,000\nHK$13,000\nHK$8,000\nHK$8,000\n深切治療\n保費\nHK$3,531\nHK$1,755\nHK$1,107\nHK$1,359\n選取\n選取\n選取\n選取\n>\n×\n備註\n×\n×\n牙齒保健保障\n是\n健康檢查保障\n是\nConfidential\n67",
+          "filename": "團體醫療攻略課程 Win the business.pdf",
+          "page_number": null,
+          "score": 0.030017919838428497,
+          "content_chunk": "1\n2\n使用eSub的好處\n收集資料\n規劃\n3\n銷售\npruworks\nPRUWorks eSub由報價至投保,簡單四個步\n旺取\n輸入報價資料\n下載計劃報價書\npruworks\n?☆\n輸入報價資料\n下載計劃報價書\n輸入申請資料\n提交申請\n報價編號、版本:將於報價保存/提交後顯示\n客戶在其他保險公司已成立團體醫療計劃嗎?1\n是 ●\n公司資料 (必須填寫)\n公司名稱*\n必须填寫英文公司名稱。當此報價被保存後,公司名稱便不可更改。\n[EN)\ni\n(中)\n1\n生效日期*\n業務性質*\n輸入申請資料\n提交申請\nGIEB 團體醫療\n電子投保簡介\nPIL>GI00153\n一次\nConfidential\n661\n2\n使用eSub的好處\n3\n收集資料\n規劃\n銷售\npruworks\n一次\nPRUWorks eSub BestCare 即時報價以滿足中小企的需要\n第一步–輸入報價資料\n計劃- 6\n計劃名稱(僱員資格)*\n家屬會員保障\n是\n否\nDirector\n福利選擇\n住院及手術保障\nHS2\n附加醫療保障\nTU2\n門診保障\nOP2\n名配偶\n必須 選擇住院\n住院及手術保障\n×\n福利/計劃類型\nHS1\nHS2\nHS3\nHS3 (2-4)\n病房等級\n私家病房\n半私家房\n大房病房\n大房病房\n住院及膳食費\n毎日最高金額\n每症最多日數\nHK$2,000\n120\nHK$950\n120\nHK$550\n120\nHK$550\n120\n住院雜費\n每症最高金額\nHK$24,000\nHK$13,000\nHK$8,000\nHK$8,000\n深切治療\n保費\nHK$3,531\nHK$1,755\nHK$1,107\nHK$1,359\n選取\n選取\n選取\n選取\n>\n×\n備註\n×\n×\n牙齒保健保障\n是\n健康檢查保障\n是\nConfidential\n67"
+        },
+        {
+          "id": "GI000028",
+          "document_id": "GI000028",
+          "title_name_en": "GIEB Training Courses Material",
+          "title_name_tc": "GIEB 培訓課程資料",
+          "content_en": "團體醫療 商機處處\npruworks\n團體醫療開闢了兩個收入來源:企業和個人\n兩個收入來源\n企業\n僱主、人力資源團隊\n透過專業服務和建議\n轉介\n其他企業方案\n+ 團體人壽\n+ 勞工保險\n+ 強積金\n+ 商鋪寶/興業寶\n+ 公眾責任保\n團體醫療\n個人\n僱主、人力資源團隊\n及僱員\n透過員工大會,理賠處理等\n個人保險\n例如醫療保障、人壽保障\n僱員的家屬\n轉介\nConfidential\n11團體醫療 商機處處\npruworks\n在企業和個人保險市場中發展成為醫療保險專家的事業\n+\n醫療保險專家\n團體醫療\n個人醫療\n知識上\n•\n產品知識\n•\n醫療核保\n情感上\n•\n個人的經歷\n· 傾聽與同理心\n•\n理賠支援\n•\n治療程序\n•\n關懷與支持\n僱主、人力資源團隊\n僱主、人力資源團隊、\n僱員及其家屬\nM\n透過轉介\n$\n年度續保\nConfidential\n12",
+          "content_tc": "團體醫療 商機處處\npruworks\n團體醫療開闢了兩個收入來源:企業和個人\n兩個收入來源\n企業\n僱主、人力資源團隊\n透過專業服務和建議\n轉介\n其他企業方案\n+ 團體人壽\n+ 勞工保險\n+ 強積金\n+ 商鋪寶/興業寶\n+ 公眾責任保\n團體醫療\n個人\n僱主、人力資源團隊\n及僱員\n透過員工大會,理賠處理等\n個人保險\n例如醫療保障、人壽保障\n僱員的家屬\n轉介\nConfidential\n11團體醫療 商機處處\npruworks\n在企業和個人保險市場中發展成為醫療保險專家的事業\n+\n醫療保險專家\n團體醫療\n個人醫療\n知識上\n•\n產品知識\n•\n醫療核保\n情感上\n•\n個人的經歷\n· 傾聽與同理心\n•\n理賠支援\n•\n治療程序\n•\n關懷與支持\n僱主、人力資源團隊\n僱主、人力資源團隊、\n僱員及其家屬\nM\n透過轉介\n$\n年度續保\nConfidential\n12",
+          "filename": "團體醫療攻略課程 Win the business.pdf",
+          "page_number": null,
+          "score": 0.029857397079467773,
+          "content_chunk": "團體醫療 商機處處\npruworks\n團體醫療開闢了兩個收入來源:企業和個人\n兩個收入來源\n企業\n僱主、人力資源團隊\n透過專業服務和建議\n轉介\n其他企業方案\n+ 團體人壽\n+ 勞工保險\n+ 強積金\n+ 商鋪寶/興業寶\n+ 公眾責任保\n團體醫療\n個人\n僱主、人力資源團隊\n及僱員\n透過員工大會,理賠處理等\n個人保險\n例如醫療保障、人壽保障\n僱員的家屬\n轉介\nConfidential\n11團體醫療 商機處處\npruworks\n在企業和個人保險市場中發展成為醫療保險專家的事業\n+\n醫療保險專家\n團體醫療\n個人醫療\n知識上\n•\n產品知識\n•\n醫療核保\n情感上\n•\n個人的經歷\n· 傾聽與同理心\n•\n理賠支援\n•\n治療程序\n•\n關懷與支持\n僱主、人力資源團隊\n僱主、人力資源團隊、\n僱員及其家屬\nM\n透過轉介\n$\n年度續保\nConfidential\n12"
+        },
+        {
+          "id": "GI000028",
+          "document_id": "GI000028",
+          "title_name_en": "GIEB Training Courses Material",
+          "title_name_tc": "GIEB 培訓課程資料",
+          "content_en": "團體醫療 商機處處\npruworks\n在企業和個人保險市場中發展成為醫療保險專家的事業\n+\n醫療保險專家\n團體醫療\n個人醫療\n知識上\n•\n產品知識\n•\n醫療核保\n情感上\n•\n個人的經歷\n· 傾聽與同理心\n•\n理賠支援\n•\n治療程序\n•\n關懷與支持\n僱主、人力資源團隊\n僱主、人力資源團隊、\n僱員及其家屬\nM\n透過轉介\n$\n年度續保\nConfidential\n12團體醫療-交叉銷售商機\npruworks\n團體醫療為理財顧問帶來交叉銷售商機\n主要接觸點\n員工大會\n保單行政\n理賠處理\n中小企老闆/\n人力資源團隊\n僱員\n配偶/子女\n所有成員\n要員保障\n展現專業精神\n人生的新階段\n關鍵時刻\n摯為您 PPM\n- 全數賠償的健康方案\n健康寶\n- 附加醫療保障\n童創未來/特級雋陞\n- 子女教育\n美好人生\n- 保障至親\n雋逸人生 PRDA\n- 稅務優惠方案\n雋逸人生 PRDA\n- 稅務優惠方案\n尊尚危疾加倍保\n- 子女健康\n危疾\n- 危疾保障\n興業寶/商鋪寶\n- 照顧企業\n全面需要\n旅遊樂\n-“每季” 需要\n家居寶/僱傭寶\n- 家庭需要\n特級雋陞\n- 財富增值",
+          "content_tc": "團體醫療 商機處處\npruworks\n在企業和個人保險市場中發展成為醫療保險專家的事業\n+\n醫療保險專家\n團體醫療\n個人醫療\n知識上\n•\n產品知識\n•\n醫療核保\n情感上\n•\n個人的經歷\n· 傾聽與同理心\n•\n理賠支援\n•\n治療程序\n•\n關懷與支持\n僱主、人力資源團隊\n僱主、人力資源團隊、\n僱員及其家屬\nM\n透過轉介\n$\n年度續保\nConfidential\n12團體醫療-交叉銷售商機\npruworks\n團體醫療為理財顧問帶來交叉銷售商機\n主要接觸點\n員工大會\n保單行政\n理賠處理\n中小企老闆/\n人力資源團隊\n僱員\n配偶/子女\n所有成員\n要員保障\n展現專業精神\n人生的新階段\n關鍵時刻\n摯為您 PPM\n- 全數賠償的健康方案\n健康寶\n- 附加醫療保障\n童創未來/特級雋陞\n- 子女教育\n美好人生\n- 保障至親\n雋逸人生 PRDA\n- 稅務優惠方案\n雋逸人生 PRDA\n- 稅務優惠方案\n尊尚危疾加倍保\n- 子女健康\n危疾\n- 危疾保障\n興業寶/商鋪寶\n- 照顧企業\n全面需要\n旅遊樂\n-“每季” 需要\n家居寶/僱傭寶\n- 家庭需要\n特級雋陞\n- 財富增值",
+          "filename": "團體醫療攻略課程 Win the business.pdf",
+          "page_number": null,
+          "score": 0.02932489663362503,
+          "content_chunk": "團體醫療 商機處處\npruworks\n在企業和個人保險市場中發展成為醫療保險專家的事業\n+\n醫療保險專家\n團體醫療\n個人醫療\n知識上\n•\n產品知識\n•\n醫療核保\n情感上\n•\n個人的經歷\n· 傾聽與同理心\n•\n理賠支援\n•\n治療程序\n•\n關懷與支持\n僱主、人力資源團隊\n僱主、人力資源團隊、\n僱員及其家屬\nM\n透過轉介\n$\n年度續保\nConfidential\n12團體醫療-交叉銷售商機\npruworks\n團體醫療為理財顧問帶來交叉銷售商機\n主要接觸點\n員工大會\n保單行政\n理賠處理\n中小企老闆/\n人力資源團隊\n僱員\n配偶/子女\n所有成員\n要員保障\n展現專業精神\n人生的新階段\n關鍵時刻\n摯為您 PPM\n- 全數賠償的健康方案\n健康寶\n- 附加醫療保障\n童創未來/特級雋陞\n- 子女教育\n美好人生\n- 保障至親\n雋逸人生 PRDA\n- 稅務優惠方案\n雋逸人生 PRDA\n- 稅務優惠方案\n尊尚危疾加倍保\n- 子女健康\n危疾\n- 危疾保障\n興業寶/商鋪寶\n- 照顧企業\n全面需要\n旅遊樂\n-“每季” 需要\n家居寶/僱傭寶\n- 家庭需要\n特級雋陞\n- 財富增值"
+        },
+        {
+          "id": "GI000028",
+          "document_id": "GI000028",
+          "title_name_en": "GIEB Training Courses Material",
+          "title_name_tc": "GIEB 培訓課程資料",
+          "content_en": "產品資料團體醫療產品\npruworks\n團體醫療3種產品\n套餐計劃\n(Packaged Plan)\n= 晉領 BestCare\n一般計劃\n(General Plan)\n度身訂做計劃\n(Tailor-made Plan)\n最少僱員\n人數要求\n(不計家屬)\n2位\n5位\n20 位\n已存在疾病\n不受保\n• 有現有計劃 →核保後,有機會\n受保\n· 沒有現有計劃 →不受保\n• 有現有計劃 →核保後,有機會\n受保\n· 沒有現有計劃 →不受保\n成員年齡\n65歳以下\n65歲以下\n年齡64歲以上核保後有機會受保\n主要賣點\n•\n未設立過團體醫療的\n公司也可以買\n•\n未設立過團體醫療的\n公司也可以買\n•\n因應客戶需求和預算,\n度身定做\n•\n醫療網絡覆蓋全港,\n超過2000位網絡醫生\n•\n每項保障多個選項可供選擇\neSub流程\n•\n可即時電子報價和投保\n•\neSub索取報價 (2個工作日)\n•\n電郵索取報價\nConfidential\n31",
+          "content_tc": "產品資料團體醫療產品\npruworks\n團體醫療3種產品\n套餐計劃\n(Packaged Plan)\n= 晉領 BestCare\n一般計劃\n(General Plan)\n度身訂做計劃\n(Tailor-made Plan)\n最少僱員\n人數要求\n(不計家屬)\n2位\n5位\n20 位\n已存在疾病\n不受保\n• 有現有計劃 →核保後,有機會\n受保\n· 沒有現有計劃 →不受保\n• 有現有計劃 →核保後,有機會\n受保\n· 沒有現有計劃 →不受保\n成員年齡\n65歳以下\n65歲以下\n年齡64歲以上核保後有機會受保\n主要賣點\n•\n未設立過團體醫療的\n公司也可以買\n•\n未設立過團體醫療的\n公司也可以買\n•\n因應客戶需求和預算,\n度身定做\n•\n醫療網絡覆蓋全港,\n超過2000位網絡醫生\n•\n每項保障多個選項可供選擇\neSub流程\n•\n可即時電子報價和投保\n•\neSub索取報價 (2個工作日)\n•\n電郵索取報價\nConfidential\n31",
+          "filename": "團體醫療攻略課程 Win the business.pdf",
+          "page_number": null,
+          "score": 0.028629031032323837,
+          "content_chunk": "產品資料團體醫療產品\npruworks\n團體醫療3種產品\n套餐計劃\n(Packaged Plan)\n= 晉領 BestCare\n一般計劃\n(General Plan)\n度身訂做計劃\n(Tailor-made Plan)\n最少僱員\n人數要求\n(不計家屬)\n2位\n5位\n20 位\n已存在疾病\n不受保\n• 有現有計劃 →核保後,有機會\n受保\n· 沒有現有計劃 →不受保\n• 有現有計劃 →核保後,有機會\n受保\n· 沒有現有計劃 →不受保\n成員年齡\n65歳以下\n65歲以下\n年齡64歲以上核保後有機會受保\n主要賣點\n•\n未設立過團體醫療的\n公司也可以買\n•\n未設立過團體醫療的\n公司也可以買\n•\n因應客戶需求和預算,\n度身定做\n•\n醫療網絡覆蓋全港,\n超過2000位網絡醫生\n•\n每項保障多個選項可供選擇\neSub流程\n•\n可即時電子報價和投保\n•\neSub索取報價 (2個工作日)\n•\n電郵索取報價\nConfidential\n31"
+        },
+        {
+          "id": "GI000028",
+          "document_id": "GI000028",
+          "title_name_en": "GIEB Training Courses Material",
+          "title_name_tc": "GIEB 培訓課程資料",
+          "content_en": "BestCare晉領計劃- 計劃特點\nApproved\n投保方便簡單\n無須個人健康狀況證明\npruworks\n一次\n醫療網絡覆蓋全港,\n超過2000位網絡醫生\n+\n卓\n健\nuality HealthCare\nDr Vio & Partners\n韋予 力醫 生醫 務 所\n聯合醫務\nump\nMediNet\nServices Ltd\n醫匯服務有限公司\nR\nBETTE\nBEST\nGOOD\n計劃具彈性\n多個保障級別可選擇\n自選額外牙科及身體檢查計劃\n重要提示:不應以網絡醫生名冊作銷售用途\n保費不分年齡性別\n-\n相宜合理\n◆\n只供內部使用,並非銷售材料,不得外傳。\nConfidential\n46一般計劃(General Scheme)簡介\npruworks\n一般計劃(General Scheme)旨在為人數較少的中小企,提供更多的保障選擇\n從而滿足客戶需求,幫助理財顧問促成生意\n特點\n· 提供更多的保障選擇,以供靈活組合\n· 住院及手術保障及門診保障分別多達11個及16個選項\n· 如需要保障現有員工的已存在疾病,請提供整體賠償報告以作核\n保\n投保資格\n•\n必須有5名僱員或以上\n•\n會員年齡必須在65歲以下\n· 必須參與「住院及手術保障」\n•\n其餘的投保資格與晉領計劃大致相同\neSub\n•\n要了解選項內容,必須登入PRUOne 進入 eSubmission\n•\n報價需時2個工作日\nConfidential\n47",
+          "content_tc": "BestCare晉領計劃- 計劃特點\nApproved\n投保方便簡單\n無須個人健康狀況證明\npruworks\n一次\n醫療網絡覆蓋全港,\n超過2000位網絡醫生\n+\n卓\n健\nuality HealthCare\nDr Vio & Partners\n韋予 力醫 生醫 務 所\n聯合醫務\nump\nMediNet\nServices Ltd\n醫匯服務有限公司\nR\nBETTE\nBEST\nGOOD\n計劃具彈性\n多個保障級別可選擇\n自選額外牙科及身體檢查計劃\n重要提示:不應以網絡醫生名冊作銷售用途\n保費不分年齡性別\n-\n相宜合理\n◆\n只供內部使用,並非銷售材料,不得外傳。\nConfidential\n46一般計劃(General Scheme)簡介\npruworks\n一般計劃(General Scheme)旨在為人數較少的中小企,提供更多的保障選擇\n從而滿足客戶需求,幫助理財顧問促成生意\n特點\n· 提供更多的保障選擇,以供靈活組合\n· 住院及手術保障及門診保障分別多達11個及16個選項\n· 如需要保障現有員工的已存在疾病,請提供整體賠償報告以作核\n保\n投保資格\n•\n必須有5名僱員或以上\n•\n會員年齡必須在65歲以下\n· 必須參與「住院及手術保障」\n•\n其餘的投保資格與晉領計劃大致相同\neSub\n•\n要了解選項內容,必須登入PRUOne 進入 eSubmission\n•\n報價需時2個工作日\nConfidential\n47",
+          "filename": "團體醫療攻略課程 Win the business.pdf",
+          "page_number": null,
+          "score": 0.028445512056350708,
+          "content_chunk": "BestCare晉領計劃- 計劃特點\nApproved\n投保方便簡單\n無須個人健康狀況證明\npruworks\n一次\n醫療網絡覆蓋全港,\n超過2000位網絡醫生\n+\n卓\n健\nuality HealthCare\nDr Vio & Partners\n韋予 力醫 生醫 務 所\n聯合醫務\nump\nMediNet\nServices Ltd\n醫匯服務有限公司\nR\nBETTE\nBEST\nGOOD\n計劃具彈性\n多個保障級別可選擇\n自選額外牙科及身體檢查計劃\n重要提示:不應以網絡醫生名冊作銷售用途\n保費不分年齡性別\n-\n相宜合理\n◆\n只供內部使用,並非銷售材料,不得外傳。\nConfidential\n46一般計劃(General Scheme)簡介\npruworks\n一般計劃(General Scheme)旨在為人數較少的中小企,提供更多的保障選擇\n從而滿足客戶需求,幫助理財顧問促成生意\n特點\n· 提供更多的保障選擇,以供靈活組合\n· 住院及手術保障及門診保障分別多達11個及16個選項\n· 如需要保障現有員工的已存在疾病,請提供整體賠償報告以作核\n保\n投保資格\n•\n必須有5名僱員或以上\n•\n會員年齡必須在65歲以下\n· 必須參與「住院及手術保障」\n•\n其餘的投保資格與晉領計劃大致相同\neSub\n•\n要了解選項內容,必須登入PRUOne 進入 eSubmission\n•\n報價需時2個工作日\nConfidential\n47"
+        },
+        {
+          "id": "GI000028",
+          "document_id": "GI000028",
+          "title_name_en": "GIEB Training Courses Material",
+          "title_name_tc": "GIEB 培訓課程資料",
+          "content_en": "pruworks\n一\nBestCare晉領計劃 -產品概述\nBestCare晉領計劃\npruworks\nPRUChoice Group Medical Insurance\nBestCare Scheme\n保誠精選「團體醫療寶」晉領計劃\nENTERPRISE SOLUTIONS 企業方案\nPRUDENTIAL\n英 國 保 誠\nListening. Unceutasdieg. Delverie.\n劃一保費率\n不分年齡、性別、僱員或家屬\n保費相宜合理:2-4僱員 $3455起\n5僱員 $1107起\n無須個人健康狀況證明\n需受限制於已存在疾病條款\nV\nWAIVED\nConfidential\n42BestCare晉領計劃 - 主要不受保障項目\npruworks\n已存在疾病\n懷孕 / 節育或絕育 / 人工受孕\n在成員的首5年內,因後天免疫力\n缺乏症(愛滋病)引致的治療。\n性病\n精神病\n戰爭 / 恐怖主義活動\n濫用藥物或酒精/自殘\n特別支架、器材及植入體內儀\n器之費用(例如:心臟起膊器、\n植入眼內晶體等等)\n↑\n↑\n整容、例行驗血或一般檢驗、預防注射或接種疫苗\n*\n詳情請參閱團體醫療保單。個別保單或會因應其需要而有不同安排。\nConfidential\n43",
+          "content_tc": "pruworks\n一\nBestCare晉領計劃 -產品概述\nBestCare晉領計劃\npruworks\nPRUChoice Group Medical Insurance\nBestCare Scheme\n保誠精選「團體醫療寶」晉領計劃\nENTERPRISE SOLUTIONS 企業方案\nPRUDENTIAL\n英 國 保 誠\nListening. Unceutasdieg. Delverie.\n劃一保費率\n不分年齡、性別、僱員或家屬\n保費相宜合理:2-4僱員 $3455起\n5僱員 $1107起\n無須個人健康狀況證明\n需受限制於已存在疾病條款\nV\nWAIVED\nConfidential\n42BestCare晉領計劃 - 主要不受保障項目\npruworks\n已存在疾病\n懷孕 / 節育或絕育 / 人工受孕\n在成員的首5年內,因後天免疫力\n缺乏症(愛滋病)引致的治療。\n性病\n精神病\n戰爭 / 恐怖主義活動\n濫用藥物或酒精/自殘\n特別支架、器材及植入體內儀\n器之費用(例如:心臟起膊器、\n植入眼內晶體等等)\n↑\n↑\n整容、例行驗血或一般檢驗、預防注射或接種疫苗\n*\n詳情請參閱團體醫療保單。個別保單或會因應其需要而有不同安排。\nConfidential\n43",
+          "filename": "團體醫療攻略課程 Win the business.pdf",
+          "page_number": null,
+          "score": 0.02649572677910328,
+          "content_chunk": "pruworks\n一\nBestCare晉領計劃 -產品概述\nBestCare晉領計劃\npruworks\nPRUChoice Group Medical Insurance\nBestCare Scheme\n保誠精選「團體醫療寶」晉領計劃\nENTERPRISE SOLUTIONS 企業方案\nPRUDENTIAL\n英 國 保 誠\nListening. Unceutasdieg. Delverie.\n劃一保費率\n不分年齡、性別、僱員或家屬\n保費相宜合理:2-4僱員 $3455起\n5僱員 $1107起\n無須個人健康狀況證明\n需受限制於已存在疾病條款\nV\nWAIVED\nConfidential\n42BestCare晉領計劃 - 主要不受保障項目\npruworks\n已存在疾病\n懷孕 / 節育或絕育 / 人工受孕\n在成員的首5年內,因後天免疫力\n缺乏症(愛滋病)引致的治療。\n性病\n精神病\n戰爭 / 恐怖主義活動\n濫用藥物或酒精/自殘\n特別支架、器材及植入體內儀\n器之費用(例如:心臟起膊器、\n植入眼內晶體等等)\n↑\n↑\n整容、例行驗血或一般檢驗、預防注射或接種疫苗\n*\n詳情請參閱團體醫療保單。個別保單或會因應其需要而有不同安排。\nConfidential\n43"
+        },
+        {
+          "id": "GI000028",
+          "document_id": "GI000028",
+          "title_name_en": "GIEB Training Courses Material",
+          "title_name_tc": "GIEB 培訓課程資料",
+          "content_en": "團體醫療\n商機處處僱員福利 Employee Benefit (EB)\npruworks\n一次\n僱員福利一般包括團體醫療及團體人壽\n· 不要與勞工保險(EC)混淆\n● 僱主支付的員工福利;僱員及其家屬(如適用)享用\n● 例子包括團體醫療,團體人壽,意外死亡和殘疾\n團\n3.0\n医女\n醫療\n體\n團體\n人壽\n壽\n✓\n住院(In-Patient)\n✓\n門診\n(Out-Patient)\n✓\n額外住院(Top Up)\n✓\n牙科(Dental)\n✓\n身體檢查(Health Check up)\n✓\n分娩(Maternity)\n✓\n人壽(TL)(定額/人工倍數)\n✓\n意外死亡及傷殘(ADD)\n✓\n完全及永久傷殘 (TPD)\n✓\n危疾(CC)\nConfidential\n10",
+          "content_tc": "團體醫療\n商機處處僱員福利 Employee Benefit (EB)\npruworks\n一次\n僱員福利一般包括團體醫療及團體人壽\n· 不要與勞工保險(EC)混淆\n● 僱主支付的員工福利;僱員及其家屬(如適用)享用\n● 例子包括團體醫療,團體人壽,意外死亡和殘疾\n團\n3.0\n医女\n醫療\n體\n團體\n人壽\n壽\n✓\n住院(In-Patient)\n✓\n門診\n(Out-Patient)\n✓\n額外住院(Top Up)\n✓\n牙科(Dental)\n✓\n身體檢查(Health Check up)\n✓\n分娩(Maternity)\n✓\n人壽(TL)(定額/人工倍數)\n✓\n意外死亡及傷殘(ADD)\n✓\n完全及永久傷殘 (TPD)\n✓\n危疾(CC)\nConfidential\n10",
+          "filename": "團體醫療攻略課程 Win the business.pdf",
+          "page_number": null,
+          "score": 0.02546333521604538,
+          "content_chunk": "團體醫療\n商機處處僱員福利 Employee Benefit (EB)\npruworks\n一次\n僱員福利一般包括團體醫療及團體人壽\n· 不要與勞工保險(EC)混淆\n● 僱主支付的員工福利;僱員及其家屬(如適用)享用\n● 例子包括團體醫療,團體人壽,意外死亡和殘疾\n團\n3.0\n医女\n醫療\n體\n團體\n人壽\n壽\n✓\n住院(In-Patient)\n✓\n門診\n(Out-Patient)\n✓\n額外住院(Top Up)\n✓\n牙科(Dental)\n✓\n身體檢查(Health Check up)\n✓\n分娩(Maternity)\n✓\n人壽(TL)(定額/人工倍數)\n✓\n意外死亡及傷殘(ADD)\n✓\n完全及永久傷殘 (TPD)\n✓\n危疾(CC)\nConfidential\n10"
+        }
+      ]
+    },
+    {
+      "query": "我個客人是中小企，想買團體醫療保險。公司有什麽選擇？",
+      "search_method": "simple",
+      "total_result": 10,
+      "results": [
+        {
+          "id": "GI000028",
+          "document_id": "GI000028",
+          "title_name_en": "GIEB Training Courses Material",
+          "title_name_tc": "GIEB 培訓課程資料",
+          "content_en": "團體醫療 商機處處\npruworks\n在企業和個人保險市場中發展成為醫療保險專家的事業\n+\n醫療保險專家\n團體醫療\n個人醫療\n知識上\n•\n產品知識\n•\n醫療核保\n情感上\n•\n個人的經歷\n· 傾聽與同理心\n•\n理賠支援\n•\n治療程序\n•\n關懷與支持\n僱主、人力資源團隊\n僱主、人力資源團隊、\n僱員及其家屬\nM\n透過轉介\n$\n年度續保\nConfidential\n12團體醫療-交叉銷售商機\npruworks\n團體醫療為理財顧問帶來交叉銷售商機\n主要接觸點\n員工大會\n保單行政\n理賠處理\n中小企老闆/\n人力資源團隊\n僱員\n配偶/子女\n所有成員\n要員保障\n展現專業精神\n人生的新階段\n關鍵時刻\n摯為您 PPM\n- 全數賠償的健康方案\n健康寶\n- 附加醫療保障\n童創未來/特級雋陞\n- 子女教育\n美好人生\n- 保障至親\n雋逸人生 PRDA\n- 稅務優惠方案\n雋逸人生 PRDA\n- 稅務優惠方案\n尊尚危疾加倍保\n- 子女健康\n危疾\n- 危疾保障\n興業寶/商鋪寶\n- 照顧企業\n全面需要\n旅遊樂\n-“每季” 需要\n家居寶/僱傭寶\n- 家庭需要\n特級雋陞\n- 財富增值",
+          "content_tc": "團體醫療 商機處處\npruworks\n在企業和個人保險市場中發展成為醫療保險專家的事業\n+\n醫療保險專家\n團體醫療\n個人醫療\n知識上\n•\n產品知識\n•\n醫療核保\n情感上\n•\n個人的經歷\n· 傾聽與同理心\n•\n理賠支援\n•\n治療程序\n•\n關懷與支持\n僱主、人力資源團隊\n僱主、人力資源團隊、\n僱員及其家屬\nM\n透過轉介\n$\n年度續保\nConfidential\n12團體醫療-交叉銷售商機\npruworks\n團體醫療為理財顧問帶來交叉銷售商機\n主要接觸點\n員工大會\n保單行政\n理賠處理\n中小企老闆/\n人力資源團隊\n僱員\n配偶/子女\n所有成員\n要員保障\n展現專業精神\n人生的新階段\n關鍵時刻\n摯為您 PPM\n- 全數賠償的健康方案\n健康寶\n- 附加醫療保障\n童創未來/特級雋陞\n- 子女教育\n美好人生\n- 保障至親\n雋逸人生 PRDA\n- 稅務優惠方案\n雋逸人生 PRDA\n- 稅務優惠方案\n尊尚危疾加倍保\n- 子女健康\n危疾\n- 危疾保障\n興業寶/商鋪寶\n- 照顧企業\n全面需要\n旅遊樂\n-“每季” 需要\n家居寶/僱傭寶\n- 家庭需要\n特級雋陞\n- 財富增值",
+          "filename": "團體醫療攻略課程 Win the business.pdf",
+          "page_number": null,
+          "score": 33.20556,
+          "content_chunk": ""
+        },
+        {
+          "id": "GI000028",
+          "document_id": "GI000028",
+          "title_name_en": "GIEB Training Courses Material",
+          "title_name_tc": "GIEB 培訓課程資料",
+          "content_en": "團體醫療產品\npruworks\n團體醫療3種產品\n套餐計劃\n(Packaged Plan)\n= 晉領 BestCare\n一般計劃\n(General Plan)\n度身訂做計劃\n(Tailor-made Plan)\n最少僱員\n人數要求\n(不計家屬)\n2位\n5位\n20 位\n已存在疾病\n不受保\n• 有現有計劃 →核保後,有機會\n受保\n· 沒有現有計劃 →不受保\n• 有現有計劃 →核保後,有機會\n受保\n· 沒有現有計劃 →不受保\n成員年齡\n65歳以下\n65歲以下\n年齡64歲以上核保後有機會受保\n主要賣點\n•\n未設立過團體醫療的\n公司也可以買\n•\n未設立過團體醫療的\n公司也可以買\n•\n因應客戶需求和預算,\n度身定做\n•\n醫療網絡覆蓋全港,\n超過2000位網絡醫生\n•\n每項保障多個選項可供選擇\neSub流程\n•\n可即時電子報價和投保\n•\neSub索取報價 (2個工作日)\n•\n電郵索取報價\nConfidential\n31BestCare晉領計劃 -產品概述\npruworks\n晉領計劃專為中小企而設,是個保障全面,可靈活配搭組合的團體醫療保障\nBestCare晉領計劃\npruworks\nPRUChoice Group Medical Insurance\nBestCare Scheme\n保誠精選「團體醫療寶」晉領計劃\nENTERPRISE SOLUTIONS 企業方案\nPRUDENTIAL\n英 國 保 誠\nDiesining Uscommanding Diliving\n佣金\n15%\n保障項目\n內容重點\n網絡/非網絡\n全球住院\n(in-patient)\n大房/半私家/私家房\n非網絡\n24小時緊急\n支援服務保障\n[免費]\n•\n醫療救援\n•\n護送回港\n•\n安排運送所需藥物/\n醫療器材\n非網絡\n(by IPA)\n額外住院\n(top up/SMM)\n80% 賠償\n非網絡\n門診\n(clinical/\noutpatient)\n項目總次數為\n全年30次\n兩者皆有\n牙科\n•\n一般牙科項目全年無限次\n•\n檢查及洗牙一次\n網絡\n身體檢查\n•\n基本全面體檢\n網絡\nConfidential\n32",
+          "content_tc": "團體醫療產品\npruworks\n團體醫療3種產品\n套餐計劃\n(Packaged Plan)\n= 晉領 BestCare\n一般計劃\n(General Plan)\n度身訂做計劃\n(Tailor-made Plan)\n最少僱員\n人數要求\n(不計家屬)\n2位\n5位\n20 位\n已存在疾病\n不受保\n• 有現有計劃 →核保後,有機會\n受保\n· 沒有現有計劃 →不受保\n• 有現有計劃 →核保後,有機會\n受保\n· 沒有現有計劃 →不受保\n成員年齡\n65歳以下\n65歲以下\n年齡64歲以上核保後有機會受保\n主要賣點\n•\n未設立過團體醫療的\n公司也可以買\n•\n未設立過團體醫療的\n公司也可以買\n•\n因應客戶需求和預算,\n度身定做\n•\n醫療網絡覆蓋全港,\n超過2000位網絡醫生\n•\n每項保障多個選項可供選擇\neSub流程\n•\n可即時電子報價和投保\n•\neSub索取報價 (2個工作日)\n•\n電郵索取報價\nConfidential\n31BestCare晉領計劃 -產品概述\npruworks\n晉領計劃專為中小企而設,是個保障全面,可靈活配搭組合的團體醫療保障\nBestCare晉領計劃\npruworks\nPRUChoice Group Medical Insurance\nBestCare Scheme\n保誠精選「團體醫療寶」晉領計劃\nENTERPRISE SOLUTIONS 企業方案\nPRUDENTIAL\n英 國 保 誠\nDiesining Uscommanding Diliving\n佣金\n15%\n保障項目\n內容重點\n網絡/非網絡\n全球住院\n(in-patient)\n大房/半私家/私家房\n非網絡\n24小時緊急\n支援服務保障\n[免費]\n•\n醫療救援\n•\n護送回港\n•\n安排運送所需藥物/\n醫療器材\n非網絡\n(by IPA)\n額外住院\n(top up/SMM)\n80% 賠償\n非網絡\n門診\n(clinical/\noutpatient)\n項目總次數為\n全年30次\n兩者皆有\n牙科\n•\n一般牙科項目全年無限次\n•\n檢查及洗牙一次\n網絡\n身體檢查\n•\n基本全面體檢\n網絡\nConfidential\n32",
+          "filename": "團體醫療攻略課程 Win the business.pdf",
+          "page_number": null,
+          "score": 30.731354,
+          "content_chunk": ""
+        },
+        {
+          "id": "GI000028",
+          "document_id": "GI000028",
+          "title_name_en": "GIEB Training Courses Material",
+          "title_name_tc": "GIEB 培訓課程資料",
+          "content_en": "1\n2\n使用eSub的好處\n收集資料\n規劃\n3\n銷售\npruworks\nPRUWorks eSub由報價至投保,簡單四個步\n旺取\n輸入報價資料\n下載計劃報價書\npruworks\n?☆\n輸入報價資料\n下載計劃報價書\n輸入申請資料\n提交申請\n報價編號、版本:將於報價保存/提交後顯示\n客戶在其他保險公司已成立團體醫療計劃嗎?1\n是 ●\n公司資料 (必須填寫)\n公司名稱*\n必须填寫英文公司名稱。當此報價被保存後,公司名稱便不可更改。\n[EN)\ni\n(中)\n1\n生效日期*\n業務性質*\n輸入申請資料\n提交申請\nGIEB 團體醫療\n電子投保簡介\nPIL>GI00153\n一次\nConfidential\n661\n2\n使用eSub的好處\n3\n收集資料\n規劃\n銷售\npruworks\n一次\nPRUWorks eSub BestCare 即時報價以滿足中小企的需要\n第一步–輸入報價資料\n計劃- 6\n計劃名稱(僱員資格)*\n家屬會員保障\n是\n否\nDirector\n福利選擇\n住院及手術保障\nHS2\n附加醫療保障\nTU2\n門診保障\nOP2\n名配偶\n必須 選擇住院\n住院及手術保障\n×\n福利/計劃類型\nHS1\nHS2\nHS3\nHS3 (2-4)\n病房等級\n私家病房\n半私家房\n大房病房\n大房病房\n住院及膳食費\n毎日最高金額\n每症最多日數\nHK$2,000\n120\nHK$950\n120\nHK$550\n120\nHK$550\n120\n住院雜費\n每症最高金額\nHK$24,000\nHK$13,000\nHK$8,000\nHK$8,000\n深切治療\n保費\nHK$3,531\nHK$1,755\nHK$1,107\nHK$1,359\n選取\n選取\n選取\n選取\n>\n×\n備註\n×\n×\n牙齒保健保障\n是\n健康檢查保障\n是\nConfidential\n67",
+          "content_tc": "1\n2\n使用eSub的好處\n收集資料\n規劃\n3\n銷售\npruworks\nPRUWorks eSub由報價至投保,簡單四個步\n旺取\n輸入報價資料\n下載計劃報價書\npruworks\n?☆\n輸入報價資料\n下載計劃報價書\n輸入申請資料\n提交申請\n報價編號、版本:將於報價保存/提交後顯示\n客戶在其他保險公司已成立團體醫療計劃嗎?1\n是 ●\n公司資料 (必須填寫)\n公司名稱*\n必须填寫英文公司名稱。當此報價被保存後,公司名稱便不可更改。\n[EN)\ni\n(中)\n1\n生效日期*\n業務性質*\n輸入申請資料\n提交申請\nGIEB 團體醫療\n電子投保簡介\nPIL>GI00153\n一次\nConfidential\n661\n2\n使用eSub的好處\n3\n收集資料\n規劃\n銷售\npruworks\n一次\nPRUWorks eSub BestCare 即時報價以滿足中小企的需要\n第一步–輸入報價資料\n計劃- 6\n計劃名稱(僱員資格)*\n家屬會員保障\n是\n否\nDirector\n福利選擇\n住院及手術保障\nHS2\n附加醫療保障\nTU2\n門診保障\nOP2\n名配偶\n必須 選擇住院\n住院及手術保障\n×\n福利/計劃類型\nHS1\nHS2\nHS3\nHS3 (2-4)\n病房等級\n私家病房\n半私家房\n大房病房\n大房病房\n住院及膳食費\n毎日最高金額\n每症最多日數\nHK$2,000\n120\nHK$950\n120\nHK$550\n120\nHK$550\n120\n住院雜費\n每症最高金額\nHK$24,000\nHK$13,000\nHK$8,000\nHK$8,000\n深切治療\n保費\nHK$3,531\nHK$1,755\nHK$1,107\nHK$1,359\n選取\n選取\n選取\n選取\n>\n×\n備註\n×\n×\n牙齒保健保障\n是\n健康檢查保障\n是\nConfidential\n67",
+          "filename": "團體醫療攻略課程 Win the business.pdf",
+          "page_number": null,
+          "score": 30.162378,
+          "content_chunk": ""
+        },
+        {
+          "id": "GI000028",
+          "document_id": "GI000028",
+          "title_name_en": "GIEB Training Courses Material",
+          "title_name_tc": "GIEB 培訓課程資料",
+          "content_en": "團體醫療-交叉銷售商機\npruworks\n團體醫療為理財顧問帶來交叉銷售商機\n主要接觸點\n員工大會\n保單行政\n理賠處理\n中小企老闆/\n人力資源團隊\n僱員\n配偶/子女\n所有成員\n要員保障\n展現專業精神\n人生的新階段\n關鍵時刻\n摯為您 PPM\n- 全數賠償的健康方案\n健康寶\n- 附加醫療保障\n童創未來/特級雋陞\n- 子女教育\n美好人生\n- 保障至親\n雋逸人生 PRDA\n- 稅務優惠方案\n雋逸人生 PRDA\n- 稅務優惠方案\n尊尚危疾加倍保\n- 子女健康\n危疾\n- 危疾保障\n興業寶/商鋪寶\n- 照顧企業\n全面需要\n旅遊樂\n-“每季” 需要\n家居寶/僱傭寶\n- 家庭需要\n特級雋陞\n- 財富增值團體醫療\npruworks\n處理好僱主、人力資源團隊和僱員每一個的查詢都是建立信任和聲譽的好機會\n年度續保\n行政查詢/協助\n新增、終止成員、更改資料\n、年尾保費調整)\n了解客戶需要\n及銷售\n收取保險費\n保單繕發\n員工大會\nPRUWorks\n僱員專屬優惠\n理賠查詢/協助\nConfidential\n14",
+          "content_tc": "團體醫療-交叉銷售商機\npruworks\n團體醫療為理財顧問帶來交叉銷售商機\n主要接觸點\n員工大會\n保單行政\n理賠處理\n中小企老闆/\n人力資源團隊\n僱員\n配偶/子女\n所有成員\n要員保障\n展現專業精神\n人生的新階段\n關鍵時刻\n摯為您 PPM\n- 全數賠償的健康方案\n健康寶\n- 附加醫療保障\n童創未來/特級雋陞\n- 子女教育\n美好人生\n- 保障至親\n雋逸人生 PRDA\n- 稅務優惠方案\n雋逸人生 PRDA\n- 稅務優惠方案\n尊尚危疾加倍保\n- 子女健康\n危疾\n- 危疾保障\n興業寶/商鋪寶\n- 照顧企業\n全面需要\n旅遊樂\n-“每季” 需要\n家居寶/僱傭寶\n- 家庭需要\n特級雋陞\n- 財富增值團體醫療\npruworks\n處理好僱主、人力資源團隊和僱員每一個的查詢都是建立信任和聲譽的好機會\n年度續保\n行政查詢/協助\n新增、終止成員、更改資料\n、年尾保費調整)\n了解客戶需要\n及銷售\n收取保險費\n保單繕發\n員工大會\nPRUWorks\n僱員專屬優惠\n理賠查詢/協助\nConfidential\n14",
+          "filename": "團體醫療攻略課程 Win the business.pdf",
+          "page_number": null,
+          "score": 29.826141,
+          "content_chunk": ""
+        },
+        {
+          "id": "GI000028",
+          "document_id": "GI000028",
+          "title_name_en": "GIEB Training Courses Material",
+          "title_name_tc": "GIEB 培訓課程資料",
+          "content_en": "一般計劃(General Scheme)簡介\npruworks\n一般計劃(General Scheme)旨在為人數較少的中小企,提供更多的保障選擇\n從而滿足客戶需求,幫助理財顧問促成生意\n特點\n· 提供更多的保障選擇,以供靈活組合\n· 住院及手術保障及門診保障分別多達11個及16個選項\n· 如需要保障現有員工的已存在疾病,請提供整體賠償報告以作核\n保\n投保資格\n•\n必須有5名僱員或以上\n•\n會員年齡必須在65歲以下\n· 必須參與「住院及手術保障」\n•\n其餘的投保資格與晉領計劃大致相同\neSub\n•\n要了解選項內容,必須登入PRUOne 進入 eSubmission\n•\n報價需時2個工作日\nConfidential\n47一般計劃(General Scheme) eSubmission\n$1\npruworks\n三\n輸入報價資料\npruworks\n要了解一般計劃(General Scheme)的選項內容,\n必須登入PRUOne,從而進入 eSubmission\n下載計劃報價書\n輸入申請資料\n提交申請\n報價編號、版本:將於報價保存/提交後顯示\n公司資料(必須填寫)\n公司名稱*\n客戶在其他保險公司已成立團體醫療計劃嗎?\n是 ●否\n(EN)\n1\n必須填寫英文公司名稱。當此報價被保存後,公司名稱便不可更改。\n生效日期*\n(中)\n1\n業務性質*\n其他公司資料\n>\n● 一般計劃(非保誠精選)\n保障選擇\n保誠精選「團體醫療賣」晉領計劃\n48",
+          "content_tc": "一般計劃(General Scheme)簡介\npruworks\n一般計劃(General Scheme)旨在為人數較少的中小企,提供更多的保障選擇\n從而滿足客戶需求,幫助理財顧問促成生意\n特點\n· 提供更多的保障選擇,以供靈活組合\n· 住院及手術保障及門診保障分別多達11個及16個選項\n· 如需要保障現有員工的已存在疾病,請提供整體賠償報告以作核\n保\n投保資格\n•\n必須有5名僱員或以上\n•\n會員年齡必須在65歲以下\n· 必須參與「住院及手術保障」\n•\n其餘的投保資格與晉領計劃大致相同\neSub\n•\n要了解選項內容,必須登入PRUOne 進入 eSubmission\n•\n報價需時2個工作日\nConfidential\n47一般計劃(General Scheme) eSubmission\n$1\npruworks\n三\n輸入報價資料\npruworks\n要了解一般計劃(General Scheme)的選項內容,\n必須登入PRUOne,從而進入 eSubmission\n下載計劃報價書\n輸入申請資料\n提交申請\n報價編號、版本:將於報價保存/提交後顯示\n公司資料(必須填寫)\n公司名稱*\n客戶在其他保險公司已成立團體醫療計劃嗎?\n是 ●否\n(EN)\n1\n必須填寫英文公司名稱。當此報價被保存後,公司名稱便不可更改。\n生效日期*\n(中)\n1\n業務性質*\n其他公司資料\n>\n● 一般計劃(非保誠精選)\n保障選擇\n保誠精選「團體醫療賣」晉領計劃\n48",
+          "filename": "團體醫療攻略課程 Win the business.pdf",
+          "page_number": null,
+          "score": 28.717545,
+          "content_chunk": ""
+        },
+        {
+          "id": "GI000028",
+          "document_id": "GI000028",
+          "title_name_en": "GIEB Training Courses Material",
+          "title_name_tc": "GIEB 培訓課程資料",
+          "content_en": "1\n2\n使用eSub的好處\n3\n收集資料\n規劃\n銷售\npruworks\n一次\nPRUWorks eSub BestCare 即時報價以滿足中小企的需要\n第一步–輸入報價資料\n計劃- 6\n計劃名稱(僱員資格)*\n家屬會員保障\n是\n否\nDirector\n福利選擇\n住院及手術保障\nHS2\n附加醫療保障\nTU2\n門診保障\nOP2\n名配偶\n必須 選擇住院\n住院及手術保障\n×\n福利/計劃類型\nHS1\nHS2\nHS3\nHS3 (2-4)\n病房等級\n私家病房\n半私家房\n大房病房\n大房病房\n住院及膳食費\n毎日最高金額\n每症最多日數\nHK$2,000\n120\nHK$950\n120\nHK$550\n120\nHK$550\n120\n住院雜費\n每症最高金額\nHK$24,000\nHK$13,000\nHK$8,000\nHK$8,000\n深切治療\n保費\nHK$3,531\nHK$1,755\nHK$1,107\nHK$1,359\n選取\n選取\n選取\n選取\n>\n×\n備註\n×\n×\n牙齒保健保障\n是\n健康檢查保障\n是\nConfidential\n671\n2\n使用eSub的好處\n收集資料\n規劃\n3\n銷售\npruworks\n即時為客人講解 BestCare 報價書\npruworks\n一次\nPRUDENTIAL\n英國保材\n第二步–下載計劃報價書\nGroup Medical Insurance Proposal\n團體醫療保險計劃書\n三\npruworks\n?章\n輸入報價資料\n下載計劃報價書\n輸入申請資料\n提交申請\n計劃詳情\n計劃\n計劃名稱(僱員資格)\n家局會員保障\n僱員\n配偶\n子女\n1\nDirector\n否\n5\n0\n0\n報價\n報價編號、版本\n880000000138 - 01\n公司名稱\nSuper (Eng)\n保障期\n24/05/2020 至 23/05/2021\n報價有效期至\n22/08/2020\n報價狀態\n成功審批\n優惠碼\n输入\n總保費及徵費(HKD)\n$30,691.07\nENTERRISESCLUITIONS 企業方案\nGroup Medical Insurance Proposal for Bloomberg Ltd\nPresented by 提出者:\nPrudential General Insura\nProposal - Version No 計劃書號碼\nProposal Issue Date 計 劃書發出日:\n880000000592 - 01\n19/03/2020\n報價書:\nProposed Policy Effective Date 建議保單生效日: 19/03/2020\n05/07/2020\nProposal is valid until 計 劃書有效期至:\nPhabetal General brasrwion Iving cong Umand\nPDF\n2\n1st eSub\nApplication\n· 保障福利表\n· 總保費\n分心\n· 條款及細則\n· 申請表格\nConfidential\n68",
+          "content_tc": "1\n2\n使用eSub的好處\n3\n收集資料\n規劃\n銷售\npruworks\n一次\nPRUWorks eSub BestCare 即時報價以滿足中小企的需要\n第一步–輸入報價資料\n計劃- 6\n計劃名稱(僱員資格)*\n家屬會員保障\n是\n否\nDirector\n福利選擇\n住院及手術保障\nHS2\n附加醫療保障\nTU2\n門診保障\nOP2\n名配偶\n必須 選擇住院\n住院及手術保障\n×\n福利/計劃類型\nHS1\nHS2\nHS3\nHS3 (2-4)\n病房等級\n私家病房\n半私家房\n大房病房\n大房病房\n住院及膳食費\n毎日最高金額\n每症最多日數\nHK$2,000\n120\nHK$950\n120\nHK$550\n120\nHK$550\n120\n住院雜費\n每症最高金額\nHK$24,000\nHK$13,000\nHK$8,000\nHK$8,000\n深切治療\n保費\nHK$3,531\nHK$1,755\nHK$1,107\nHK$1,359\n選取\n選取\n選取\n選取\n>\n×\n備註\n×\n×\n牙齒保健保障\n是\n健康檢查保障\n是\nConfidential\n671\n2\n使用eSub的好處\n收集資料\n規劃\n3\n銷售\npruworks\n即時為客人講解 BestCare 報價書\npruworks\n一次\nPRUDENTIAL\n英國保材\n第二步–下載計劃報價書\nGroup Medical Insurance Proposal\n團體醫療保險計劃書\n三\npruworks\n?章\n輸入報價資料\n下載計劃報價書\n輸入申請資料\n提交申請\n計劃詳情\n計劃\n計劃名稱(僱員資格)\n家局會員保障\n僱員\n配偶\n子女\n1\nDirector\n否\n5\n0\n0\n報價\n報價編號、版本\n880000000138 - 01\n公司名稱\nSuper (Eng)\n保障期\n24/05/2020 至 23/05/2021\n報價有效期至\n22/08/2020\n報價狀態\n成功審批\n優惠碼\n输入\n總保費及徵費(HKD)\n$30,691.07\nENTERRISESCLUITIONS 企業方案\nGroup Medical Insurance Proposal for Bloomberg Ltd\nPresented by 提出者:\nPrudential General Insura\nProposal - Version No 計劃書號碼\nProposal Issue Date 計 劃書發出日:\n880000000592 - 01\n19/03/2020\n報價書:\nProposed Policy Effective Date 建議保單生效日: 19/03/2020\n05/07/2020\nProposal is valid until 計 劃書有效期至:\nPhabetal General brasrwion Iving cong Umand\nPDF\n2\n1st eSub\nApplication\n· 保障福利表\n· 總保費\n分心\n· 條款及細則\n· 申請表格\nConfidential\n68",
+          "filename": "團體醫療攻略課程 Win the business.pdf",
+          "page_number": null,
+          "score": 28.077303,
+          "content_chunk": ""
+        },
+        {
+          "id": "GI000028",
+          "document_id": "GI000028",
+          "title_name_en": "GIEB Training Courses Material",
+          "title_name_tc": "GIEB 培訓課程資料",
+          "content_en": "liveroo 戶戶送\n© 優惠期至2020年5月31日\n於網店購物即享以下折扣優惠及免費送\n貨:\n> 購物滿港幣$1,000:8折優惠\n> 3天排毒療程:48折優惠\n© 優惠期至2020年6月30日\n首5張外賣訂單滿港幣$100尊享港幣$20\n折扣\n了解更多>\n健康工房\nHealth Works\"\n© 優惠期至2020年5月31日\n於網店購買指定滋補湯券、健康茶券及\n產品,尊享高達6折優惠\n了解更多>\nPRUDENTIAL\n英 國\n保 誠\n保誠提供一系列人壽及個人保險產品,\n購買指定保險產品可享折扣優惠\n了解更多>\nCATALO\n© 優惠期至2020年6月30日\n> 為企業提供健康講座\n> 於網店購物尊享85折優惠\n了解更多>\n3\nGERMAN\nPOOL\n德國寶\n© 優惠期至2020年12月31日\n於網店購物尊享8折優惠\n了解更多>\n卓\nQuality HeathCare\n© 優惠期至2020年12月31日\n> 為企業提供健康講座、健康評估及舒\n壓項目\n> 於網店購買指定疫苗、中醫保健、身\n體檢查服務及其他產品,尊享95折優\n惠\n了解更多>\n了解更多>\nConfidential\n21priworks 宣傳工具\npruworks\nPRUWorks 宣傳工具\n晉領計劃小冊子\n保誠簡介\n僱主及僱員單張\npruworks\nPRUDENTIAL\n英 國 保 誠\n用心聆聽 實現您心\n保誠精選「團體醫療寶」-晉領計劃\n保誠精選「團體醫療寶」-晉領計劃\n專為中小企而設,擁有全面的保障,更可靈活地組合和配搭不同需要的團體醫療保障。\n計劃特點:\nto\n「住院及手術保障」適用於全球,\n包括日間門診手術\n設有多項自選額外保障,\n如身體檢查及牙齒保健等\n醫療網絡覆蓋全港·超過2,000位網絡醫生\n2-4名員工的中小企亦可投保\n及醫療服務機構可供選擇\n掃瞄二維碼了解更多,\n或聯絡您的理財顧問。\n產品小冊子\n關於\n英國保誠\n關於\n保誠財險\n$30\nPRUDENTIAL\n英國 保 誠\n用心戰菱 實現您心\n全球業務\nPrudential pic 於英格蘭及威爾斯註冊成立,與其樂公司組成世界领先的間\n際金融服務集團之––·Prudential pic 的業務主要位處亞洲,專注發展結構性增\n長之市場。樂團業務透過人將和健康保險,以及退休和資產管理方案· 幫助客\n戶降低生活中的風險及應對他們最關注的財務事項。\n*Prudental pko 與保德信金融集團[一家主要營業地點位於美國約公司)及 M&G ple 之子公司 Prudential\nAssurance Company(一家tα於英國地公司) 實無任何制屬辦滿。\nOHK 扎根香港\n英國保誠保險自1964年起在香港提供保險產品。在五十多年來共業務不斷痛\n,時至今日,我們已建立領先的金融服務品牌,為香港市民提供優質人壽\n及一般保險產品·\n現時,保誠通過兩家本地註冊公司:保誠保險有限公司(保誠保險)及保誠財\n驗有限公司(保誠財險)繼續為香港市民履行長期及堅定的服務承諾,保誠保\n驗提供多元化的理財保障,醫療保障及退休業劃服務,而保誠財臉則致力於為\n客戶提供全面的一般保險及健養福利服務。\n多元化一般保險\n保誠的一般保險產品包羅萬有,鍋蓋熱療 ·旅遊 ·意外 、 家居·家備及汽車等\n保障, 以滿足客戶於人生不同階段的獨特需要。\n200\nMin 全面像員福利方案\n保誠提供的團體人壽及團體醫療保障。照顧各行各業的需求。我們的團體聲\n療計劃據有強大的醫療網絡。並不斷推出更多元化及更具彈性的保障選擇。\n此外,保誠亦提供價格合理的員補償保險產品·讓客戶輕鬆為企業及保員\n安排保障,\n商業客戶的保險方案\n為確保業務遇到事故時亦能運作順暢,為公司的物業及設備等重要資產投保是\n重中之重。保誠為辦公室及商鋪備主度身而級的周全保險計劃,讓客戶的業務\n免受因意外而引致的重大財務損失·\n優秀專才\n保誠的專業服務文化,是我們引以為傲的原因,公司致力培訓銷售團隊,令他\n們後有豐富經驗及技能,辅以公司的支援,以滿足每位客戶的需求。\n全面支援\n保誠深信,掌握時間是業務成功的關鍵。因此,我們不斷拓展網上科技平台。\n並透過企業膚站(www.prudential.com.hk) 或 PRUMobile app提供簡便快捷的\n網上服務,務求協助客戶分秒必爭。\n關於 priworks\npriworks一站式電子平台,讓帶主,人力資源團隊和係員\n透過無縫的電子體驗,簡易便捷地管理保單、享用保員專屬\n優惠及企業方案。\n立即报道\nQR code\n了解更多\nprwworks\nHECK\nPIL>GI000142\nManage\npr\nWhat is pruw\npruworks gives b\naccess to insurance,\nthe following special\npriworks 一站式\n享用僱員專屬優惠及\nEmployer 僱主\n24/7 Ac\n隨時隨地\n24/\nUpdate\n更改員工\nView bill\n查間賬單\nS\nFor mor\nfor emp\nthe QR I\n如欲查!\n特點·\nPRUDENTIAL\n英 國 保 誠\n用心聆聽 實現您心\nPRUDENTIAL\n英國 保誠\n用心聆聽 實現忠心\nEnjoy Privileged Group Insurance Services on pruworks\n尊享 pruworks 團體保險服務\nWhat is pruworks ? ### pruworks ?\npruvorks gives employees a one-stop portal for easy and convenient access to insurance and employee\nbenefits with seamless digital experience, providing the following special features:\npruworks一站式電子平台。讓僱員透過無縫的電子體驗,簡易便捷地管理保單及享用優質專為優惠。\n當中主要特點包括:\n24/7\n24/7 Access to policy\n陳時雅地管理保軍\nEmployee Privileges on health and family exclusive offers\n僱殿專屬健康及家庭優惠\nLifestyle Protection\n消開保障\neClaims\n電子理店\nMobile Doctor to search for network doctor near by\n搜尋您所在位置附近的網絡醫生\n+三\nDownload your eMedical card\n下載電子醫療咕\nConfidential\n22",
+          "content_tc": "liveroo 戶戶送\n© 優惠期至2020年5月31日\n於網店購物即享以下折扣優惠及免費送\n貨:\n> 購物滿港幣$1,000:8折優惠\n> 3天排毒療程:48折優惠\n© 優惠期至2020年6月30日\n首5張外賣訂單滿港幣$100尊享港幣$20\n折扣\n了解更多>\n健康工房\nHealth Works\"\n© 優惠期至2020年5月31日\n於網店購買指定滋補湯券、健康茶券及\n產品,尊享高達6折優惠\n了解更多>\nPRUDENTIAL\n英 國\n保 誠\n保誠提供一系列人壽及個人保險產品,\n購買指定保險產品可享折扣優惠\n了解更多>\nCATALO\n© 優惠期至2020年6月30日\n> 為企業提供健康講座\n> 於網店購物尊享85折優惠\n了解更多>\n3\nGERMAN\nPOOL\n德國寶\n© 優惠期至2020年12月31日\n於網店購物尊享8折優惠\n了解更多>\n卓\nQuality HeathCare\n© 優惠期至2020年12月31日\n> 為企業提供健康講座、健康評估及舒\n壓項目\n> 於網店購買指定疫苗、中醫保健、身\n體檢查服務及其他產品,尊享95折優\n惠\n了解更多>\n了解更多>\nConfidential\n21priworks 宣傳工具\npruworks\nPRUWorks 宣傳工具\n晉領計劃小冊子\n保誠簡介\n僱主及僱員單張\npruworks\nPRUDENTIAL\n英 國 保 誠\n用心聆聽 實現您心\n保誠精選「團體醫療寶」-晉領計劃\n保誠精選「團體醫療寶」-晉領計劃\n專為中小企而設,擁有全面的保障,更可靈活地組合和配搭不同需要的團體醫療保障。\n計劃特點:\nto\n「住院及手術保障」適用於全球,\n包括日間門診手術\n設有多項自選額外保障,\n如身體檢查及牙齒保健等\n醫療網絡覆蓋全港·超過2,000位網絡醫生\n2-4名員工的中小企亦可投保\n及醫療服務機構可供選擇\n掃瞄二維碼了解更多,\n或聯絡您的理財顧問。\n產品小冊子\n關於\n英國保誠\n關於\n保誠財險\n$30\nPRUDENTIAL\n英國 保 誠\n用心戰菱 實現您心\n全球業務\nPrudential pic 於英格蘭及威爾斯註冊成立,與其樂公司組成世界领先的間\n際金融服務集團之––·Prudential pic 的業務主要位處亞洲,專注發展結構性增\n長之市場。樂團業務透過人將和健康保險,以及退休和資產管理方案· 幫助客\n戶降低生活中的風險及應對他們最關注的財務事項。\n*Prudental pko 與保德信金融集團[一家主要營業地點位於美國約公司)及 M&G ple 之子公司 Prudential\nAssurance Company(一家tα於英國地公司) 實無任何制屬辦滿。\nOHK 扎根香港\n英國保誠保險自1964年起在香港提供保險產品。在五十多年來共業務不斷痛\n,時至今日,我們已建立領先的金融服務品牌,為香港市民提供優質人壽\n及一般保險產品·\n現時,保誠通過兩家本地註冊公司:保誠保險有限公司(保誠保險)及保誠財\n驗有限公司(保誠財險)繼續為香港市民履行長期及堅定的服務承諾,保誠保\n驗提供多元化的理財保障,醫療保障及退休業劃服務,而保誠財臉則致力於為\n客戶提供全面的一般保險及健養福利服務。\n多元化一般保險\n保誠的一般保險產品包羅萬有,鍋蓋熱療 ·旅遊 ·意外 、 家居·家備及汽車等\n保障, 以滿足客戶於人生不同階段的獨特需要。\n200\nMin 全面像員福利方案\n保誠提供的團體人壽及團體醫療保障。照顧各行各業的需求。我們的團體聲\n療計劃據有強大的醫療網絡。並不斷推出更多元化及更具彈性的保障選擇。\n此外,保誠亦提供價格合理的員補償保險產品·讓客戶輕鬆為企業及保員\n安排保障,\n商業客戶的保險方案\n為確保業務遇到事故時亦能運作順暢,為公司的物業及設備等重要資產投保是\n重中之重。保誠為辦公室及商鋪備主度身而級的周全保險計劃,讓客戶的業務\n免受因意外而引致的重大財務損失·\n優秀專才\n保誠的專業服務文化,是我們引以為傲的原因,公司致力培訓銷售團隊,令他\n們後有豐富經驗及技能,辅以公司的支援,以滿足每位客戶的需求。\n全面支援\n保誠深信,掌握時間是業務成功的關鍵。因此,我們不斷拓展網上科技平台。\n並透過企業膚站(www.prudential.com.hk) 或 PRUMobile app提供簡便快捷的\n網上服務,務求協助客戶分秒必爭。\n關於 priworks\npriworks一站式電子平台,讓帶主,人力資源團隊和係員\n透過無縫的電子體驗,簡易便捷地管理保單、享用保員專屬\n優惠及企業方案。\n立即报道\nQR code\n了解更多\nprwworks\nHECK\nPIL>GI000142\nManage\npr\nWhat is pruw\npruworks gives b\naccess to insurance,\nthe following special\npriworks 一站式\n享用僱員專屬優惠及\nEmployer 僱主\n24/7 Ac\n隨時隨地\n24/\nUpdate\n更改員工\nView bill\n查間賬單\nS\nFor mor\nfor emp\nthe QR I\n如欲查!\n特點·\nPRUDENTIAL\n英 國 保 誠\n用心聆聽 實現您心\nPRUDENTIAL\n英國 保誠\n用心聆聽 實現忠心\nEnjoy Privileged Group Insurance Services on pruworks\n尊享 pruworks 團體保險服務\nWhat is pruworks ? ### pruworks ?\npruvorks gives employees a one-stop portal for easy and convenient access to insurance and employee\nbenefits with seamless digital experience, providing the following special features:\npruworks一站式電子平台。讓僱員透過無縫的電子體驗,簡易便捷地管理保單及享用優質專為優惠。\n當中主要特點包括:\n24/7\n24/7 Access to policy\n陳時雅地管理保軍\nEmployee Privileges on health and family exclusive offers\n僱殿專屬健康及家庭優惠\nLifestyle Protection\n消開保障\neClaims\n電子理店\nMobile Doctor to search for network doctor near by\n搜尋您所在位置附近的網絡醫生\n+三\nDownload your eMedical card\n下載電子醫療咕\nConfidential\n22",
+          "filename": "團體醫療攻略課程 Win the business.pdf",
+          "page_number": null,
+          "score": 27.396282,
+          "content_chunk": ""
+        },
+        {
+          "id": "GI000028",
+          "document_id": "GI000028",
+          "title_name_en": "GIEB Training Courses Material",
+          "title_name_tc": "GIEB 培訓課程資料",
+          "content_en": "BestCare晉領計劃 -產品概述\npruworks\n晉領計劃專為中小企而設,是個保障全面,可靈活配搭組合的團體醫療保障\nBestCare晉領計劃\npruworks\nPRUChoice Group Medical Insurance\nBestCare Scheme\n保誠精選「團體醫療寶」晉領計劃\nENTERPRISE SOLUTIONS 企業方案\nPRUDENTIAL\n英 國 保 誠\nDiesining Uscommanding Diliving\n佣金\n15%\n保障項目\n內容重點\n網絡/非網絡\n全球住院\n(in-patient)\n大房/半私家/私家房\n非網絡\n24小時緊急\n支援服務保障\n[免費]\n•\n醫療救援\n•\n護送回港\n•\n安排運送所需藥物/\n醫療器材\n非網絡\n(by IPA)\n額外住院\n(top up/SMM)\n80% 賠償\n非網絡\n門診\n(clinical/\noutpatient)\n項目總次數為\n全年30次\n兩者皆有\n牙科\n•\n一般牙科項目全年無限次\n•\n檢查及洗牙一次\n網絡\n身體檢查\n•\n基本全面體檢\n網絡\nConfidential\n32BestCare晉領計劃- 住院及手術保障\npruworks\n每個項目計算,並設有限額\n+\nTable of Benefits 保障一覽表\nBasic Plan 基本計劃\n+\nHospital and Surgical Benefit 住院及手術保障(Worldwide Coverage 適用於世界各地)\nSection of Benefit1\n保障項目\nMaximum Limit per Member (HK$)\n每位會員最高保障金額(港幣$)\nPrivate Room\n私家病房\nSemi-Private Room\n半私家病房\nStandard Ward2\n標準病房2\nHS1\nHS2\nHS3\n1.\nRoom & Board 住房及膳食費用\nLimit per day 每日最高金額\nMaximum of 120 days per disability 每症最多120日\n2,000\n950\n550\n2. Miscellaneous Hospital Service 住院雜項\nLimit per disability 每症最高金額\n24,000\n13,000\n8,000\n3. Intensive Care 深切治療\n(Supplement to Room & Board 補足住房及膳食費用)\nLimit per disability 每症最高金額\n24,500\n12,000\n7,500\n4.\nSpecial Nursing Service 私家看護服務\nLimit per day 每日最高金額\nMaximum of 120 days per disability 每症最多120日\n800\n430\n250\n5. Surgeon & Attendance Fees 外科醫生費及 所有巡房費用\n(For surgical cases only 只限於手術性之治療)\nLimit per disability 每症最高金額\nComplex 複雜手術\n62,000\n48,000\n30,000\n● Major 大手術\n30,000\n24,000\n17,000\n• Intermediate 中手術\nMinor 小手術\n15,000\n12,000\n8,000\n.\n7,500\n7,000\n3,800\n6. Anaesthetist's Fees 麻醉科醫生費用\nLimit per disability 每症最高金額\nComplex 複雜手術\n22,000\n15,800\n9,900\n● Major 大手術\n11,500\n7,200\n5,100\n● Intermediate 中手術\n5,500\n4,100\n2,600\n· Minor 小手術\n2,900\n2,450\n1,300\nConfidential\n33",
+          "content_tc": "BestCare晉領計劃 -產品概述\npruworks\n晉領計劃專為中小企而設,是個保障全面,可靈活配搭組合的團體醫療保障\nBestCare晉領計劃\npruworks\nPRUChoice Group Medical Insurance\nBestCare Scheme\n保誠精選「團體醫療寶」晉領計劃\nENTERPRISE SOLUTIONS 企業方案\nPRUDENTIAL\n英 國 保 誠\nDiesining Uscommanding Diliving\n佣金\n15%\n保障項目\n內容重點\n網絡/非網絡\n全球住院\n(in-patient)\n大房/半私家/私家房\n非網絡\n24小時緊急\n支援服務保障\n[免費]\n•\n醫療救援\n•\n護送回港\n•\n安排運送所需藥物/\n醫療器材\n非網絡\n(by IPA)\n額外住院\n(top up/SMM)\n80% 賠償\n非網絡\n門診\n(clinical/\noutpatient)\n項目總次數為\n全年30次\n兩者皆有\n牙科\n•\n一般牙科項目全年無限次\n•\n檢查及洗牙一次\n網絡\n身體檢查\n•\n基本全面體檢\n網絡\nConfidential\n32BestCare晉領計劃- 住院及手術保障\npruworks\n每個項目計算,並設有限額\n+\nTable of Benefits 保障一覽表\nBasic Plan 基本計劃\n+\nHospital and Surgical Benefit 住院及手術保障(Worldwide Coverage 適用於世界各地)\nSection of Benefit1\n保障項目\nMaximum Limit per Member (HK$)\n每位會員最高保障金額(港幣$)\nPrivate Room\n私家病房\nSemi-Private Room\n半私家病房\nStandard Ward2\n標準病房2\nHS1\nHS2\nHS3\n1.\nRoom & Board 住房及膳食費用\nLimit per day 每日最高金額\nMaximum of 120 days per disability 每症最多120日\n2,000\n950\n550\n2. Miscellaneous Hospital Service 住院雜項\nLimit per disability 每症最高金額\n24,000\n13,000\n8,000\n3. Intensive Care 深切治療\n(Supplement to Room & Board 補足住房及膳食費用)\nLimit per disability 每症最高金額\n24,500\n12,000\n7,500\n4.\nSpecial Nursing Service 私家看護服務\nLimit per day 每日最高金額\nMaximum of 120 days per disability 每症最多120日\n800\n430\n250\n5. Surgeon & Attendance Fees 外科醫生費及 所有巡房費用\n(For surgical cases only 只限於手術性之治療)\nLimit per disability 每症最高金額\nComplex 複雜手術\n62,000\n48,000\n30,000\n● Major 大手術\n30,000\n24,000\n17,000\n• Intermediate 中手術\nMinor 小手術\n15,000\n12,000\n8,000\n.\n7,500\n7,000\n3,800\n6. Anaesthetist's Fees 麻醉科醫生費用\nLimit per disability 每症最高金額\nComplex 複雜手術\n22,000\n15,800\n9,900\n● Major 大手術\n11,500\n7,200\n5,100\n● Intermediate 中手術\n5,500\n4,100\n2,600\n· Minor 小手術\n2,900\n2,450\n1,300\nConfidential\n33",
+          "filename": "團體醫療攻略課程 Win the business.pdf",
+          "page_number": null,
+          "score": 21.05954,
+          "content_chunk": ""
+        },
+        {
+          "id": "GI000028",
+          "document_id": "GI000028",
+          "title_name_en": "GIEB Training Courses Material",
+          "title_name_tc": "GIEB 培訓課程資料",
+          "content_en": "團體醫療 商機處處\npruworks\n團體醫療開闢了兩個收入來源:企業和個人\n兩個收入來源\n企業\n僱主、人力資源團隊\n透過專業服務和建議\n轉介\n其他企業方案\n+ 團體人壽\n+ 勞工保險\n+ 強積金\n+ 商鋪寶/興業寶\n+ 公眾責任保\n團體醫療\n個人\n僱主、人力資源團隊\n及僱員\n透過員工大會,理賠處理等\n個人保險\n例如醫療保障、人壽保障\n僱員的家屬\n轉介\nConfidential\n11團體醫療 商機處處\npruworks\n在企業和個人保險市場中發展成為醫療保險專家的事業\n+\n醫療保險專家\n團體醫療\n個人醫療\n知識上\n•\n產品知識\n•\n醫療核保\n情感上\n•\n個人的經歷\n· 傾聽與同理心\n•\n理賠支援\n•\n治療程序\n•\n關懷與支持\n僱主、人力資源團隊\n僱主、人力資源團隊、\n僱員及其家屬\nM\n透過轉介\n$\n年度續保\nConfidential\n12",
+          "content_tc": "團體醫療 商機處處\npruworks\n團體醫療開闢了兩個收入來源:企業和個人\n兩個收入來源\n企業\n僱主、人力資源團隊\n透過專業服務和建議\n轉介\n其他企業方案\n+ 團體人壽\n+ 勞工保險\n+ 強積金\n+ 商鋪寶/興業寶\n+ 公眾責任保\n團體醫療\n個人\n僱主、人力資源團隊\n及僱員\n透過員工大會,理賠處理等\n個人保險\n例如醫療保障、人壽保障\n僱員的家屬\n轉介\nConfidential\n11團體醫療 商機處處\npruworks\n在企業和個人保險市場中發展成為醫療保險專家的事業\n+\n醫療保險專家\n團體醫療\n個人醫療\n知識上\n•\n產品知識\n•\n醫療核保\n情感上\n•\n個人的經歷\n· 傾聽與同理心\n•\n理賠支援\n•\n治療程序\n•\n關懷與支持\n僱主、人力資源團隊\n僱主、人力資源團隊、\n僱員及其家屬\nM\n透過轉介\n$\n年度續保\nConfidential\n12",
+          "filename": "團體醫療攻略課程 Win the business.pdf",
+          "page_number": null,
+          "score": 20.136341,
+          "content_chunk": ""
+        },
+        {
+          "id": "GI000028",
+          "document_id": "GI000028",
+          "title_name_en": "GIEB Training Courses Material",
+          "title_name_tc": "GIEB 培訓課程資料",
+          "content_en": "僱員福利 Employee Benefit (EB)\npruworks\n一次\n僱員福利一般包括團體醫療及團體人壽\n· 不要與勞工保險(EC)混淆\n● 僱主支付的員工福利;僱員及其家屬(如適用)享用\n● 例子包括團體醫療,團體人壽,意外死亡和殘疾\n團\n3.0\n医女\n醫療\n體\n團體\n人壽\n壽\n✓\n住院(In-Patient)\n✓\n門診\n(Out-Patient)\n✓\n額外住院(Top Up)\n✓\n牙科(Dental)\n✓\n身體檢查(Health Check up)\n✓\n分娩(Maternity)\n✓\n人壽(TL)(定額/人工倍數)\n✓\n意外死亡及傷殘(ADD)\n✓\n完全及永久傷殘 (TPD)\n✓\n危疾(CC)\nConfidential\n10團體醫療 商機處處\npruworks\n團體醫療開闢了兩個收入來源:企業和個人\n兩個收入來源\n企業\n僱主、人力資源團隊\n透過專業服務和建議\n轉介\n其他企業方案\n+ 團體人壽\n+ 勞工保險\n+ 強積金\n+ 商鋪寶/興業寶\n+ 公眾責任保\n團體醫療\n個人\n僱主、人力資源團隊\n及僱員\n透過員工大會,理賠處理等\n個人保險\n例如醫療保障、人壽保障\n僱員的家屬\n轉介\nConfidential\n11",
+          "content_tc": "僱員福利 Employee Benefit (EB)\npruworks\n一次\n僱員福利一般包括團體醫療及團體人壽\n· 不要與勞工保險(EC)混淆\n● 僱主支付的員工福利;僱員及其家屬(如適用)享用\n● 例子包括團體醫療,團體人壽,意外死亡和殘疾\n團\n3.0\n医女\n醫療\n體\n團體\n人壽\n壽\n✓\n住院(In-Patient)\n✓\n門診\n(Out-Patient)\n✓\n額外住院(Top Up)\n✓\n牙科(Dental)\n✓\n身體檢查(Health Check up)\n✓\n分娩(Maternity)\n✓\n人壽(TL)(定額/人工倍數)\n✓\n意外死亡及傷殘(ADD)\n✓\n完全及永久傷殘 (TPD)\n✓\n危疾(CC)\nConfidential\n10團體醫療 商機處處\npruworks\n團體醫療開闢了兩個收入來源:企業和個人\n兩個收入來源\n企業\n僱主、人力資源團隊\n透過專業服務和建議\n轉介\n其他企業方案\n+ 團體人壽\n+ 勞工保險\n+ 強積金\n+ 商鋪寶/興業寶\n+ 公眾責任保\n團體醫療\n個人\n僱主、人力資源團隊\n及僱員\n透過員工大會,理賠處理等\n個人保險\n例如醫療保障、人壽保障\n僱員的家屬\n轉介\nConfidential\n11",
+          "filename": "團體醫療攻略課程 Win the business.pdf",
+          "page_number": null,
+          "score": 19.833172,
+          "content_chunk": ""
+        }
+      ]
+    }
+  ]
+}

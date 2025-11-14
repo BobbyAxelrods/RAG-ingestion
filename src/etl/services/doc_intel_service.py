@@ -10,6 +10,7 @@ from io import BytesIO
 from typing import BinaryIO
 
 from azure.ai.formrecognizer import DocumentAnalysisClient
+from azure.core.pipeline.transport import RequestsTransport
 from azure.core.credentials import AzureKeyCredential
 
 from src.config import DocumentIntelligenceConfig
@@ -34,8 +35,16 @@ class DocumentIntelligenceService:
             config: Document Intelligence configuration
         """
         self.config = config
+        # Configure transport timeouts to accommodate long-running analyses
+        transport = RequestsTransport(
+            connection_timeout=config.timeout_seconds,
+            read_timeout=config.timeout_seconds,
+        )
+
         self.client = DocumentAnalysisClient(
-            endpoint=config.endpoint, credential=AzureKeyCredential(config.key)
+            endpoint=config.endpoint,
+            credential=AzureKeyCredential(config.key),
+            transport=transport,
         )
         logger.info(f"Initialized DocumentIntelligenceService: {config.endpoint}")
 
@@ -66,9 +75,8 @@ class DocumentIntelligenceService:
             if isinstance(document, bytes):
                 document = BytesIO(document)
 
-            # Call Document Intelligence API
-            poller = self.client.begin_analyze_document("prebuilt-layout", document)
-            result = poller.result()
+            # Call Document Intelligence API with simple retry on timeouts
+            result = self._analyze_with_retry(document)
 
             # Extract pages
             pages = self._extract_pages(result)
@@ -111,6 +119,41 @@ class DocumentIntelligenceService:
         except Exception as e:
             logger.error(f"Failed to analyze document {filename}: {str(e)}")
             raise
+
+    def _analyze_with_retry(self, document: BinaryIO):
+        """Run analyze_document with basic retry for timeout errors."""
+        import time
+        attempts = getattr(self.config, "retry_attempts", 0) or 0
+        delay = getattr(self.config, "retry_delay_seconds", 5) or 5
+        last_err: Exception | None = None
+
+        for attempt in range(0, attempts + 1):
+            try:
+                poller = self.client.begin_analyze_document("prebuilt-layout", document)
+                return poller.result()
+            except Exception as e:
+                last_err = e
+                msg = str(e)
+                is_timeout = ("Timeout" in msg) or ("timed out" in msg) or ("ReadTimeout" in msg)
+                is_conn_reset = ("Connection aborted" in msg) or ("ConnectionResetError" in msg)
+                logger.warning(
+                    f"Document Intelligence analyze attempt {attempt + 1}/{attempts + 1} failed: {msg}"
+                )
+                if attempt < attempts and (is_timeout or is_conn_reset):
+                    time.sleep(delay)
+                    # Rewind stream if possible before retry
+                    try:
+                        document.seek(0)
+                    except Exception:
+                        pass
+                    continue
+                # Non-timeout or final attempt: raise
+                raise e
+
+        # Should not reach here; raise last error
+        if last_err:
+            raise last_err
+        raise RuntimeError("Failed to analyze document: unknown error")
 
     def _extract_pages(self, result) -> list[PageContent]:
         """Extract content from each page."""

@@ -3,7 +3,7 @@
 Thumbs.db
 .idea/
 .vscode/
-
+raw_data
 # Python cache/bytecode
 __pycache__/
 *.pyc
@@ -13,6 +13,7 @@ __pycache__/
 .pytest_cache/
 .coverage
 coverage/
+outputs
 
 # Environments
 .env

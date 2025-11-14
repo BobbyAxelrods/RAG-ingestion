@@ -6,10 +6,10 @@
       "name": "doc_id",
       "type": "Edm.String",
       "key": true,
-      "retrievable": true,
+      "retrievable": false,
       "searchable": false,
-      "filterable": true,
-      "sortable": true,
+      "filterable": false,
+      "sortable": false,
       "facetable": false,
       "analyzer": null,
       "comment": "Primary key: UUID or hash combining file_id + page_number"
@@ -17,76 +17,76 @@
     {
       "name": "sys_file_name",
       "type": "Edm.String",
-      "retrievable": true,
-      "searchable": true,
-      "filterable": true,
-      "sortable": true,
-      "facetable": true,
+      "retrievable": false,
+      "searchable": false,
+      "filterable": false,
+      "sortable": false,
+      "facetable": false,
       "analyzer": "standard.lucene"
     },
     {
       "name": "sys_file_path",
       "type": "Edm.String",
-      "retrievable": true,
+      "retrievable": false,
       "searchable": false,
-      "filterable": true,
+      "filterable": false,
       "sortable": false,
       "facetable": false
     },
     {
       "name": "sys_file_size_bytes",
       "type": "Edm.Int64",
-      "retrievable": true,
+      "retrievable": false,
       "searchable": false,
-      "filterable": true,
-      "sortable": true,
+      "filterable": false,
+      "sortable": false,
       "facetable": false
     },
     {
       "name": "sys_file_type",
       "type": "Edm.String",
-      "retrievable": true,
+      "retrievable": false,
       "searchable": false,
-      "filterable": true,
+      "filterable": false,
       "sortable": false,
-      "facetable": true,
+      "facetable": false,
       "comment": "pdf/jpg/docx/xlsx"
     },
     {
       "name": "sys_last_updated",
       "type": "Edm.DateTimeOffset",
-      "retrievable": true,
+      "retrievable": false,
       "searchable": false,
-      "filterable": true,
-      "sortable": true,
+      "filterable": false,
+      "sortable": false,
       "facetable": false
     },
     {
       "name": "sys_page_count",
       "type": "Edm.Int32",
-      "retrievable": true,
+      "retrievable": false,
       "searchable": false,
-      "filterable": true,
-      "sortable": true,
+      "filterable": false,
+      "sortable": false,
       "facetable": false
     },
     {
       "name": "sys_extracted_at",
       "type": "Edm.DateTimeOffset",
-      "retrievable": true,
+      "retrievable": false,
       "searchable": false,
-      "filterable": true,
-      "sortable": true,
+      "filterable": false,
+      "sortable": false,
       "facetable": false
     },
     {
       "name": "sys_processing_version",
       "type": "Edm.String",
-      "retrievable": true,
+      "retrievable": false,
       "searchable": false,
-      "filterable": true,
+      "filterable": false,
       "sortable": false,
-      "facetable": true
+      "facetable": false
     },
     {
       "name": "file_name",
@@ -98,6 +98,16 @@
       "facetable": false,
       "analyzer": "standard.lucene",
       "comment": "Display name for user-facing results"
+    },
+    {
+      "name": "document_id",
+      "type": "Edm.String",
+      "retrievable": true,
+      "searchable": false,
+      "filterable": true,
+      "sortable": false,
+      "facetable": true,
+      "comment": "CA/GA/… style document identifier"
     },
     {
       "name": "library_name_en",
@@ -161,6 +171,17 @@
       "analyzer": "zh-Hant.microsoft"
     },
     {
+      "name": "knowledge_name",
+      "type": "Edm.String",
+      "retrievable": false,
+      "searchable": false,
+      "filterable": false,
+      "sortable": false,
+      "facetable": false,
+      "analyzer": "standard.lucene",
+      "comment": "Human-friendly knowledge base title"
+    },
+    {
       "name": "file_url",
       "type": "Edm.String",
       "retrievable": true,
@@ -183,11 +204,11 @@
     {
       "name": "item_type",
       "type": "Edm.String",
-      "retrievable": true,
+      "retrievable": false,
       "searchable": false,
-      "filterable": true,
+      "filterable": false,
       "sortable": false,
-      "facetable": true,
+      "facetable": false,
       "comment": "Document classification type"
     },
     {
@@ -198,6 +219,148 @@
       "filterable": false,
       "sortable": false,
       "facetable": false
+    },
+    {
+      "name": "doc_type",
+      "type": "Edm.String",
+      "retrievable": false,
+      "searchable": false,
+      "filterable": false,
+      "sortable": false,
+      "facetable": false,
+      "comment": "Document type alias (pdf/docx/…) from source metadata"
+    },
+    {
+      "name": "total_pages",
+      "type": "Edm.Int32",
+      "retrievable": true,
+      "searchable": false,
+      "filterable": true,
+      "sortable": true,
+      "facetable": false
+    },
+    {
+      "name": "poc_scope",
+      "type": "Edm.String",
+      "retrievable": false,
+      "searchable": false,
+      "filterable": false,
+      "sortable": false,
+      "facetable": false,
+      "comment": "Maps ETL field 'POC scope?' (Y/N)"
+    },
+    {
+      "name": "file_description",
+      "type": "Edm.String",
+      "retrievable": false,
+      "searchable": false,
+      "filterable": false,
+      "sortable": false,
+      "facetable": false,
+      "analyzer": "standard.lucene"
+    },
+    {
+      "name": "knowledge_ingestion_reason",
+      "type": "Edm.String",
+      "retrievable": false,
+      "searchable": false,
+      "filterable": false,
+      "sortable": false,
+      "facetable": false,
+      "analyzer": "standard.lucene"
+    },
+    {
+      "name": "knowledge_processing_reason",
+      "type": "Edm.String",
+      "retrievable": false,
+      "searchable": false,
+      "filterable": false,
+      "sortable": false,
+      "facetable": false,
+      "analyzer": "standard.lucene"
+    },
+    {
+      "name": "knowledge_ingestion_stage",
+      "type": "Edm.String",
+      "retrievable": false,
+      "searchable": false,
+      "filterable": false,
+      "sortable": false,
+      "facetable": false
+    },
+    {
+      "name": "knowledge_processing_stage",
+      "type": "Edm.String",
+      "retrievable": false,
+      "searchable": false,
+      "filterable": false,
+      "sortable": false,
+      "facetable": false
+    },
+    {
+      "name": "knowledge_id",
+      "type": "Edm.String",
+      "retrievable": false,
+      "searchable": false,
+      "filterable": false,
+      "sortable": false,
+      "facetable": false
+    },
+    {
+      "name": "knowledge_traceid",
+      "type": "Edm.String",
+      "retrievable": false,
+      "searchable": false,
+      "filterable": false,
+      "sortable": false,
+      "facetable": false
+    },
+    {
+      "name": "item_status",
+      "type": "Edm.String",
+      "retrievable": false,
+      "searchable": false,
+      "filterable": false,
+      "sortable": false,
+      "facetable": false
+    },
+    {
+      "name": "knowledge_version",
+      "type": "Edm.String",
+      "retrievable": false,
+      "searchable": false,
+      "filterable": false,
+      "sortable": false,
+      "facetable": false
+    },
+    {
+      "name": "sheet_name",
+      "type": "Edm.String",
+      "retrievable": false,
+      "searchable": false,
+      "filterable": false,
+      "sortable": false,
+      "facetable": false,
+      "comment": "Maps ETL field '__sheet_name__'"
+    },
+    {
+      "name": "batch_order",
+      "type": "Edm.String",
+      "retrievable": true,
+      "searchable": false,
+      "filterable": true,
+      "sortable": true,
+      "facetable": false
+    },
+    {
+      "name": "index_status",
+      "type": "Edm.String",
+      "retrievable": false,
+      "searchable": false,
+      "filterable": false,
+      "sortable": false,
+      "facetable": false,
+      "comment": "Maps ETL field 'INDEX_STATUS' (Yes/No)"
     },
     {
       "name": "chunk_content",
@@ -220,7 +383,7 @@
       "filterable": false,
       "sortable": false,
       "facetable": false,
-      "comment": "OpenAI text-embedding-3-small or ada-002 embeddings"
+      "comment": "Text embeddings"
     },
     {
       "name": "chunk_page_number",
@@ -249,7 +412,7 @@
       "retrievable": true,
       "searchable": false,
       "filterable": true,
-      "sortable": false,
+      "sortable": true,
       "facetable": false
     },
     {
@@ -258,7 +421,7 @@
       "retrievable": true,
       "searchable": false,
       "filterable": true,
-      "sortable": false,
+      "sortable": true,
       "facetable": false
     },
     {
@@ -267,7 +430,7 @@
       "retrievable": true,
       "searchable": false,
       "filterable": true,
-      "sortable": false,
+      "sortable": true,
       "facetable": false
     },
     {
@@ -337,12 +500,15 @@
   "semantic": {
     "configurations": [
       {
-        "name": "insurance-semantic-config",
+        "name": "insurance-semantic-config-en",
         "prioritizedFields": {
           "titleField": {
-            "fieldName": "title_name_en"
+            "fieldName": "file_name"
           },
           "prioritizedContentFields": [
+            {
+              "fieldName": "title_name_en"
+            },
             {
               "fieldName": "chunk_content"
             },
@@ -351,6 +517,9 @@
             },
             {
               "fieldName": "qa_answers"
+            },
+            {
+              "fieldName": "qa_questions"
             }
           ],
           "prioritizedKeywordsFields": [
@@ -359,6 +528,57 @@
             },
             {
               "fieldName": "category_name_en"
+            },
+            {
+              "fieldName": "library_name_en"
+            },
+            {
+              "fieldName": "document_id"
+            },
+            {
+              "fieldName": "branch_name"
+            }
+          ]
+        }
+      },
+      {
+        "name": "insurance-semantic-config-tc",
+        "prioritizedFields": {
+          "titleField": {
+            "fieldName": "file_name"
+          },
+          "prioritizedContentFields": [
+            {
+              "fieldName": "title_name_tc"
+            },
+            {
+              "fieldName": "chunk_content"
+            },
+            {
+              "fieldName": "chunk_function_summary"
+            },
+            {
+              "fieldName": "qa_answers"
+            },
+            {
+              "fieldName": "qa_questions"
+            }
+          ],
+          "prioritizedKeywordsFields": [
+            {
+              "fieldName": "chunk_entities"
+            },
+            {
+              "fieldName": "category_name_tc"
+            },
+            {
+              "fieldName": "library_name_tc"
+            },
+            {
+              "fieldName": "document_id"
+            },
+            {
+              "fieldName": "branch_name"
             }
           ]
         }

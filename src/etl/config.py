@@ -31,6 +31,10 @@ class DocumentIntelligenceConfig(BaseSettings):
     endpoint: str = Field(..., alias="DOC_INTELLIGENCE_ENDPOINT")
     key: str = Field(..., alias="DOC_INTELLIGENCE_KEY")
     api_version: str = Field(default="2024-07-31-preview", alias="DOC_INTELLIGENCE_API_VERSION")
+    # Timeout and retry controls
+    timeout_seconds: int = Field(default=300, alias="DOC_INTELLIGENCE_TIMEOUT_SECONDS")
+    retry_attempts: int = Field(default=2, alias="DOC_INTELLIGENCE_RETRY_ATTEMPTS")
+    retry_delay_seconds: int = Field(default=5, alias="DOC_INTELLIGENCE_RETRY_DELAY_SECONDS")
 
     # Load from .env so local runs can use provided credentials
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
